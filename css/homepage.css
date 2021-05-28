@@ -73,6 +73,36 @@
   }
 /* Navbar CSS End */
 
+/* Page 1 CSS Start */
+#page1{
+  background:rgba(0, 0, 0, 0.2) url(../assets/bg1.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;  
+}
+
+.text1{
+padding-top: 13%;
+font-family: 'Cairo', sans-serif;
+color: #f8ffff;   
+font-size: 25px; 
+
+}
+ #getstarted{
+     text-decoration: none;
+     color:#222222;
+     padding: 50px;
+   } 
+#getstartedbutton{
+    box-shadow: 0 0 3px #dfdddd;
+}
+.text1 h1{
+  font-family: 'Kanit', sans-serif;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.623);
+}
+/* Page 1 CSS End */
+
 
 
 
