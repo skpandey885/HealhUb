@@ -160,7 +160,28 @@ text-decoration: none;
 color: rgb(255, 255, 255);
 }
 /* Page 2 CSS End */
+/* Page 3 CSS Start */
+#page3{
+  background: url(../assets/bg2.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+ 
+}
+#learnmore{
+position: relative;
 
+}
+.jumbotron{
+opacity: 0.5;
+}
+#learnmore{
+position: relative;
+top:-100px;
+left: 40px;  
+}
+/* Page 3 CSS End */
 
 
 
@@ -323,59 +344,7 @@ footer {
     color: #999;
   }
   
-  @media (max-width: 768px) {
-    footer {
-      padding: 40px;
-    }
-  
-    footer .f-container {
-      flex-direction: column;
-    }
-  
-    footer .f-container .sec {
-      margin-right: 0;
-      margin-bottom: 35px;
-    }
-  
-    footer .f-container .sec.aboutus,
-    .quickLinks,
-    .contact {
-      width: 100%;
-    }
-  
-    footer .f-container .quickLinks,
-    .contact {
-      text-align: center;
-    }
-  
-    footer .f-container h2:before {
-      position: relative;
-    }
-    footer .f-container h2 {
-      text-align: center;
-      display: inline;
-      border-bottom: 3px solid red;
-    }
-  
-    footer .f-container .quickLinks h2 {
-      display: inline;
-      border-bottom: 3px solid red;
-    }
-  
-    footer .f-container .contact h2 {
-      display: inline-block;
-      border-bottom: 3px solid red;
-      margin-bottom: 20px;
-    }
-  
-    .contact .info li {
-      justify-content: center;
-      margin-bottom: 10px;
-    }
-    .copyrightText {
-      padding: 8px 40px;
-    }
-  }
+ 
   
   /* Footer CSS End */
 
@@ -424,3 +393,284 @@ footer {
     .navbar .dropdown-menu {
       box-shadow: none;
     }}
+    @media (min-width:410px) and (max-width:760px){
+      .text1{
+          font-size: 17px;
+      }
+  }
+  @media (max-width:409px){
+    .text1{
+        font-size: 15px;
+    }
+  }
+  @media (max-width:425px){
+  
+    .container2 h2{
+      font-size: 5vw;
+      margin-top: 50px;
+    }
+  }
+
+  @media (min-width:426px) and (max-width:768px){
+    .container2 h2{
+      font-size: 3vw;
+      margin-top: 50px;
+    }
+  }
+  @media (min-width:769px) and (max-width:1400px){
+    .container2 h2{
+      font-size: 3vw;
+      margin-top: 50px;
+    }
+  }
+  @media (max-width:373px){
+    #logoname{
+      font-size: 28px;
+      margin-left: -110px;
+    }
+  }
+  @media (min-width:761px) and (max-width:991px){
+      .text1{
+          font-size: 22px;
+      }
+  }
+
+@media (min-width:320px) and (max-width:375px){
+#getstarted{
+color: #ffffff;
+}
+}
+@media (min-width:280px) and (max-width:335px){
+#learnmore{
+margin-left: 100px;
+}
+}
+@media (min-width:336px) and (max-width:575px){
+#learnmore{
+
+display: none;
+}
+}
+
+@media (min-width:280px) and (max-width:320px){
+.card{
+margin-top: -5px;}
+
+}
+@media (max-width:416px){
+#explorebutton{
+margin-left: -40px;
+}
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .f-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer .f-container .sec {
+  margin-right: 30px;
+}
+
+footer .f-container .sec.aboutus {
+  width: 40%;
+}
+
+footer .f-container h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+footer .f-container h2:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #f00;
+}
+
+footer p {
+  color: #999;
+  margin-top: 1em;
+}
+
+.sci {
+  margin-top: 20px;
+  display: flex;
+  padding: 0%;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border: 2px solid #e9204f;
+  border-radius: 10px 100px / 120px;
+}
+.sci li a:hover {
+  height: 45px;
+  width: 45px;
+  transition: all 0.2s ease-in-out;
+}
+
+.sci li a .fab {
+  color: #fff;
+  font-size: 20px;
+}
+
+.sci li a .fas {
+  color: #fff;
+  font-size: 20px;
+}
+
+.quickLinks {
+  position: relative;
+  width: 25%;
+}
+.quickLinks ul {
+  padding: 0%;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+.quickLinks ul li {
+  list-style: none;
+}
+
+.quickLinks ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+  color: #fff;
+}
+
+.contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+
+.contact ul {
+  padding: 0%;
+  margin: 0;
+}
+
+.contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.contact .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact .info li span {
+  color: #999;
+}
+
+.contact .info li span a {
+  color: #999;
+  text-decoration: none;
+}
+
+.contact .info li span a:hover {
+  color: #fff;
+}
+
+.copyrightText {
+  position: relative;
+
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 40px;
+  }
+
+  footer .f-container {
+    flex-direction: column;
+  }
+
+  footer .f-container .sec {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+
+  footer .f-container .sec.aboutus,
+  .quickLinks,
+  .contact {
+    width: 100%;
+  }
+
+  footer .f-container .quickLinks,
+  .contact {
+    text-align: center;
+  }
+
+  footer .f-container h2:before {
+    position: relative;
+  }
+  footer .f-container h2 {
+    text-align: center;
+    display: inline;
+    border-bottom: 3px solid red;
+  }
+
+  footer .f-container .quickLinks h2 {
+    display: inline;
+    border-bottom: 3px solid red;
+  }
+
+  footer .f-container .contact h2 {
+    display: inline-block;
+    border-bottom: 3px solid red;
+    margin-bottom: 20px;
+  }
+
+  .contact .info li {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .copyrightText {
+    padding: 8px 40px;
+  }
+}
