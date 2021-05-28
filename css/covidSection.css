@@ -1,6 +1,6 @@
 
 * {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     margin: 0%;
     padding: 0%;
   }
@@ -71,6 +71,54 @@
     margin-top: -3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+
+  
+@media (min-width: 992px) {
+    .navbar {
+      position: absolute;
+      width: 100%;
+      padding: 20px 60px;
+      background: rgba(0, 0, 0, 0.1) !important;
+      z-index: 9;
+    }
+  
+    .navbar.nav-sticky {
+      padding: 10px 60px;
+      background: #343148 !important;
+    }
+  
+    .navbar a.nav-link {
+      padding: 8px 15px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar {
+      padding: 15px;
+      background: #343148 !important;
+    }
+  
+    .navbar.nav-sticky {
+      position: sticky;
+    }
+  
+    .navbar .navbar-brand span {
+      color: #ffffff;
+    }
+  
+    .navbar a.nav-link {
+      padding: 5px;
+    }
+  
+    .navbar .dropdown-menu {
+      box-shadow: none;
+    }
+  }
+  
 /* Navbar CSS End */
 
 
@@ -319,4 +367,4 @@ footer {
   }
   
   /* Footer CSS End */
-  
+
