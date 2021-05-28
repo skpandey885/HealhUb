@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
 
 * {
     /* scroll-behavior: smooth; */
     margin: 0%;
     padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #e4e4e4;
   }
 
   /* Navbar CSS Start */
@@ -71,11 +80,7 @@
     margin-top: -3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-
-
-
-
-  
+ 
 @media (min-width: 992px) {
     .navbar {
       position: absolute;
@@ -133,7 +138,103 @@
 
 
 
+/* content starts here */
 
+/* quick navigation starts here */
+
+.subMenu {
+  /* flex-direction: column; */
+  position: fixed;
+  /* display: inline-flex; */
+  box-sizing: border-box;
+  
+  width: 72px;
+  height: 53px;
+  top: 73px;
+  left: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
+  transition: all 0.4s;
+  z-index: 10;
+}
+
+.Content .background {
+  background-color: teal;
+}
+
+.subMenuTitle {
+  height: 43px;
+  /* font-family: "Dancing Script", cursive; */
+  font-size: 30px;
+  color: white;
+}
+.fa-bars:before {
+  content: "\f00d";
+}
+.subMenuTitle p {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: none;
+}
+
+.subMenu .subMenuTitle label {
+  padding: 5px 13px;
+}
+
+.subMenu .subMenuTitle .fa-bars:before {
+  content: "\f0c9";
+}
+
+.subMenu .subMenuTitle label:hover {
+  background-color: rgba(107, 207, 207, 0.4);
+}
+
+.subMenuLinks {
+  flex: 1;
+}
+
+.subMenuLinks ul {
+  /* display: flex; */
+  /* flex-direction: column; */
+display: none;
+  list-style: none;
+}
+
+.subMenuLinks ul li a {
+  text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 19px;
+    padding: 5px 10px;
+}
+
+.subMenuLinks ul li a:hover {
+  background-color: rgba(107, 207, 207, 0.4);
+}
+
+#sidebar-toggle:checked ~ .subMenu {
+  height: 230px;
+  width: 230px;
+}
+
+#sidebar-toggle:checked ~ .subMenu .subMenuTitle p{
+  display: inline;
+
+}
+#sidebar-toggle:checked ~ .subMenu .subMenuLinks ul {
+  display: block;
+}
+
+#sidebar-toggle:checked ~ .subMenu .subMenuTitle label {
+  padding: 5px 10px;
+}
+#sidebar-toggle:checked ~ .subMenu .subMenuTitle .fa-bars:before {
+  content: "\f00d";
+}
+
+/*  quick navigation ends here */
+
+/* content ends here */
 
 
 
