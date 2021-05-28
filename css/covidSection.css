@@ -295,6 +295,7 @@ display: none;
   justify-content: space-evenly;
 }
 .section2 .secondhalf2 .section2Img {
+  border-radius: 50px;
   width: 342px;
   margin-bottom: 25px;
   margin-left: 20px;
@@ -323,8 +324,10 @@ display: none;
 }
 
 .section2 .secondhalf3 .pic img {
-  width: 270px;
+  width: 218px;
   height: 137px;
+  border-radius: 54px;
+  margin-right: 17px;
 }
 
 /* 3rd Section */
