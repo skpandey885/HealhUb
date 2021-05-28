@@ -381,6 +381,33 @@ display: none;
     text-align: center;
 }
 
+/* 4th section */
+
+.section4 {
+  margin-top: 15px;
+  height: auto;
+}
+
+.section4 .section4Title {
+  text-align: center;
+}
+ 
+.section4 .section4content{
+  margin: 17px 90px;
+  margin-bottom: 40px;
+}
+
+.table-bordered td, .table-bordered th {
+  border: 1px solid #b4b9be;
+}
+
+.newCases{
+  background-color: wheat;
+}
+
+.newDeaths{
+  background-color: #ff000096;
+}
 
 /* main content ends here */
 /* content ends here */
