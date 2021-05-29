@@ -10,3 +10,18 @@
    <li>Tools Like BMI Calculator Which Helps User To Find The Body Mass Index. 💪🏻 </li>
   </ul>
   
+  <h3>About Us: </h3>
+  <ul>
+  <li>We All Are Freshers & It's Our First Hackathon Project. 🤝 <br>  </li>
+  <li>So We Tried To Give Our Best In Our Very First Hackathon Project. 👨🏻‍💻 <br>  </li>
+   <li>Feel Free To Suggest & Guide Us. 📋 </li>
+    </ul>
+  <h3>Team Members </h3>
+  Sachin: https://github.com/skpandey885
+  <br>
+  Manish: https://github.com/Mr-man7352
+  <br>
+  Abhijeet: https://github.com/Abhijeet-Anand-01
+  <br>
+  Ayush: https://github.com/Ayu10x
+  
