@@ -1,39 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 
-/* bottom to top button start */
-#scroll {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    background-color: #ff9966;
-    text-indent: -9999px;
-    display: none;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
-    border-radius: 60px;
-    z-index: 20;
-    box-shadow: 0px 0px 13px rgb(0 0 0 / 63%);
+* {
+    /* scroll-behavior: smooth; */
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
   }
-  #scroll span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -8px;
-    margin-top: -12px;
-    height: 0;
-    width: 0;
-    border: 8px solid transparent;
-    border-bottom-color: #000000;
-  }
-  #scroll:hover {
-    background-color: #e74c3c;
-    opacity: 1;
-    filter: "alpha(opacity=100)";
-    -ms-filter: "alpha(opacity=100)";
-  }
+
+ 
+
+
+
 
 
 
@@ -117,12 +97,12 @@
     width: 18rem;
     flex-wrap: wrap;
     margin-top: 2rem;
+    margin-bottom: 1rem;
     margin-left: 3.5rem;
 }
 
 .alert {
     font-size: 40px;
-    margin: 10px 10px 0 10px;
     opacity: 0.9;
     padding-top: 100px;
 }
@@ -131,7 +111,15 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*** Footer ***/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+/* Footer */
 
 footer {
     position: relative;
@@ -286,6 +274,12 @@ footer p {
     color: #999;
 }
 
+
+
+
+
+
+
 /* MEDIA QUERIES */
 @media (max-width: 320px) {
     .card {
@@ -404,10 +398,93 @@ footer p {
     }
 }
 
+/* bottom to top button start */
+#scroll {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #ff9966;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    z-index: 20;
+    box-shadow: 0px 0px 13px rgb(0 0 0 / 63%);
+  }
+  #scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #000000;
+  }
+  #scroll:hover {
+    background-color: #e74c3c;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+  }
 
-@media (max-width:373px){
-    #logoname{
-      font-size: 28px;
-      margin-left: -110px;
+
+  @media (max-width:1130px){
+    .card {
+        margin-left: 3rem;
+    }
+  }
+
+  @media (max-width:1055px){
+    .card {
+        width: 16rem;
+    }
+  }
+
+  @media (max-width:930px){
+    .card {
+        width: 14rem;
+        margin-left: 2rem;
+
+    }
+  }
+
+
+  @media (max-width:805px){
+    .card {
+        width: 13rem;
+        margin-left: 1rem;
+
+    }
+  }
+
+  @media (max-width:725px){
+    .card {
+        width: 13rem;
+        margin-left: 1rem;
+
+    }
+  }
+
+  @media (max-width:690px){
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width:502px){
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .card {
+        width: 15rem;
+        margin-right: 1.5rem;
     }
   }
