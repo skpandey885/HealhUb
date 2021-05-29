@@ -873,6 +873,7 @@ display: none;
 
   .section3 .section3content .someinfo .info {
     margin: 8px 7px;
+    flex-direction: column;
 }
 
 .section3 .section3content .someinfo .info .infoText {
@@ -882,6 +883,17 @@ display: none;
 }
 
   .section3 .section3content .someinfo .note {
-    margin: 0 65px;
+    margin: 0 25px;
 }
+.mainSection .firsthalf1 {
+  padding-right: 5px;
+}
+.mainSection .firsthalf1 h1 {
+  font-size: 35px;
+}
+
+.mainSection .firsthalf1 h2 {
+  font-size: 30px;
+}
+
 }
