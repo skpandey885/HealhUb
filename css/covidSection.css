@@ -906,4 +906,10 @@ display: none;
   font-size: 30px;
 }
 
+.mainBackground {
+  background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop2nd.jpeg);
+  background-size: cover;
+  background-blend-mode: darken;
 }
+}
+
