@@ -301,6 +301,10 @@ display: none;
   margin-left: 20px;
 }
 
+.hidden{
+  display: none;
+}
+
 .section2 .secondhalf3 {
   padding: 0px 10px;
   display: flex;
@@ -343,6 +347,7 @@ display: none;
 
 .section3 .section3content {
   margin-top: 20px;
+  padding: 0 15px;
 }
 
 .section3 .section3content .symptoms {
@@ -355,7 +360,7 @@ display: none;
   
   border: 2px solid #9a9488;
   width: 70%;
-  margin: 0 224px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -686,4 +691,49 @@ footer {
   }
   
   /* Footer CSS End */
+
+/* media queries */
+
+@media (max-width: 999px) {
+  .section2 .secondhalf3 .oneSection {
+    flex-direction: column;
+  }
+  
+  .section2 .secondhalf3 .pic img {
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  .hidden{
+    display: block;
+  }
+
+  .section3 .section3content .symptoms {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .mostcommonsymptoms h3{
+text-align: center;
+  }
+
+  .mostcommonsymptoms ul{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+  .mostcommonsymptoms ul li{
+    margin: 0 5px;
+   }
+
+   
+
+.section3 .section3content .someinfo .info {
+  margin: 8px 34px;
+}
+
+   .section3 .section3content .someinfo .note {
+      margin: 0 148px;
+    }
+}
 
