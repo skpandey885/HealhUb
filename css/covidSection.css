@@ -80,7 +80,12 @@ letter-spacing: 2px;
   margin-top: -3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* Navbar CSS End */
+@media (max-width:373px){
+  #logoname{
+    font-size: 28px;
+    margin-left: -110px;
+  }
+}
 
 @media (min-width: 992px) {
 .navbar {
