@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HealhUb-a Care that never quits</title>
+    <title>BMI Calculator-HealhUb</title>
     <!-- Links -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,18 +17,17 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
 <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
-<link rel="stylesheet" href="./css/homepage.css">
+<link rel="stylesheet" href="../css/bmi.css">
 
 </head>
 <body>
-  
-<!-- Floating Button to the top-->
-<a href="#" id="scroll"><span></span></a>
+  <!-- Floating Button to the top-->
+  <a href="#" id="scroll"><span></span></a>
 
  <!-- Nav Bar Start -->
  <div class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container-fluid">
-      <a href="./index.html" class="navbar-brand"><img src="./assets/logo.png" alt=""></a>
+      <a href="./index.html" class="navbar-brand"><img src="../assets/logo.png" alt=""></a>
       <a href="./index.html" class="navbar-brand" id="logoname">HealhUb</a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
@@ -37,7 +36,7 @@
       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <div class="navbar-nav ml-auto">
               <a href="./index.html" class="nav-item nav-link mr-2">Home</a>
-              <a href="./pages/bmi.html" class="nav-item nav-link mr-2">BMI</a>
+              <a href="../pages/bmi.html" class="nav-item nav-link mr-2">BMI</a>
               <a href="" class="nav-item nav-link mr-2">Tips</a>
               <a href="" class="nav-item nav-link mr-2">Covid</a>
               <a href="" class="nav-item nav-link mr-2">About Us</a>
@@ -53,58 +52,33 @@
 <!-- First Page Start -->
 <div id="page1">
     <div class="container">
-        <div class="text1">
-
-
-            Health is an essential part of our life. Everyone should be serious about having good health. Our health decides our future. It is the basic need if you want to have a delightful life. There are many things that we should do to maintain a healthy life like exercise, meditation, diet and proper knowledge of disease, etc. Apart from 'what to do', it is also important to know 'what not to do' for a healthy life.A healthy person enjoys life better than others. Being healthy refers to being physically, mentally and socially active throughout the day. Physical health means the health of our bodies. We can achieve physical health by regular exercise and proper diet.
-    
-  <p>
-    <h1>Let Us Help You Get A Good Health...</h1>
-</p>
-<button type="button" class="btn btn-outline-warning btn-lg" id="getstartedbutton"><a href="#page2" id="getstarted">Get Started</a> </button>
-        </div>
-        </div>
+        <div class="text1"> 
+    <h1><strong> BMI CALCULATOR</strong></h1>
+    <p>Height (in cm)</p>
+    <input type="text" id="height">
+    <p>Weight (in kg)</p>
+    <input type="text" id="weight">
+    <br>
+    <button id="btn" class="mt-2 px-5">Calculate</button>
+    <div id="result">
+        <p></p>
+   </div>
 </div>
+ </div>
+ <div class="card float-right" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Body Mass Index (BMI) is a person’s weight in kilograms divided by the square of height in meters.</h5>
+      <p class="card-text"></p>
+      <a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html" class="btn btn-primary" target="_blank">Learn More</a>
+    </div>
+  </div>
+</div>
+
+   
+
 <!-- First Page End -->
 
-<!-- Second Page Start -->
-<div id="page2">
-    <div class="alert alert-primary" role="alert" id="watermessage">
-        Don't Forget To Drink Water! Stay Hydrated
-         </div>
-         <div class="card">
-           <div class="container2">
-             <p> <h2> We'll Help You Find Your Perfect Diet To Become Stronger Than Ever Before.
-               Use Our Tools, Articles & Sections To Renovate Yourself And Get A Healthy Mindset.
-               We Are Serving Across The Globe & We Helped Thousands Of People To Get Their Perfect Body, Mindset with Our Tools, Articles and UIs.
-               We Take care of your body,Because it’s the only place you have to live.</p> 
-             </h2> 
-            </div>
-       
-            <div id="explorebutton">
-         <button type="submit"><a href="./pages/tips.html" id="explorelink">Explore</a> </button>
-      </div> 
-
-          </div>  
-
-           
-</div>
-<!-- Second Page End -->
-
-<!-- Third Page Start-->
-<div id="page3">
-    <div class="jumbotron">
-      <h1 class="display-4">Our Aim</h1>
-      <p class="lead">Serving all people through exemplary health care, education, research, and community outreach. We Provide The Best Virtual Heath Assistance Around The Globe With Over Thousands Of Happy Patients</p>
-      <hr class="my-4">
-      <p>Seeking a challenging but fulfilling role which allows us to share knowledge with patients on treatments and medical alternatives available to treat their hearing challenges and utilize our communication skills to reach out to patients.</p>
-    </div>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="aboutushtml" role="button" id="learnmore">Learn more</a>
-    </p>
-  </div>
-  <!-- Third Page End -->
-  
     <!-- Footer Start -->
     <footer>
       <div class="f-container">
@@ -175,6 +149,6 @@
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="./js/homepage.js"></script>
+<script src="../js/bmi.js"></script>
 </body>
 </html>

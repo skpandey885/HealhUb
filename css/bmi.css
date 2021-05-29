@@ -4,6 +4,7 @@
     margin: 0%;
     padding: 0%;
   }
+
   /* bottom to top button start */
 #scroll {
   position: fixed;
@@ -110,7 +111,7 @@
 
 /* Page 1 CSS Start */
 #page1{
-  background:rgba(0, 0, 0, 0.2) url(../assets/bg1.jpg);
+  background:rgba(0, 0, 0, 0.2) url(../assets/bmi-bg.jpg);
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -122,6 +123,7 @@ padding-top: 13%;
 font-family: 'Cairo', sans-serif;
 color: #f8ffff;   
 font-size: 25px; 
+
 
 }
  #getstarted{
@@ -136,87 +138,40 @@ font-size: 25px;
   font-family: 'Kanit', sans-serif;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.623);
 }
+
+.card{
+  background-color: rgba(245, 245, 245, 0.199);
+  margin-top: -300px;
+  margin-right: 100px;
+  padding: 20px;
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+  box-shadow: 0 0 4px rgb(255, 255, 255);
+}
+.card:hover{
+  text-shadow: 0 0 2px black;
+  color: #ffffff;
+  background-color: rgba(53, 189, 252, 0.219);
+  transform: translateY(1px);
+  cursor: pointer;
+}
+#btn{
+  border-radius: 6px;
+  transition-property: all;
+  transition-duration: .1s;
+  transition-timing-function: ease-in;
+}
+#btn:hover{
+  color: #181818;
+  box-shadow: 0 0 2px black;
+  background-color: rgb(255, 250, 250);
+}
+#result{
+  text-shadow: 0 0 3px black;
+}
+
 /* Page 1 CSS End */
-
-/* Page 2 CSS Start */
-#page2{
-  height: 100vh;
-  width: 100vw;
-}
-#watermessage{
-text-align: center;
-}
-.card {
-box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
-transition: 0.3s;
-height: 85vh;
-margin-top: 20px;
-margin-left: 35px;
-margin-right: 35px;
- background-image: url(../assets/card-walk.jpg);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- border-radius: 20px;
-
-}
-.card:hover {
-  box-shadow: 0 0 100px 0 rgba(18, 227, 255, 0.452);
-  transform: translateY(2px);
-}
-.container2 h2{
-   padding: 2px 16px;
-   font-family: 'Baloo 2', cursive;
-color: #f8ffff;
-  margin-top: 100px;
-  word-spacing: 5px;
-
-}
-
-#explorebutton button{
-  
-margin-left: 40vw;
-  display: inline-block;
-font-size: 17px;
-padding: 2vh 2vw;
-border-radius: 5px;
-background-color:rgba(0, 225, 255, 0.616);
-transition: 0.2s ease-in-out ;
-transition-property: all;
-}
-#explorebutton button:hover{
-
-background-color: rgba(113, 171, 247, 0.452);
-transform: translateY(2px);
-}
-#explorelink{
-text-decoration: none;
-color: rgb(255, 255, 255);
-}
-/* Page 2 CSS End */
-
-/* Page 3 CSS Start */
-#page3{
-  background: url(../assets/bg2.jpg);
-  height: 100vh;
-  width: 100vw;
-  background-position: center;
-  background-size: cover;
- 
-}
-#learnmore{
-position: relative;
-
-}
-.jumbotron{
-opacity: 0.5;
-}
-#learnmore{
-position: relative;
-top:-100px;
-left: 40px;  
-}
-/* Page 3 CSS End */
 
 
 
@@ -477,72 +432,18 @@ footer p {
     .navbar .dropdown-menu {
       box-shadow: none;
     }}
-    @media (min-width:410px) and (max-width:760px){
-      .text1{
-          font-size: 17px;
+
+    @media (max-width:373px){
+      #logoname{
+        font-size: 28px;
+        margin-left: -110px;
       }
-  }
-  @media (max-width:409px){
-    .text1{
-        font-size: 15px;
     }
-  }
-  @media (max-width:425px){
-  
-    .container2 h2{
-      font-size: 5vw;
-      margin-top: 50px;
+    @media (min-width:280px) and (max-width:800px){
+     .card{
+    display: none;
+     }
+     .container{
+      padding-top: 50px;
+     }
     }
-  }
-
-  @media (min-width:426px) and (max-width:768px){
-    .container2 h2{
-      font-size: 3vw;
-      margin-top: 50px;
-    }
-  }
-  @media (min-width:769px) and (max-width:1400px){
-    .container2 h2{
-      font-size: 3vw;
-      margin-top: 50px;
-    }
-  }
-  @media (max-width:373px){
-    #logoname{
-      font-size: 28px;
-      margin-left: -110px;
-    }
-  }
-  @media (min-width:761px) and (max-width:991px){
-      .text1{
-          font-size: 22px;
-      }
-  }
-
-@media (min-width:320px) and (max-width:375px){
-#getstarted{
-color: #ffffff;
-}
-}
-@media (min-width:280px) and (max-width:335px){
-#learnmore{
-margin-left: 100px;
-}
-}
-@media (min-width:336px) and (max-width:575px){
-#learnmore{
-
-display: none;
-}
-}
-
-@media (min-width:280px) and (max-width:320px){
-.card{
-margin-top: -5px;}
-
-}
-@media (max-width:416px){
-#explorebutton{
-margin-left: -40px;
-}
-}
