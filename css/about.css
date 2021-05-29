@@ -398,3 +398,10 @@ footer p {
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
 }
+
+@media (max-width:373px){
+  #logoname{
+    font-size: 28px;
+    margin-left: -110px;
+  }
+}
