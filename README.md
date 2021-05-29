@@ -1,4 +1,4 @@
-<img src="https://www.linkpicture.com/view.php?img=LPic60b26d16361271346724082" alt="logo" width="100" height="100"> # HealhUb
+<img src="https://i.postimg.cc/0jrF0hXM/2-1.png" alt="logo" width="100" height="100"> <h1> HealhUb</h1>
 
 <h>HealhUb Is An Online HealthCare Website which help users Know About Health Tips, Plans with Our Tools, Blogs And Stats.</p>
   <p class="Details">Our Website Provides:</p>
