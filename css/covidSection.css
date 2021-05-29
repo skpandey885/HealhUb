@@ -483,7 +483,10 @@ display: none;
   -ms-filter: "alpha(opacity=100)";
 }
 
-
+.btn-primary {
+ 
+  margin-bottom: 24px;
+}
 
 /*** Footer ***/
 

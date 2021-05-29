@@ -476,3 +476,15 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
   }
+
+  @media (max-width:502px){
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .card {
+        width: 15rem;
+        margin-right: 1.5rem;
+    }
+  }
