@@ -651,4 +651,10 @@ footer p {
     font-size: 28px;
     margin-left: -110px;
   }
+
+  .aboutMe .container .pic {
+    margin-left: 0px;
+    padding-left: 0px;
 }
+}
+
