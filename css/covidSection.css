@@ -741,12 +741,36 @@ text-align: center;
   .section2 .secondhalf2 .section2Img {
     width: 300px;
 }
+.section4 .section4content {
+  margin: 17px 40px;
+}
 }
 
 @media (max-width: 800px){
 .section2 .secondhalf2 .section2Img {
     width: 250px;
 }
+.section4 .section4content {
+  margin: 17px 20px;
+
+}
+/* .table td, .table th {
+  padding-top: 6px ;
+  padding-right: 0px ;
+  padding-left: 15px ;
+  padding-bottom: 6px ;
+}
+
+.table td {
+  display: inl;
+} */
+
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 }
 
 @media (max-width: 700px){
