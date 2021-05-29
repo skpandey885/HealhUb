@@ -723,9 +723,10 @@ text-align: center;
   }
 
   .mostcommonsymptoms ul{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+    
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .mostcommonsymptoms ul li{
     margin: 0 5px;
@@ -881,6 +882,7 @@ display: none;
   margin-bottom: 1rem;
   padding: 0 6px;
 }
+
 
   .section3 .section3content .someinfo .note {
     margin: 0 25px;
