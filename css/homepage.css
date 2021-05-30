@@ -122,7 +122,7 @@ padding-top: 13%;
 font-family: 'Cairo', sans-serif;
 color: #f8ffff;   
 font-size: 25px; 
- text-shadow: 0 0 3px #000000;
+
 
 }
  #getstarted{
@@ -171,6 +171,7 @@ margin-right: 35px;
 color: #f8ffff;
   margin-top: 100px;
   word-spacing: 5px;
+     text-shadow: 0 0 3px #000000;
 
 }
 
