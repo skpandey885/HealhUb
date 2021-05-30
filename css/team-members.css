@@ -179,6 +179,7 @@ header .intro {
   color: var(--theme5_4);
   font-family: f2;
   font-size: 2rem;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 header .team {
@@ -259,6 +260,7 @@ header .teamName .logo {
   font-size: 1.6rem;
   line-height: 35px;
   padding: 40px 15px 0px 0px;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .aboutMe .container .iconBox {
