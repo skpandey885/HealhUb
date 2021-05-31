@@ -488,3 +488,9 @@ footer p {
         margin-right: 1.5rem;
     }
   }
+  @media (max-width:373px){
+    #logoname{
+      font-size: 28px;
+      margin-left: -110px;
+    }
+  }
