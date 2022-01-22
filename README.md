@@ -10,6 +10,7 @@
      <li>Articles Related To Healthcare Issues. 📄 </li>
    <li>Tools Like BMI Calculator Which Helps User To Find The Body Mass Index. 💪🏻 </li>
   </ul>
-  
+ <h3 align="center"> An open-source freak? 👀 Want to contribute to this repo? <br>
+  Create an Issue 📋 and start working on it 👨🏻‍💻</h3>
   
  
