@@ -13,6 +13,6 @@
 
 
  <h3 align="center"> An open-source freak? 👀 Want to contribute to this repo? <br>
-  Create an  Issue 📋 and start working on it 👨🏻‍💻</h3> 
+  Create an  issue 📋 and start working on it 👨🏻‍💻</h3> 
 
 
