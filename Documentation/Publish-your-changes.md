@@ -1,4 +1,5 @@
 **Hey everyone!👨🏻‍💻**
+<br>
 _You can refer to the steps below if you want to publish your changes to a temporary website before merging. So that we can see your changes before merging it to the main branch_ 🙌🏻
 
 ### STEP 1
