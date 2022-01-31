@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)    ![JWoC](https://img.shields.io/badge/JWoC'22-ff8080?style=flat&logo=hand&Color=white)
 <h4 align="center">Website: https://skpandey885.github.io/HealhUb/ </h2>
 <h4 align="center">Intro: https://rb.gy/zlvh9r</h2>
-<h>HealhUb Is An Online HealthCare Website which help users Know About Health Tips, Plans with Our Tools, Blogs And Stats.</p>
+<h>HealhUb is an online HealthCare website which help users Know About Health Tips, Plans with Our Tools, Blogs And Stats.</p>
   <p class="Details">Our Website Provides:</p>
   <ul>
     <li>⏱️  Timely and credible Health content.</li>
