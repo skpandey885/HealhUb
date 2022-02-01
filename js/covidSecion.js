@@ -33,7 +33,7 @@ var requestOptions = {
     redirect: 'follow'
 };
 
-fetch("https://corona.lmao.ninja/v2/countries/USA,India,Brazil,France,Turkey?yesterday", requestOptions)
+fetch("https://corona.lmao.ninja/v2/countries/Australia,Chile,Germany,Hungary,Iraq?yesterday", requestOptions)
     .then(response => response.json())
     .then(result => {
         covidTable.innerHTML=`<table class="table table-bordered table-hover">
