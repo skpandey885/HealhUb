@@ -10,9 +10,7 @@
     box-sizing: border-box;
   }
 
-  body {
-    background-color: #e4e4e4;
-  }
+ 
 
 /* Navbar CSS Start */
 .navbar {
@@ -32,7 +30,7 @@
 
 .navbar .navbar-brand {
   margin: 0;
-  color: #ffffff;
+  color: rgb(240, 231, 231);
   font-size: 45px;
   line-height: 0px;
 letter-spacing: 2px;
@@ -46,7 +44,7 @@ letter-spacing: 2px;
 }
 
 .navbar.nav-sticky .navbar-brand span {
-  color: #ffffff;
+  color: #e4d5d5;
 }
 
 .navbar .navbar-brand img {
@@ -59,13 +57,15 @@ letter-spacing: 2px;
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  padding: 10px 10px 8px 10px;
-  color: #ffffff;
+  padding: 20px 5px;
+  
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  background: rgba(256, 256, 256, 0.3);
+  color: rgb(201, 196, 196);
+  text-decoration: underline;
+  cursor: pointer;
   transition: none;
 }
 
@@ -254,11 +254,12 @@ display: none;
 /* 1st Section */
 .section1 {
   height: 80vh;
-  color: white;
-  box-shadow: -2px 11px 7px rgb(0 0 0 / 50%);
+  color: rgb(240, 231, 231);
+  
 }
 .mainBackground {
   background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop.jpeg);
+  height: 600px;
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -266,7 +267,7 @@ display: none;
 .mainSection .firsthalf1 {
   align-items: flex-end;
   justify-content: flex-end;
-  padding-right: 28px;
+  padding: 20px 28px;
   margin: auto;
   height: 100%;
   display: flex;
@@ -276,81 +277,142 @@ display: none;
 
 /* 2nd Section */
 
-.section2 {
-  margin-top: 40px;
-  height: auto;
-  color: black;
-  background: #e4e4e4;
+.section2{
+  margin: 80px auto;
+  padding: 10px 20px;
 }
 
-.section2 .section2Heading {
+.heading{
+  margin: 30px auto ;
+  padding: 20px;
   text-align: center;
-  height: auto;
+  color:rgb(104, 104, 104);
+}
+
+.blog-container{
   display: flex;
-  flex-direction: column;
-  background: #e4e4e4;
-  color: black;
-  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.section2 .section2subsection {
-  display: flex;
-}
-.section2 .secondhalf2 {
-  display: flex;
-  flex-direction: column;
-  flex: 0.3;
-  justify-content: space-evenly;
-}
-.section2 .secondhalf2 .section2Img {
-  border-radius: 50px;
-  width: 342px;
-  margin-bottom: 25px;
-  margin-left: 20px;
+ .blog-post{
+    width: 80%;
+    max-width: 80rem;
+    padding: 2.5rem;
+    background-color: #eee;
+    box-shadow:0 0.8rem 2rem rgb(97, 97, 102) ;
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem;
+
 }
 
-.hidden{
-  display: none;
+ .blog-post-img {
+  min-width: 25rem;
+  max-width: 25rem;
+  height: 15rem;
+
+} 
+
+ .blog-post-img img{
+    width: 100%;
+    height: 100%;
+     object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+   
 }
 
-.section2 .secondhalf3 {
-  padding: 0px 10px;
-  display: flex;
-  flex: 0.7;
-  flex-direction: column;
+
+.blog-post-title h5{
+  font-size: 1.8rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+  color: rgb(107, 97, 97) ;
 }
 
-.section2 .secondhalf3 .oneSection {
-  display: flex;
-  margin-bottom: 25px;
+.blog-post-text{
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: rgb(158, 151, 151);
 }
 
-.section2 .secondhalf3 .tip {
-  flex: 0.9;
-  padding-left: 10px;
+@media screen and (max-width:1068px){
+  .blog-post{
+    max-width: 80rem;
+  }
+  .blog-post-img {
+    min-width: 25rem;
+    max-width: 25rem;
+  
+  } 
+  
 }
 
-.section2 .secondhalf3 .pic {
-  flex: 0.5;
-  text-align: center;
+@media screen and (max-width:868px){
+  
+  .blog-post{
+    max-width: 65rem;
+    flex-direction: column;
+  }
+  
+  
 }
 
-.section2 .secondhalf3 .pic img {
-  width: 218px;
-  height: 137px;
-  border-radius: 54px;
-  margin-right: 17px;
+@media screen and (max-width:468px){
+  
+  .blog-post{
+    padding: 1.5rem;
+    flex-direction: column;
+  }
+  .blog-post-img {
+    min-width: 100%;
+    max-width: 100%;
+  
+  } 
+  
 }
+
+
 
 /* 3rd Section */
 
+.dotted{
+  width: 10%;
+  position: relative;
+  left: 46%;
+  border-bottom: 8px dashed rgb(219, 209, 209);
+  letter-spacing: 1.2rem;
+}
+
+
 .section3 {
-  margin-top: 15px;
+  margin: 100px auto;
   height: auto;
 }
 
-.section3 .section3Title {
-  text-align: center;
+.card{
+    margin: 30px 10px 80px;
+}
+
+.card-title{
+  background-color: #eee;
+  padding: 3%;
+  border-radius: 5px;
+  color:  rgb(102, 68, 68);
+  box-shadow: 2px 3px 8px rgb(143, 141, 141);
+}
+
+.card-content{
+  margin-top: 15px;
+  background-image: linear-gradient(to bottom right, rgb(0, 52, 82) , rgb(71, 127, 160), rgb(102, 68, 68));
+  height: 18rem;
+  padding: 15px 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  box-shadow: inset 2px 3px 8px rgb(112, 111, 111);
 }
 
 .section3 .section3content {
@@ -364,45 +426,25 @@ display: none;
   width: 100%;
 }
 
-.section3 .section3content .someinfo {
-  
-  border: 2px solid #9a9488;
-  width: 70%;
-  margin: 0 auto;
-  box-sizing: border-box;
+.dos{
+  padding: 10px 12%;
+  font-size: 1.5rem;
 }
 
-.section3 .section3content .someinfo .info {
-  
-  color: #004085;
-    border-color: #b8daff;
-    display: flex;
-    margin: 8px 94px;
-}
 
-.section3 .section3content .someinfo .info .infoText {
-  margin-top: 1px;
-  margin-bottom: 1rem;
-  padding: 0 12px;
-}
 
-.section3 .section3content .someinfo .note{
-    margin: 0 190px;
-    color: #856404;
-    background-color: #fff3cd;
-    border-color: #ffeeba;
-    text-align: center;
-}
+
 
 /* 4th section */
 
 .section4 {
-  margin-top: 15px;
+  margin: 100px 20px 40px;
   height: auto;
 }
 
-.section4 .section4Title {
+ .section4Title {
   text-align: center;
+  color: rgb(104, 104, 104) ;
 }
  
 .section4 .section4content{
@@ -420,6 +462,19 @@ display: none;
 
 .newDeaths{
   background-color: #ff000096;
+}
+
+.text-center button{
+  border: 2px solid rgb(145, 88, 185);
+  color: rgb(145, 88, 185);
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+.text-center button:hover{
+  background-color:  rgb(145, 88, 185);
+  color: #fff;
+
 }
 
 /* main content ends here */
