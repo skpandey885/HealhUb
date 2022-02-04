@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Loader</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="pre-loader">
+  <div class="loading">
+<img src="logo__2_-removebg-preview.png" alt="logo">
+<img src="input-onlinegiftools.png" id="load" alt="">
+ 
+
+
+    </div>
+
+   </div>
+
+   <style>
+     #pre-loader {
+  background-color: rgb(255, 255, 255);
+
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  align-content: center;
+}
+
+.loading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  align-content: center;
+  top: 50%;
+}
+img {
+  height: 5%;
+  width: 5%;
+}
+#load {
+  height: 5%;
+  width: 5%;
+}
+
+   </style>
+
+<script>
+
+/*
+  var loader=document.getElementById("pre-loader");
+
+  window.addEventListener("load",function(){
+    loader.style.display="none";
+    /*
+  });
+</script>
+
+
+
+</body>
+</html>
