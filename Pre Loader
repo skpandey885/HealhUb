@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Loader</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="pre-loader">
+  <div class="loading">
+<img src="logo__2_-removebg-preview.png" alt="logo">
+<img src="input-onlinegiftools.png" id="load" alt="">
+
+<a href="https://skpandey885.github.io/HealhUb/index.html"></a>
+
+    </div>
+
+   </div>
+
+   <style>
+     #pre-loader {
+  background-color: rgb(255, 255, 255);
+
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  align-content: center;
+}
+
+.loading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  align-content: center;
+  top: 50%;
+}
+img {
+  height: 5%;
+  width: 5%;
+}
+#load {
+  height: 5%;
+  width: 5%;
+}
+
+   </style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<script>
+ 
+  
+
+setTimeout(function(){
+
+  $('#pre-loader').fadeToggle();
+  
+
+},4000
+   );
+
+   
+
+   
+</script>
+
+
+
+
+
+</body>
+</html>
