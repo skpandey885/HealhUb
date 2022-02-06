@@ -174,9 +174,6 @@
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
-  .carouselCss {
-    padding-top: 50px;
-  }
   .tip-list img {
     height: 215px;
     width: 310px;
@@ -184,9 +181,6 @@
 }
 
 @media (max-width: 424px) {
-  .carouselCss {
-    padding-top: 50px;
-  }
   .tip-list img {
     height: 185px;
     width: 225px;
