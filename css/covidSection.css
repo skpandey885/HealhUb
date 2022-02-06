@@ -30,7 +30,7 @@
 
 .navbar .navbar-brand {
   margin: 0;
-  color: rgb(240, 231, 231);
+  color: #ffffff;
   font-size: 45px;
   line-height: 0px;
 letter-spacing: 2px;
@@ -44,7 +44,7 @@ letter-spacing: 2px;
 }
 
 .navbar.nav-sticky .navbar-brand span {
-  color: #e4d5d5;
+  color: #ffffff;
 }
 
 .navbar .navbar-brand img {
@@ -57,15 +57,13 @@ letter-spacing: 2px;
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  padding: 20px 5px;
-  
+  padding: 10px 10px 8px 10px;
+  color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: rgb(201, 196, 196);
-  text-decoration: underline;
-  cursor: pointer;
+  background: rgba(256, 256, 256, 0.3);
   transition: none;
 }
 
