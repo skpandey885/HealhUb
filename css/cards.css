@@ -30,12 +30,13 @@ a {
 
 span {
   /* margin-bottom: auto; */
-  margin-left: 30%;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: clamp(20rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
   box-shadow: 0 0.1rem 1rem rgba(105, 83, 83, 0.1);
@@ -313,11 +314,19 @@ footer p {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   .card {
     margin: 13px 0 0 13px;
   }
+
+  #logoname {
+    font-size: 1.75rem;
+  }
+  .span {
+    margin-left: 0;
+  }
 }
+
 @media (min-width: 280px) and (max-width: 333px) {
   .images {
     margin-left: -5px;
