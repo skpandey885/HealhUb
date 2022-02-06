@@ -164,6 +164,9 @@
 }
 
 @media all and (min-width: 780px) {
+  .carouselCss {
+    padding-top: 50px;
+  }
   .odds {
     display: flex;
     flex-direction: row-reverse;
