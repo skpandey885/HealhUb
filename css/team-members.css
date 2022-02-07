@@ -140,10 +140,13 @@ body {
   background-image: url(../assets/nature.jpg);
   height: 30vh;
 }
-
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
-  height: 80vh;
-
+  margin: 10vh 0;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -241,6 +244,7 @@ body {
 @media only screen and (max-width: 500px) {
   .container {
     grid-template-columns: 1fr;
+    margin-top: 5vh;
   }
 }
 /* footer */
