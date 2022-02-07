@@ -1,13 +1,7 @@
-:root {
-  --theme5_1: #31326f;
-  --theme5_2: #ffc93c;
-  --theme5_3: #dbf6e9;
-  --theme5_4: #9ddfd3;
-}
-
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Navbar CSS Start */
@@ -130,275 +124,125 @@
     height: 150px;
   }
 }
-
-.bgimg {
-  background-image: url(../assets/bg1.jpg);
-  background-repeat: no-repeat;
-  background-size: 2500px;
-  background-position: 0% 0%;
-}
-
-h1 {
-  color: #fff;
-  font-size: 2.8rem;
-  font-family: f2;
-  letter-spacing: 0.1rem;
-  margin-top: 40px;
-  padding-left: 20px;
-}
-
-h4 {
-  color: var(--theme5_4);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px 0px 0px 20px;
-  font-size: 1.5rem;
-  letter-spacing: 0.06rem;
-}
-
-.topcontent {
-  max-width: 1200px;
-  margin: auto;
+body {
+  height: 100%;
 }
 
 /* Header */
 
-header {
-  background-color: rgba(49, 50, 111, 0.4);
-}
-
-header .head {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 80px;
-  padding-bottom: 20px;
-  /* z-index: 1; */
-}
-
-header .intro {
-  color: var(--theme5_4);
-  font-family: f2;
-  font-size: 2rem;
-  font-family: 'Baloo Tammudu 2', cursive;
-}
-
-header .team {
-  color: gold;
-  font-family: f2;
-  font-size: 3.5rem;
-  margin-top: 20px;
-}
-
-header .teamName {
-  color: var(--theme5_3);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 5rem;
-  margin-top: 30px;
-}
-
-header .teamName .logo {
-  height: 70px;
-  width: 70px;
-}
-
 /* Article > aboutMe */
-
-.aboutMe {
-  padding-top: 100px;
-}
-.aboutMe .container {
+.intro {
   display: flex;
-  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-weight: bold;
+  background-image: url(../assets/nature.jpg);
+  height: 30vh;
 }
 
-.aboutMe .container .divider3 {
-  font-size: 4.5em;
-  color: var(--theme5_4);
-  line-height: 0px;
-  margin-bottom: 20px;
-  position: absolute;
-  left: -22px;
+.container {
+  height: 80vh;
+
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
 }
 
-.aboutMe .container .divider {
-  font-size: 4.5em;
-  color: var(--theme5_4);
-  line-height: 0px;
-  margin-bottom: 40px;
-}
-
-.aboutMe .container .pic {
-  width: 40%;
-  padding-left: 20px;
-  border-left: 3px solid var(--theme5_4);
-}
-
-.aboutMe .container .pic img {
+.pic {
+  height: 20rem;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+
   border-radius: 10px;
-  margin-top: 50px;
-  box-shadow: -10px -10px 10px #710a58, 10px 10px 10px #b60a75;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
 }
-
-.aboutMe .container .ctext {
-  padding-left: 60px;
-  width: 60%;
+.content {
+  margin-bottom: 2rem;
+  background-color: white;
   text-align: center;
-  margin: 50px 0px 0px 30px;
+  border-radius: 5px;
+  height: 15%;
+  width: 90%;
+  transition: all 1s;
 }
+.content h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.content h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #93d8e9;
+}
+.content p {
+  font-size: 0.85rem;
 
-.aboutMe .container .ctext .logoName {
-  height: 50px;
-  width: 50px;
+  text-align: justify;
 }
-
-.aboutMe .container .ctext p {
-  font-family: f2;
-  color: var(--theme5_3);
-  font-size: 1.6rem;
-  line-height: 35px;
-  padding: 40px 15px 0px 0px;
-  font-family: 'Baloo Tammudu 2', cursive;
+.one {
+  background-image: url(../assets/team1.jpeg);
 }
-
-.aboutMe .container .iconBox {
-  margin: 20px 0px 0px 20px;
+.two {
+  background-image: url(../assets/team2.jpeg);
 }
-
-.aboutMe .container .iconBox a {
-  text-decoration: none;
+.three {
+  background-image: url(../assets/team3.jpg);
 }
-
-.aboutMe .container .iconBox .icons i {
-  color: var(--theme5_2);
-  font-size: 1.2rem;
-  border: 2px solid var(--theme5_1);
-  border-radius: 40px;
-  padding: 12px;
-  margin: 3px;
-  transition: all 0.2s ease-in-out;
+.four {
+  background-image: url(../assets/team4.jpeg);
 }
-
-.aboutMe .container .iconBox .icons i:hover {
-  transform: translateY(-10px) scale(1.2);
-  color: var(--theme5_4);
+.hidden {
+  display: none;
+  transition: all 2s;
+  color: white;
 }
-
-.aboutMe .container .divider2 {
-  font-size: 4.5em;
-  color: var(--theme5_4);
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.aboutMe .container .btn1 {
-  font-family: f1;
-  background-color: rgba(90, 90, 90, 0.4);
-  border: 2px solid var(--theme5_1);
-  padding: 20px 0px;
+.icons i {
+  color: white;
+  font-size: 1.5rem;
 }
-
-.aboutMe .container .btn1:hover {
-  transform: translateY(-2px) scale(1.1);
-  background-color: var(--theme5_1);
-  transition: all 0.3s ease-in-out;
+.icons i:hover {
+  color: #93d8e9;
 }
-.aboutMe .container .btn1 a {
-  text-decoration: none;
-  color: var(--theme5_2);
-  font-weight: 700;
-  font-size: 1.2rem;
-  letter-spacing: 01.5px;
-  transition: all 0.3s ease-in;
-  padding: 20px 34px;
+.content:hover {
+  padding: 5%;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: #343148;
+  color: white;
 }
-.aboutMe .container .btn1:hover {
-  cursor: pointer;
-  color: var(--theme5_4);
-}
-
-.divider4 {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 4.5rem;
-  color: var(--theme5_4);
+.content:hover .hidden {
+  display: block;
 }
 
 /* Media Query */
 
-@media only screen and (max-width: 850px) {
-  .bgimg {
-    background-size: 3200px;
-    background-position: 10% 0%;
+@media only screen and (max-width: 1190px) {
+  header {
+    height: 10vh;
   }
-
-  h1 {
-    font-size: 2.4rem;
-    padding: 0px;
-  }
-  .aboutMe .container .ctext .logoName {
-    height: 40px;
-    width: 40px;
-  }
-
-  header .head {
-    padding-top: 30px;
-  }
-
-  header .intro {
-    font-size: 1rem;
-  }
-
-  header .team {
-    font-size: 2rem;
-    margin-top: 5px;
-  }
-
-  header .teamName {
-    font-size: 3rem;
-    margin-top: 10px;
-  }
-
-  header .teamName .logo {
-    height: 38px;
-    width: 38px;
-  }
-
-  .aboutMe {
-    padding-top: 20px;
-  }
-
-  .aboutMe .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .aboutMe .container .pic {
-    margin-left: 30px;
-  }
-  .aboutMe .container .pic img {
-    width: 300px;
-    height: 400px;
-  }
-
-  .aboutMe .container .ctext {
-    padding-left: 0px;
-    width: 90%;
-    margin: 0px 0px 0px 24px;
-  }
-
-  .aboutMe .ctext p {
-    padding: 30px 15px 0px 20px;
-    font-size: 1.5rem;
-  }
-
-  .divider4 {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 1.8rem;
+  .container {
+    grid-template-columns: 1fr 1fr;
   }
 }
-
+@media only screen and (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
 /* footer */
 
 /*** Footer ***/
