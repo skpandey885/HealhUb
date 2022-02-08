@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen" type="text/css">
+        .layer1_class { position: absolute; z-index: 1; top: 100px; left: 50px; visibility: visible;align-items: center; }
+        .layer2_class { position: absolute; z-index: 2; top: 0px; left: 0px; visibility: hidden }
+      </style>
+      <script>
+        function downLoad(){
+          if (document.all){
+              document.all["layer1"].style.display="none";
+              document.all["layer2"].style.display="block";
+          } else if (document.getElementById){
+              node = document.getElementById("layer1").style.display='none';
+          
+              node = document.getElementById("layer2").style.visibility='visible';
+           
+          }
+        }
+      </script>
     <title>HealhUb-a Care that never quits</title>
     <!-- Links -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -19,39 +36,47 @@
 <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 <link rel="stylesheet" href="./css/homepage.css">
 
+
+
 </head>
-<body>
-  
+<body onload = "downLoad()" class ="layer2_class" id="layer2" >
+    <div id="layer1" class="layer1_class" style = "margin: 0;background-color: rgba(0,0,0,0);">
+      
+        <img src=
+        "./assets/logo.png" />
+        
+        </div> 
+
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand"><img src="./assets/logo.png" alt=""></a>
+            <a href="./index.html" class="navbar-brand" id="logoname">HealhUb</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              </div>
+      </div>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" style="margin:0%">
+                <div class="navbar-nav ml-auto">
+                    <a href="./index.html" class="nav-item nav-link mr-2">Home</a>
+                    <a href="./pages/tools.html" class="nav-item nav-link mr-2">Tools</a>
+                    <a href="./pages/tips.html" class="nav-item nav-link mr-2">Tips</a>
+                    <a href="./pages/covidSection.html" class="nav-item nav-link mr-2">Covid</a>
+                    <a href="./pages/about.html" class="nav-item nav-link mr-2">About Us</a>
+                    <a href="./pages/team-members.html" class="nav-item nav-link mr-2">Team</a>
+                
+                </div>
+            </div>
 <!-- Floating Button to the top-->
 <a href="#" id="scroll"><span></span></a>
 
  <!-- Nav Bar Start -->
- <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-  <div class="container-fluid">
-      <a href="./index.html" class="navbar-brand"><img src="./assets/logo.png" alt=""></a>
-      <a href="./index.html" class="navbar-brand" id="logoname">HealhUb</a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-          <div class="navbar-nav ml-auto">
-              <a href="./index.html" class="nav-item nav-link mr-2">Home</a>
-              <a href="./pages/tools.html" class="nav-item nav-link mr-2">Tools</a>
-              <a href="./pages/tips.html" class="nav-item nav-link mr-2">Tips</a>
-              <a href="./pages/covidSection.html" class="nav-item nav-link mr-2">Covid</a>
-              <a href="./pages/about.html" class="nav-item nav-link mr-2">About Us</a>
-              <a href="./pages/team-members.html" class="nav-item nav-link mr-2">Team</a>
-          
-          </div>
-      </div>
-  </div>
-</div>
 <!-- Nav Bar End -->
 
 
 <!-- First Page Start -->
-<div id="page1">
+<div id="page1" style="margin: 0;">
     <div class="container">
         <div class="text1">
 
@@ -176,5 +201,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <script src="./js/homepage.js"></script>
+
 </body>
 </html>
