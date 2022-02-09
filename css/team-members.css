@@ -128,19 +128,36 @@
 }
 body {
   height: 100%;
+  position: relative;
 }
 
 /* Header */
 
 /* Article > aboutMe */
+.bgimg {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  min-height: 100%;
+  background-image: url(../assets/nature.jpg);
+  background-size: cover;
+  background-color: #222;
+
+  overflow: hidden;
+  filter: blur(10px);
+}
 .intro {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  color: white;
-  font-weight: bold;
-  background-image: url(../assets/nature.jpg);
   height: 30vh;
+  background-color: #343148;
+}
+.meet {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
 .aboutMe {
   height: auto;
@@ -172,7 +189,6 @@ body {
 }
 .content {
   margin-bottom: 2rem;
-  background-color: white;
   text-align: center;
   border-radius: 5px;
   height: 15%;
@@ -180,8 +196,8 @@ body {
   transition: all 1s;
 }
 .content h1 {
-  font-family: "Cedarville Cursive", cursive;
-  font-size: 4.5rem;
+  color: white;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 .content h4 {
