@@ -427,8 +427,20 @@ display: none;
 }
 
 .dos{
-  padding: 10px 12%;
+  margin: 10px 70px;
+  padding: 5px 30px;
   font-size: 1.5rem;
+  background-color: #eee;
+  border: 3px solid rgb(143, 141, 141);
+  border-radius: 20px;
+}
+.donts{
+  font-size: 1.5rem;
+  margin: 10px 70px;
+  padding: 5px 30px;
+  background-color: #eee;
+  border: 3px solid rgb(143, 141, 141);
+  border-radius: 20px;
 }
 
 
