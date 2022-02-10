@@ -8,7 +8,7 @@
   /* Loader */
 .layer1_class {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #048023; /* Dark Green */
+    border-top: 10px solid #048023; /* Dark Green */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -16,7 +16,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     margin: 0%;
+    top: 10%;
+    left: 50%;
 }
 .layer1_class img{
     height : 120px;

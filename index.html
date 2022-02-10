@@ -9,6 +9,10 @@
         .layer2_class { position: absolute; z-index: 2; top: 0px; left: 0px; visibility: hidden }
       </style>
       <script>
+
+          function delayer(){
+              setTimeout(downLoad,2500)
+          }
         function downLoad(){
           if (document.all){
               document.all["layer1"].style.display="none";
@@ -39,13 +43,14 @@
 
 
 </head>
+
 <div id="layer1" class="layer1_class" style = "margin: 0;background-color: rgba(0,0,0,0);">
       
     <img src=
     "./assets/logo.png" />
     
     </div> 
-<body onload = "downLoad()" class ="layer2_class" id="layer2" >
+<body onload = "delayer()" class ="layer2_class" id="layer2" >
 
 
 
