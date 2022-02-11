@@ -17,10 +17,10 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 0%;
+    /* margin: 0%;   */
     top: 10%;
-    left: 50%;
-}
+    left: 45%;
+} 
 .layer1_class img{
     height : 120px;
     width : 120px;
