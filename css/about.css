@@ -4,10 +4,8 @@
 }
 
 body {
-  background: url("../assets/about_bg.jpg"), url("../assets/about_bg2.jpeg"), url("../assets/about_bg3.jpeg");
-  background-position: top,center,bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url("../assets/bg.png");
+  background-size: cover;
 }
 
 .jumbotron {
