@@ -890,6 +890,7 @@ footer p {
 
 /* media queries */
 
+
 @media (max-width: 999px) {
   .section2 .secondhalf3 .oneSection {
     flex-direction: column;
@@ -957,7 +958,6 @@ text-align: center;
   padding-left: 15px ;
   padding-bottom: 6px ;
 }
-
 .table td {
   display: inl;
 } */
@@ -1092,7 +1092,110 @@ display: none;
 .mainBackground {
   background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop2nd.jpeg);
   background-size: cover;
+  width: 410px;
   background-blend-mode: darken;
 }
 }
+@media (max-width: 460px){
 
+  .Content{
+    width: 587px;
+  }
+  footer{
+    width: 587px;
+  }
+  .copyrightText{
+    width: 587px;
+  }
+  
+  .section3 .section3content .someinfo {
+    width: 96%;
+}
+
+  .section3 .section3content .someinfo .info {
+    margin: 8px 7px;
+    flex-direction: column;
+}
+
+.section3 .section3content .someinfo .info .infoText {
+  margin-top: 1px;
+  margin-bottom: 1rem;
+  padding: 0 6px;
+}
+
+
+  .section3 .section3content .someinfo .note {
+    margin: 0 25px;
+}
+.mainSection .firsthalf1 {
+  padding-right: 5px;
+}
+.mainSection .firsthalf1 h1 {
+  font-size: 35px;
+}
+
+.mainSection .firsthalf1 h2 {
+  font-size: 30px;
+}
+
+.mainBackground {
+  background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop2nd.jpeg);
+  background-size: cover;
+  width: 587px;
+  background-blend-mode: darken;
+}
+}
+@media (max-width:375px){
+  .images{
+    width: 100%;
+  }
+  .Content{
+    width: 587px;
+  }
+  footer{
+    width: 587px;
+  }
+  .copyrightText{
+    width: 587px;
+  }
+  .section1{
+    padding-left: 10px;
+  }
+  .section3 .section3content .someinfo {
+    width: 96%;
+}
+
+  .section3 .section3content .someinfo .info {
+    margin: 8px 7px;
+    flex-direction: column;
+}
+
+.section3 .section3content .someinfo .info .infoText {
+  margin-top: 1px;
+  margin-bottom: 1rem;
+  padding: 0 6px;
+}
+
+
+  .section3 .section3content .someinfo .note {
+    margin: 0 25px;
+}
+.mainSection .firsthalf1 {
+  padding-right: 35px;
+}
+.mainSection .firsthalf1 h1 {
+  font-size: 30px;
+}
+
+.mainSection .firsthalf1 h2 {
+  font-size: 30px;
+}
+
+.mainBackground {
+  background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop2nd.jpeg);
+  background-size: cover;
+  width: 587px;
+  background-blend-mode: darken;
+}
+
+}
