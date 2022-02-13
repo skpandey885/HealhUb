@@ -6,7 +6,6 @@ $(window).scroll(function () {
   } else $(".navbar").removeClass("nav-sticky");
 });
 
-
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -20,3 +19,77 @@ $(document).ready(function () {
     return false;
   });
 });
+
+var tl = new TimelineMax({ onUpdate: updatePercentage1 });
+const controller = new ScrollMagic.Controller();
+
+tl.from("#lead", 1, { opacity: 0 });
+
+const scene = new ScrollMagic.Scene({
+  triggerElement: "#about",
+  triggerHook: "onLeave",
+  duration: "100%",
+})
+  .setPin("#about")
+  .setTween(tl)
+  .addTo(controller);
+
+function updatePercentage1() {
+  tl.progress();
+}
+
+var t2 = new TimelineMax({ onUpdate: updatePercentage2 });
+
+t2.fromTo("#inner", 4, { x: "0vw" }, { x: "-300vw", ease: Linear.ease });
+
+const scene1 = new ScrollMagic.Scene({
+  triggerElement: "#intro",
+  triggerHook: "onLeave",
+  duration: "100%",
+})
+  .setPin("#intro")
+  .setTween(t2)
+  .addTo(controller);
+
+function updatePercentage2() {
+  t2.progress();
+}
+
+var t3 = new TimelineMax({ onUpdate: updatePercentage3 });
+
+t3.from("#p-title", 1, { y: 100, opacity: 0 });
+t3.from("#update", 1, { y: 100, opacity: 0 });
+t3.from("#privacy", 1, { y: 100, opacity: 0 });
+
+const scene2 = new ScrollMagic.Scene({
+  triggerElement: "#policy",
+  triggerHook: "onLeave",
+  duration: "100%",
+})
+  .setPin("#policy")
+  .setTween(t3)
+  .addTo(controller);
+
+function updatePercentage3() {
+  t3.progress();
+}
+
+var t4 = new TimelineMax({ onUpdate: updatePercentage3 });
+
+t4.from("#t-title", 1, { y: 100, opacity: 0 });
+t4.from("#t-tag", 1, { y: 100, opacity: 0 });
+t4.from(".names", 1, { y: 100, opacity: 0 });
+t4.from(".more-details", 1, { y: 100, opacity: 0 });
+
+const scene3 = new ScrollMagic.Scene({
+  triggerElement: "#team",
+  triggerHook: "onLeave",
+  duration: "100%",
+})
+  .setPin("#team")
+  .setTween(t4)
+  .addTo(controller);
+
+function updatePercentage3() {
+  t4.progress();
+}
