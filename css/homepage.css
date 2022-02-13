@@ -6,6 +6,20 @@
   }
   
   /* Loader */
+
+#preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+
+}
+
 .layer1_class {
     border: 16px solid #f3f3f3; /* Light grey */
     border-top: 10px solid #048023; /* Dark Green */
@@ -13,13 +27,15 @@
     width: 120px;
     height: 120px;
     animation: spinloader 2s linear infinite;
+    position: relative;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     /* margin: 0%;   */
-    top: 10%;
-    left: 45%;
+    /* top: 10%;
+    left: 45%; */
 } 
 .layer1_class img{
     height : 120px;

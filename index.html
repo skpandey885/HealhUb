@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style media="screen" type="text/css">
-        .layer1_class { position: absolute; z-index: 1; top: 100px; left: 50px; visibility: visible;align-items: center; }
+        .layer1_class { position: absolute; z-index: 1; visibility: visible; }
         .layer2_class { position: absolute; z-index: 2; top: 0px; left: 0px; visibility: hidden }
       </style>
       <script>
@@ -15,10 +15,10 @@
           }
         function downLoad(){
           if (document.all){
-              document.all["layer1"].style.display="none";
+              document.all["preloader"].style.display="none";
               document.all["layer2"].style.display="block";
           } else if (document.getElementById){
-              node = document.getElementById("layer1").style.display='none';
+              node = document.getElementById("preloader").style.display='none';
           
               node = document.getElementById("layer2").style.visibility='visible';
            
@@ -44,12 +44,12 @@
 
 </head>
 
-<div id="layer1" class="layer1_class" style = "margin: 0;background-color: rgba(0,0,0,0);">
-      
-    <img src=
-    "./assets/logo.png" />
-    
-    </div> 
+<div id="preloader">
+    <div id="layer1" class="layer1_class" style = "margin: 0;background-color: rgba(0,0,0,0);">
+      <img src="./assets/logo.png" />
+    </div>
+</div>
+
 <body onload = "delayer()" class ="layer2_class" id="layer2" >
 
 
