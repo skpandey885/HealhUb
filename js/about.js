@@ -40,12 +40,12 @@ function updatePercentage1() {
 
 var t2 = new TimelineMax({ onUpdate: updatePercentage2 });
 
-t2.fromTo("#inner", 4, { x: "0vw" }, { x: "-300vw", ease: Linear.ease });
+t2.fromTo("#inner", 1, { x: "0vw" }, { x: "-300vw", ease: Linear.ease });
 
 const scene1 = new ScrollMagic.Scene({
   triggerElement: "#intro",
   triggerHook: "onLeave",
-  duration: "100%",
+  duration: "400%",
 })
   .setPin("#intro")
   .setTween(t2)
