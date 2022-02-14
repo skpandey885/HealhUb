@@ -128,6 +128,9 @@
     width: 250px;
     height: 150px;
   }
+   #logoname {
+    font-size: 35px;
+  }
 }
 
 /* Navbar end */
@@ -225,34 +228,24 @@
   transform: scale(1.05, 1.05);
 }
 
-/* @media (min-width:280px) and (max-width:320px){
-    .card{
-    margin-top: -5px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    }
-    
-} */
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .card {
-    margin: 13px 0 0 13px;
-    width: 100%;
+    margin: 13px 0 30px 13px;
+    width: 90%;
     height: auto;
     float: left;
     text-align: center;
   }
 }
-/* @media (min-width: 280px) and (max-width: 333px) {
-  .card-img-top {
-      margin-left: -5px;
-      width: 250px;
-      height: 150px;
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .card {
+    width: 45%;
+    height: 470px;
+    float: left;
+    text-align: center;
   }
-} */
+}
 
 /*** Footer ***/
 
