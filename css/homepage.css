@@ -161,7 +161,9 @@
   height: 100vh;
   width: 100vw;
   background-position: center;
-  background-size: cover;  
+  background-size: cover; 
+  animation: body-slide-down 400ms ease-out; 
+  animation-delay: 3s; 
 }
 
 .text1{
@@ -595,3 +597,16 @@ margin-top: -5px;}
 margin-left: -40px;
 }
 }
+
+@keyframes body-slide-down{
+  0%{
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
