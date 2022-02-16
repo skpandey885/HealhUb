@@ -10,14 +10,22 @@
     box-sizing: border-box;
   }
 
- 
+ body{
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
 
+ }
 /* Navbar CSS Start */
 .navbar {
+    width: inherit;
     position: absolute !important;
+    top: 0;
+    left: 0;
     transition: 0.5s;
     z-index: 999;
     background: transparent;
+    /* width: 100vw !important; */
   }
   .navbar-nav {
     margin-left: auto;
@@ -25,7 +33,6 @@
   .navbar.nav-sticky {
     position: fixed !important;
     top: 0;
-    width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
@@ -85,7 +92,12 @@
     margin-left: -110px;
   }
 }
-
+/* @media (max-width:992px){
+  .navbar{
+    min-width: 920px;
+    overflow: hidden;
+  }
+} */
 @media (min-width: 992px) {
 .navbar {
   position: absolute;
@@ -247,21 +259,30 @@ display: none;
   height: auto;
   display: inline-flex;
   flex-direction: column;
-  width: 100%;
+  width: inherit;
 }
 
 /* 1st Section */
 .section1 {
   height: 80vh;
+  width: 100vw;
   color: rgb(240, 231, 231);
 }
 .mainBackground {
-  background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop.jpeg);
+  background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop.jpeg) no-repeat;
+  width: 100vw;
   height: 600px;
   background-size: cover;
   background-blend-mode: darken;
 }
-
+/* @media (max-width:570px){
+  .mainBackground{
+    width: 590px;
+  }
+  .navbar{
+    width: 590px;
+  }
+} */
 .mainSection .firsthalf1 {
   align-items: flex-end;
   justify-content: flex-end;
@@ -354,7 +375,12 @@ display: none;
     max-width: 65rem;
     flex-direction: column;
   }
-  
+  .mainBackground{
+    width: 868px;
+  }
+  .navbar{
+    width: 868px;
+  }
   
 }
 
@@ -420,6 +446,7 @@ display: none;
 
 .section3 .section3content .symptoms {
   justify-content: space-evenly;
+  flex-wrap: wrap;
   display: flex;
   width: 100%;
 }
