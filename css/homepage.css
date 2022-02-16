@@ -162,8 +162,8 @@
   width: 100vw;
   background-position: center;
   background-size: cover; 
-  animation: body-slide-down 400ms ease-out; 
-  animation-delay: 3s; 
+  animation: body-slide-down 1100ms ease-out; 
+  animation-delay: 2.5s; 
 }
 
 .text1{
@@ -600,7 +600,7 @@ margin-left: -40px;
 
 @keyframes body-slide-down{
   0%{
-    transform: translateY(-30%);
+    transform: translateY(-60%);
     opacity: 0;
   }
   100%{
