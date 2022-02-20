@@ -136,6 +136,7 @@
 /* quick navigation starts here */
 html {
   width: 100vw;
+  overflow-x: hidden;
 }
 body {
   width: 100vw;
@@ -1030,7 +1031,13 @@ footer p {
 }
 
 @media only screen and (max-width: 590px) {
+  html {
+    width: 200vw !important;
+  }
   body {
-    width: 210vw;
+    width: 200vw;
+  }
+  .navbar {
+    height: 7%;
   }
 }
