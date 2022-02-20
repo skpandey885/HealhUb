@@ -139,6 +139,7 @@ html {
 }
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 .subMenu {
   /* flex-direction: column; */
@@ -1025,5 +1026,11 @@ footer p {
 @media only screen and (max-width: 420px) {
   .section3content {
     width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  body {
+    width: 210vw;
   }
 }
