@@ -11,9 +11,10 @@
 
 /* Navbar CSS Start */
 .navbar {
-  position: relative;
+  position: absolute !important;
   transition: 0.5s;
   z-index: 999;
+  background: transparent;
 }
 .navbar-nav {
   margin-left: auto;
@@ -75,6 +76,12 @@
   margin-top: -3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media (max-width: 373px) {
+  #logoname {
+    font-size: 28px;
+    margin-left: -110px;
+  }
+}
 
 @media (min-width: 992px) {
   .navbar {
@@ -134,14 +141,7 @@
 /* content starts here */
 
 /* quick navigation starts here */
-html {
-  width: 100vw;
-  overflow-x: hidden;
-}
-body {
-  width: 100vw;
-  overflow-x: hidden;
-}
+
 .subMenu {
   /* flex-direction: column; */
   position: fixed;
@@ -258,6 +258,7 @@ body {
   align-items: flex-end;
   justify-content: flex-end;
   padding: 20px 28px;
+  margin: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -266,8 +267,8 @@ body {
 /* 2nd Section */
 
 .section2 {
-  margin: 80px 0;
-  padding: 10px 0;
+  margin: 80px auto;
+  padding: 10px 20px;
 }
 
 .heading {
@@ -894,7 +895,6 @@ footer p {
   padding-left: 15px ;
   padding-bottom: 6px ;
 }
-
 .table td {
   display: inl;
 } */
@@ -943,7 +943,7 @@ footer p {
   }
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .section2 .secondhalf3 .oneSection {
     flex-direction: column;
     /* margin-left: 2%;
@@ -952,14 +952,7 @@ footer p {
   }
 }
 
-@media (max-width: 850px) {
-  .section3 .section3content .someinfo {
-    width: 85%;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .section3 .section3content .someinfo {
     width: 90%;
   }
@@ -973,7 +966,7 @@ footer p {
   }
 }
 
-@media (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .section3 .section3content .someinfo {
     width: 93%;
   }
@@ -985,9 +978,32 @@ footer p {
   .section3 .section3content .someinfo .note {
     margin: 0 111px;
   }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+  .card-body {
+    width: 120%;
+  }
 }
 
-@media (max-width: 550px) {
+@media only screen and (max-width: 550px) {
+  body {
+    min-width: 120%;
+  }
+  .blog-post {
+    min-width: 100%;
+  }
+  .blog-post-img {
+    height: 100%;
+  }
+
   .section3 .section3content .someinfo {
     width: 96%;
   }
@@ -1022,30 +1038,13 @@ footer p {
     background-size: cover;
     background-blend-mode: darken;
   }
-}
-
-@media only screen and (max-width: 420px) {
-  .section3content {
-    width: 100vw;
-  }
-}
-
-@media only screen and (max-width: 590px) {
-  html {
-    width: 200vw !important;
-  }
-  body {
-    width: 200vw;
-  }
-  .navbar {
-    height: 7%;
-  }
-  .section3 {
+  .blog-post {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column !important;
   }
-  .section3content {
+}
+@media only screen and (max-width: 380px) {
+  body {
     width: 100%;
   }
 }
