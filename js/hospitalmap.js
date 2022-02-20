@@ -1,5 +1,5 @@
 
-const APIkey = "****API KEY HERE****";
+const APIkey = "API_KEY_HERE";   //Generate an API key from Google Maps Service and replace "API_KEY_HERE" 
 
 function fetchUrl(){
   var url = `https://maps.googleapis.com/maps/api/js?key=${APIkey}&callback=initMap&libraries=places&v=weekly`;
@@ -17,15 +17,15 @@ embed.appendChild(script);
 function initMap() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((pos) => {
-        const uluru = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        const myLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 15,
-          center: uluru,
+          center: myLoc,
 
 
         })   
         var request = {
-          location: uluru,
+          location: myLoc,
           radius: 1000,
           types: ['hospital', 'health']
         };
