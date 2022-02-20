@@ -1040,4 +1040,12 @@ footer p {
   .navbar {
     height: 7%;
   }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3content {
+    width: 100%;
+  }
 }
