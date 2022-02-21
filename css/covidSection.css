@@ -11,7 +11,7 @@
 
 /* Navbar CSS Start */
 .navbar {
-  position: absolute !important;
+  position: relative;
   transition: 0.5s;
   z-index: 999;
   background: transparent;
