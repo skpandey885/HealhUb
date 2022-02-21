@@ -986,6 +986,7 @@ footer p {
   }
   .col {
     display: flex;
+
     justify-content: center;
   }
   .card-body {
@@ -995,59 +996,30 @@ footer p {
 
 @media only screen and (max-width: 550px) {
   body {
-    min-width: 120%;
+    min-width: 250%;
   }
   .navbar {
-    zoom: 1.2;
+    zoom: 2.5;
   }
-  .blog-post {
-    min-width: 100%;
-  }
-  .blog-post-img {
-    height: 100%;
-  }
-
-  .section3 .section3content .someinfo {
-    width: 96%;
-  }
-
-  .section3 .section3content .someinfo .info {
-    margin: 8px 7px;
+  .row {
+    display: flex;
     flex-direction: column;
   }
-
-  .section3 .section3content .someinfo .info .infoText {
-    margin-top: 1px;
-    margin-bottom: 1rem;
-    padding: 0 6px;
+  .section1,
+  .section2 {
+    zoom: 2.5;
   }
-
-  .section3 .section3content .someinfo .note {
-    margin: 0 25px;
+  .section3 {
+    zoom: 2;
   }
-  .mainSection .firsthalf1 {
-    padding-right: 5px;
+  .dos,
+  .donts {
+    margin: 0;
   }
-  .mainSection .firsthalf1 h1 {
-    font-size: 35px;
+  .text-center button {
+    zoom: 2;
   }
-
-  .mainSection .firsthalf1 h2 {
-    font-size: 30px;
-  }
-
-  .mainBackground {
-    background: rgba(0, 0, 0, 0.2) url(../assets/covidSectionTop2nd.jpeg);
-    background-size: cover;
-    background-blend-mode: darken;
-  }
-  .blog-post {
-    display: flex;
-    flex-direction: column !important;
-  }
-}
-@media only screen and (max-width: 380px) {
-  body {
-    width: 100%;
+  footer {
+    zoom: 2;
   }
 }
