@@ -997,6 +997,9 @@ footer p {
   body {
     min-width: 120%;
   }
+  .navbar {
+    zoom: 1.2;
+  }
   .blog-post {
     min-width: 100%;
   }
