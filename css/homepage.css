@@ -178,6 +178,7 @@ font-size: 25px;
      text-decoration: none;
      color:#222222;
      padding: 50px;
+     font-weight: bolder;
    } 
 #getstartedbutton{
     box-shadow: 0 0 3px #dfdddd;
@@ -195,6 +196,9 @@ font-size: 25px;
 }
 #watermessage{
 text-align: center;
+margin-top:20px;
+border:2px solid lightblue;
+border-radius:30px;
 }
 .card {
 box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
@@ -220,20 +224,42 @@ margin-right: 35px;
 color: #f8ffff;
   margin-top: 100px;
   word-spacing: 5px;
-     text-shadow: 0 0 3px #000000;
+     margin: 5%;
+     font-size:2vw;
+}
 
+.container2 h2:hover{
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+div.transbox {
+  margin: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-radius: 50px;
+}
+
+div.transbox:hover {
+  margin: 30px;
+  background-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: 0.3s ease-in-out;
+  ;
 }
 
 #explorebutton button{
-  
+  font-family: 'Baloo 2', cursive;
 margin-left: 40vw;
   display: inline-block;
-font-size: 17px;
-padding: 2vh 2vw;
-border-radius: 5px;
-background-color:rgba(0, 225, 255, 0.616);
+font-size: 2vw;
+padding: 1vh 1vw;
+border-radius: 15px;
+background-color:rgba(101, 179, 101, 0.925);
 transition: 0.2s ease-in-out ;
 transition-property: all;
+font-weight: bold;
 }
 #explorebutton button:hover{
 
@@ -538,12 +564,17 @@ footer p {
         font-size: 15px;
     }
   }
-  @media (max-width:425px){
+  @media (max-width:800px){
   
     .container2 h2{
-      font-size: 5vw;
+      font-size: 4vw;
       margin-top: 50px;
     }
+    #explorebutton button{
+      font-size: 2.5vw;
+      padding:1.5vw;
+    }
+  
   }
 
   @media (min-width:426px) and (max-width:768px){
@@ -581,9 +612,14 @@ margin-left: 100px;
 }
 }
 @media (min-width:336px) and (max-width:575px){
+  #explorebutton button {
+    font-size: 4.4vw;
+    padding: 1.5vw;}
 #learnmore{
-
-display: none;
+   
+    margin-top: 18vw;
+    margin-left: -7vw;
+/*display: none;*/
 }
 }
 

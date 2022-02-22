@@ -130,7 +130,12 @@
   }
   
   /* Navbar CSS End */
-
+  
+body{
+  background-color: #d5fefd;
+background-image: linear-gradient(135deg, #d5fefd 0%, #d3f0dd 74%);
+  
+}
   /* heading */
 #medical_header {
   background: rgba(0, 0, 0, 0.2) url("../assets/mediclHelp.jpg");
@@ -178,6 +183,51 @@
     grid-template-columns: auto auto;
     flex-direction: column;
     padding: 1rem;
+   margin-top:5vw;
+   margin-bottom:5vw;
+    background-color: #DDFFF7;
+	position: relative;
+	box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
+  }
+  .disease:after, .box:before{
+    mix-blend-mode:multiply;
+    filter:none;
+    z-index: -1;
+    content:'';
+    width:calc(100% + (50px * 2));
+    height:calc(100% + (50px * 2));
+    position: absolute;
+    display: block;
+    animation: border 10s ease-in-out infinite;
+    transform:translateX(-50px) translateY(-50px);
+  }
+  @keyframes border {
+    0%, 100% {
+      -webkit-clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+              clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+    }
+    50% {
+      -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+              clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+    }
+  }
+  
+  .disease:after{
+    animation-delay: -5s;
+    background-color: #93e1d8;
+    clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+  }
+  .disease:before {
+    background-color: #AA4465;
+      clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+  }
+  
+  .disease:hover:after{
+    animation-delay: -0.1s;
+  }
+  .disease:hover:before, .box:hover:after {
+  
+            animation-duration: 0.2s;
   }
   .causes {
       width: auto;
@@ -185,7 +235,12 @@
       padding: 1rem;
       border: 3px solid gray;
       border-radius: 20px;
-      background-color: #eee;
+      background: rgba( 255, 255, 255, 0.25 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
       font-family: 'Source Sans Pro', sans-serif;
   }
   .causes h3{
@@ -199,7 +254,13 @@
     padding: 1rem;
     border: 3px solid gray;
     border-radius: 20px;
-    background-color: #eee;
+  
+background: rgba( 166, 250, 186, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Source Sans Pro', sans-serif;
   }
   .precautions h3{
@@ -208,12 +269,18 @@
       color: #1f1275;
   }
   .symptoms{
+    background: rgba( 242, 123, 123, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
       width: auto;  
      margin: 2rem 2rem;
       padding: 1rem;
-      border: 3px solid gray;
+      border: 1px solid gray;
       border-radius: 20px;
-      background-color: #eee;
+     
       font-family: 'Source Sans Pro', sans-serif;
   }
   .symptoms h3{
@@ -227,7 +294,12 @@
     padding: 1rem;
     border: 3px solid gray;
     border-radius: 20px;
-    background-color: #eee;
+background: rgba( 166, 250, 186, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-family: 'Source Sans Pro', sans-serif;
   }
   .medicines h3{
