@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap");
 * {
   /* scroll-behavior: smooth; */
   margin: 0%;
@@ -8,7 +8,11 @@
   list-style-type: none;
   box-sizing: border-box;
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* Navbar CSS Start */
 .navbar {
   position: relative;
@@ -81,9 +85,10 @@ body {
   font-size: 14px;
   width: 100vw;
   overflow-x: hidden;
+  font-family: "Baloo Bhaijaan 2", cursive;
 }
 #banner {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -138,15 +143,46 @@ body {
   background-size: cover;
   clip-path: polygon(0 0, 33% 0, 33% 100%, 0 100%);
 }
+.box1::before {
+  content: "Click me!";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  padding: 10rem;
+  align-items: center;
+  font-size: 2rem;
+}
 .box2 {
   background-image: url(../assets/hand\ wash.png);
   background-size: cover;
   clip-path: polygon(33% 0, 67% 0, 67% 100%, 33% 100%);
 }
+.box2::before {
+  content: "Click me!";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
 .box3 {
   background-image: url(../assets/hand\ senetizer.jpg);
   background-size: cover;
   clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
+}
+.box3::before {
+  content: "Click me!";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  padding: 10rem;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2rem;
 }
 .content {
   background-color: #232427;
@@ -294,6 +330,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.country {
+  background-color: #93d8e9;
+  border-radius: 0 15px 15px 0;
+}
+#selectCountry {
+  appearance: none;
+  outline: none;
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
 .numbers {
   height: 75%;
 
@@ -367,6 +422,9 @@ body {
   .sts-box > * {
     width: 90%;
     margin: 1rem;
+  }
+  .country {
+    border-radius: 0;
   }
   .numbers {
     grid-template-columns: 1fr;
