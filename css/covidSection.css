@@ -390,7 +390,7 @@ body {
   align-items: flex-start;
 }
 .w-recovered i {
-  color: #26e400;
+  color: #25d102;
 }
 .w-deaths {
   grid-area: dths;
@@ -409,7 +409,6 @@ body {
 .w-perc {
   width: 80%;
   grid-area: perc;
-
   padding: 0.5rem;
   border-radius: 10px;
   display: flex;
@@ -439,7 +438,6 @@ body {
   .numbers {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-
     grid-template-areas:
       "cases"
       "rec"
