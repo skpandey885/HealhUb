@@ -155,7 +155,7 @@ body {
   height: 10%;
   opacity: 0.5;
   z-index: -1;
-  border-radius: 6px;
+  border-radius: 13px;
 }
 .box2 {
   background-image: url(../assets/hand\ wash.png);
@@ -173,7 +173,7 @@ body {
   height: 10%;
   opacity: 0.5;
   z-index: -1;
-  border-radius: 6px;
+  border-radius: 13px;
 }
 .box3 {
   background-image: url(../assets/hand\ senetizer.jpg);
@@ -192,7 +192,7 @@ body {
   height: 10%;
   opacity: 0.5;
   z-index: -1;
-  border-radius: 6px;
+  border-radius: 13px;
 }
 .content {
   background-color: #232427;
