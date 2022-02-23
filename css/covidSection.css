@@ -144,14 +144,18 @@ body {
   clip-path: polygon(0 0, 33% 0, 33% 100%, 0 100%);
 }
 .box1::before {
+  background-color: #232427;
   content: "Click me!";
-  height: 100%;
-  width: 100%;
-  position: absolute;
   display: flex;
-  padding: 10rem;
+  justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  position: absolute;
+  left: 7.5rem;
+  width: 10%;
+  height: 10%;
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 6px;
 }
 .box2 {
   background-image: url(../assets/hand\ wash.png);
@@ -159,14 +163,17 @@ body {
   clip-path: polygon(33% 0, 67% 0, 67% 100%, 33% 100%);
 }
 .box2::before {
+  background-color: #232427;
   content: "Click me!";
-  height: 100%;
-  width: 100%;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 6px;
 }
 .box3 {
   background-image: url(../assets/hand\ senetizer.jpg);
@@ -174,15 +181,18 @@ body {
   clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
 }
 .box3::before {
+  background-color: #232427;
   content: "Click me!";
-  height: 100%;
-  width: 100%;
-  position: absolute;
   display: flex;
-  padding: 10rem;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  position: absolute;
+  right: 7.5rem;
+  width: 10%;
+  height: 10%;
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 6px;
 }
 .content {
   background-color: #232427;
@@ -312,12 +322,17 @@ body {
 }
 .sts-box {
   display: flex;
+  padding: 1rem 0;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
-
-.sts-box > * {
+.sts-box hr {
+  border-top: 2px solid rgb(73, 73, 73);
+  width: 100%;
+}
+.country,
+.world {
   width: 100%;
   height: 40%;
 }
@@ -330,6 +345,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.world {
+  height: 45%;
 }
 .country {
   border-radius: 0 15px 15px 0;
@@ -425,7 +443,6 @@ body {
   }
   .sts-box {
     flex-direction: column;
-    justify-content: center;
   }
   .sts-box > * {
     width: 90%;
