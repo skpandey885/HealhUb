@@ -1,12 +1,11 @@
-// js for nav bar 
+// js for nav bar
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 0 && $(window).width() > 992) {
-      $(".navbar").addClass("nav-sticky");
-    } else if ($(window).width() < 992) {
-      $(".navbar").addClass("nav-sticky");
-    } else $(".navbar").removeClass("nav-sticky");
-  });
-
+  if ($(this).scrollTop() > 0 && $(window).width() > 992) {
+    $(".navbar").addClass("nav-sticky");
+  } else if ($(window).width() < 992) {
+    $(".navbar").addClass("nav-sticky");
+  } else $(".navbar").removeClass("nav-sticky");
+});
 
 // js for bottom to top button
 $(document).ready(function () {
@@ -23,79 +22,61 @@ $(document).ready(function () {
   });
 });
 
-  // js for the table 
+// js for the table
+var wtcases = $("#w-cases");
+var wtrec = $("#w-recovered");
+var wtdths = $("#w-deaths");
+var wtperc = $("#w-perc");
+var ctcases = $("#c-cases");
+var ctrec = $("#c-recovered");
+var ctdths = $("#c-deaths");
+var ctperc = $("#c-perc");
+// function worldGet() {
+//   var url = '"https://api.covid19api.com/summary';
+//   $.get(url, function (worldData) {
+//     wtcases.innerHTML("5");
+//   });
+// }
+// worldGet();
+axios.get("https://api.covid19api.com/summary").then(function (response) {
+  console.log(response.data.Countries[0].Country);
+  perc =
+    (response.data.Global.TotalRecovered /
+      response.data.Global.TotalConfirmed) *
+    100;
+  wtcases.html(response.data.Global.TotalConfirmed);
+  wtrec.html(response.data.Global.TotalRecovered);
+  wtdths.html(response.data.Global.TotalDeaths);
+  wtperc.html(perc);
+});
 
-  let covidTable = document.getElementById('covidTable');
-let man = 'i amd man'
+var url = "https://api.covid19api.com/summary";
+axios.get(url).then(function (response) {
+  for (var n = 0; n < response.data.Countries.length; n++) {
+    $("#selectCountry").append(
+      "<option>" + response.data.Countries[n].Country + "</option>"
+    );
+  }
+});
 
-var requestOptions = {
-    method: 'GET',
-    redirect: 'follow'
-};
+function showData() {
+  axios.get("https://api.covid19api.com/summary").then(function (response) {
+    for (var c = 0; c < response.data.Countries.length; c++) {
+      var selected = $("#selectCountry").find("option:selected").text();
 
-fetch("https://corona.lmao.ninja/v2/countries/Australia,Chile,Germany,Hungary,India", requestOptions)
-    .then(response => response.json())
-    .then(result => {
-        covidTable.innerHTML=`<table class="table table-bordered table-hover">
-<thead class="thead-dark">
-    <tr>
-        <th scope="col">S.No</th>
-        <th scope="col">Country</th>
-        <th scope="col">Total Cases</th>
-        <th scope="col">Critical Cases</th>
-        <th scope="col">Total Deaths</th>
-        <th scope="col">Recovered</th>
-        <th scope="col">Total Active Cases</th>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <th scope="row">1</th>
-        <td data-label="Country">${result[0].country}</td>
-        <td data-label="Cases">${result[0].cases}</td>
-        <td data-label="Critical Cases" class="newDeaths" >${result[0].critical}</td>
-        <td data-label="Deaths">${result[0].deaths}</td>
-        <td data-label="Recovered" class="newCases" >${result[0].recovered}</td>
-        <td data-label="Active">${result[0].active}</td>
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <td data-label="Country">${result[1].country}</td>
-        <td data-label="Cases">${result[1].cases}</td>
-        <td data-label="Critical Cases" class="newDeaths" >${result[1].critical}</td>
-        <td data-label="Deaths">${result[1].deaths}</td>
-        <td data-label="Recovered" class="newCases" >${result[1].recovered}</td>
-        <td data-label="Active">${result[1].active}</td>
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <td data-label="Country">${result[2].country}</td>
-        <td data-label="Cases">${result[2].cases}</td>
-        <td data-label="Critical Cases" class="newDeaths" >${result[2].critical}</td>
-        <td data-label="Deaths">${result[2].deaths}</td>
-        <td data-label="Recovered" class="newCases" >${result[2].recovered}</td>
-        <td data-label="Active">${result[2].active}</td>
-    </tr>
-    <tr>
-        <th scope="row">4</th>
-        <td data-label="Country">${result[3].country}</td>
-        <td data-label="Cases">${result[3].cases}</td>
-        <td data-label="Critical Cases" class="newDeaths" >${result[3].critical}</td>
-        <td data-label="Deaths">${result[3].deaths}</td>
-        <td data-label="Recovered" class="newCases" >${result[3].recovered}</td>
-        <td data-label="Active">${result[3].active}</td>
-    </tr>
-    <tr>
-        <th scope="row">5</th>
-        <td data-label="Country">${result[4].country}</td>
-        <td data-label="Cases">${result[4].cases}</td>
-        <td data-label="Critical Cases" class="newDeaths" >${result[4].critical}</td>
-        <td data-label="Deaths">${result[4].deaths}</td>
-        <td data-label="Recovered" class="newCases" >${result[4].recovered}</td>
-        <td data-label="Active">${result[4].active}</td>
-    </tr>
-</tbody>
-</tabActive
-`
-    })
-    .catch(error => console.log('error', error));
+      if (response.data.Countries[c].Country == selected) {
+        console.log("yayy");
+        perc =
+          (response.data.Countries[c].TotalRecovered /
+            response.data.Countries[c].TotalConfirmed) *
+          100;
+        ctcases.html(response.data.Countries[c].TotalConfirmed);
+        ctrec.html(response.data.Countries[c].TotalRecovered);
+        ctdths.html(response.data.Countries[c].TotalDeaths);
+        ctperc.html(perc);
+        break;
+      }
+    }
+  });
+}
+showData();
