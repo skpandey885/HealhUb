@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap");
 
 * {
   /* scroll-behavior: smooth; */
@@ -132,33 +133,82 @@
     font-size: 35px;
   }
 }
-
+body {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  overflow-x: hidden;
+}
 /* Navbar end */
+#banner {
+  height: 100vh;
+}
+
+.banner-img {
+  width: 40%;
+}
+.b-content {
+  display: flex;
+}
+.b-title {
+  padding: 0 5rem;
+}
+#t-carousel {
+  height: 100vh;
+  width: auto;
+
+  transform: translateY(-100%);
+}
+#t-carousel > * {
+  width: 100vw;
+}
+#ques {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 #gender {
   height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #00c0d0;
 }
 #gender > * {
   height: 50%;
-  width: 20rem;
+  width: 20%;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  border: 1px solid black;
+  background: #00c0d0;
   border-radius: 15px;
+  box-shadow: inset 9.91px 9.91px 20px #00a3b1,
+    inset -9.91px -9.91px 20px #00ddef;
+  transition: 1s;
+  outline: none;
+  border: none;
 }
 #gender img {
   height: 10rem;
   transition: 1s;
 }
-.male:hover .male-img,
-.female:hover .female-img {
+.male:hover,
+.female:hover {
   transform: scale(1.15);
 }
+#age {
+  height: 100vh;
+  padding: 0 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#age img {
+  height: 20rem;
+}
+
 /*** Footer ***/
 
 footer {
