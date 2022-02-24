@@ -155,8 +155,10 @@ body {
   height: 100vh;
   width: auto;
 
-  transform: translateY(-100%);
+  transition: 1s;
+  transform: translateY(-200%);
 }
+
 #t-carousel > * {
   width: 100vw;
 }
@@ -199,8 +201,11 @@ body {
   transform: scale(1.15);
 }
 #age {
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
   height: 100vh;
-  padding: 0 7rem;
+  padding: 0 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -208,7 +213,25 @@ body {
 #age img {
   height: 20rem;
 }
-
+.a-radio {
+  display: flex;
+  flex-direction: column;
+}
+.a-radio > * {
+  width: 20rem;
+  background-color: #00c0d0;
+}
+.a-radio > *:focus {
+  background-color: #00a3b1;
+}
+#goal {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00c0d0;
+}
 /*** Footer ***/
 
 footer {
