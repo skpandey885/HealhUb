@@ -152,7 +152,13 @@ body {
 }
 .b-title {
   width: 70%;
-  padding: 0 5rem;
+  padding: 0 3rem 0 5rem;
+}
+.b-title h1 {
+  font-size: 3rem;
+}
+.b-title p {
+  font-size: 1.25rem;
 }
 .flex {
   display: flex;
@@ -379,7 +385,12 @@ body {
   -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
   width: 100vw;
+
   height: auto;
+  display: flex;
+  flex-direction: column;
+}
+#workout {
   padding: 0 5rem;
 }
 #workout h1 {
@@ -413,7 +424,49 @@ body {
     width: 100%;
   }
 }
-
+#food {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 20rem;
+  width: 100vw;
+  height: 100vh;
+  padding: 20rem 5rem 0 5rem;
+}
+#food ul li {
+  list-style-type: decimal;
+  padding: 1rem 0;
+}
+#food img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#prod {
+  margin-top: 20rem;
+  padding: 0 5rem;
+  margin-bottom: 5rem;
+}
+#prod img {
+  width: 50%;
+}
+#reload {
+  width: auto;
+  margin: 5rem 0;
+  outline: none;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1rem 0;
+  background-color: #00c0d0;
+  color: white;
+}
+#reload:hover {
+  background-color: #525252;
+}
 /*** Footer ***/
 
 footer {
