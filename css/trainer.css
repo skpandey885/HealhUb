@@ -431,11 +431,14 @@ body {
   padding-top: 20rem;
   width: 100vw;
   height: 100vh;
-  padding: 20rem 5rem 0 5rem;
+  padding: 0 5rem;
+  margin-top: 10rem;
 }
 #food ul li {
-  list-style-type: decimal;
+  list-style-type: none;
   padding: 1rem 0;
+  padding-left: 0;
+  list-style-position: inside;
 }
 #food img {
   display: block;
@@ -466,6 +469,29 @@ body {
 }
 #reload:hover {
   background-color: #525252;
+}
+@media only screen and (max-width: 680px) {
+  #workout,
+  #food,
+  #prod {
+    padding: 0 3rem;
+  }
+  .flex {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 610px) {
+  #workout,
+  #food,
+  #prod {
+    padding: 0 1rem;
+  }
+  #food {
+    padding-right: 2rem;
+  }
+  #food > * {
+    width: 80%;
+  }
 }
 /*** Footer ***/
 
