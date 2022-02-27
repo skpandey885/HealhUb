@@ -33,7 +33,12 @@ $(document).ready(function () {
           cards[i].getElementsByClassName("category-active")[0].classList.remove("category-active");
           cards[i].getElementsByClassName("category")[j].classList.add("category-active");
           console.log(`added active category class to ${categories[j].innerHTML} of card ${i+1}`);
-          cards[i].getElementsByClassName("indicator")[0].style.left = `${60 + j * (220)}px`;
+          if (screen.width >= 1000){
+            cards[i].getElementsByClassName("indicator")[0].style.left = `${60 + j * (220)}px`;
+          }
+          else{
+            cards[i].getElementsByClassName("indicator")[0].style.left = `${20 + j * (84)}px`
+          }
           cards[i].getElementsByClassName("active")[0].classList.remove("active");
           cards[i].getElementsByClassName("infotext")[j].classList.add("active");
         })

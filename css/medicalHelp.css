@@ -142,7 +142,7 @@
   background-size: cover;
 }
 
-#medical_heading {
+.medical_heading {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -259,6 +259,79 @@
   .active{
     opacity: 1;
     transition: 0.5s ease;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    
+    .medical_heading{
+      font-size: 60px;
+
+      padding-top: 60px;
+      padding-bottom: 50px;
+      letter-spacing: 1px;
+    }
+    .card{
+      width: 400px;
+      height: 700px;
+      margin-top: 40px
+    }
+
+    .card-image{
+      width: 412px;
+      height: 100px;
+      margin-left: -12px;
+    }
+
+    .disease-title{
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 40px;
+    }
+
+    .selection-tab{
+      font-size: 12px; 
+    }
+    
+    .category{
+      width: 80px;
+      height: 16px;
+      margin: 2px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+
+    }
+  
+    .indicator{
+      margin: 20px;
+      margin-top: 15px;
+      padding-bottom: 12px;
+      border-bottom: 3px solid #343148;
+      width: 70px;
+      height: 8px;
+      left: 20px;
+    }
+    
+  
+    .desc > .info{
+      width: 384px;
+      height: 555px;
+      margin-bottom: 16px;
+      font-size: 16px;
+      padding: 20px;
+      padding-top: 8px;
+      border-radius: 4px;
+    }
+    .info > ul > li{
+      margin-bottom: 0px;
+      list-style-image: url("../assets/bullet-icon.svg");
+    }
+  
+    .infotext{
+      padding-right: 20px;
+    }
+
   }
 
   
