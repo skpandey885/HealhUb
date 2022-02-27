@@ -132,9 +132,11 @@
   /* Navbar CSS End */
 
   /* heading */
+
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 #medical_header {
   background: rgba(0, 0, 0, 0.2) url("../assets/mediclHelp.jpg");
-  height: 450px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -146,9 +148,12 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+  font-family: 'Overpass', sans-serif;
   font-size: 100px;
-  padding-top: 140px;
-  text-shadow: 5px 3px #000000;
+  font-weight: 100;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  letter-spacing: 15px;
 }
 
   .main-section {
@@ -160,80 +165,100 @@
 
   /* content starts here */
  
-  .Content{
-      font-size: 1.3rem;
-      display: flex;
-  }
-   .name{
-    margin-top: 1rem !important;
-    text-decoration: underline;
-    text-align: center;
+  .card {
+    width: 1000px;
+    height: 800px;
     margin: auto;
-    font-size: 2.4rem;
-    font-family: 'Noto Serif', serif;
+    margin-top: 100px;
+    border: none;
+    box-shadow: 12px 12px 11px rgb(202, 202, 202);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+  }
 
-  } 
-  .disease{
-    display: grid;
-    grid-template-columns: auto auto;
-    flex-direction: column;
-    padding: 1rem;
+  .card-image{
+    width: 1030px;
+    height: 250px;
+    margin-left: -30px;
   }
-  .causes {
-      width: auto;
-      margin: 2rem 2rem;
-      padding: 1rem;
-      border: 3px solid gray;
-      border-radius: 20px;
-      background-color: #eee;
-      font-family: 'Source Sans Pro', sans-serif;
+
+  .disease-title{
+    font-family: 'Overpass', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 50px;
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
   }
-  .causes h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
+
+  .selection-tab{
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;   
   }
-  .precautions{
-    width: auto;
-    margin: 2rem 2rem;
-    padding: 1rem;
-    border: 3px solid gray;
+  
+  .category{
+    width: 120px;
+    height: 22px;
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #999;
+  }
+
+  .indicator{
+    margin: 50px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #343148;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 60px;
+    transition: 0.3s ease;
+  }
+  
+  .category-active{
+    color: #343148;
+    font-weight: 900;
+    transition: 0.3s ease-in-out;
+  }
+
+  .desc > .info{
+    width: 960px;
+    height: 470px;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+    margin-bottom: 40px;
     border-radius: 20px;
-    background-color: #eee;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding: 20px;
+    padding-top: 40px;
+      
   }
-  .precautions h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
+  .info > ul > li{
+    margin-bottom: 20px;
+    list-style-image: url("../assets/bullet-icon.svg");
   }
-  .symptoms{
-      width: auto;  
-     margin: 2rem 2rem;
-      padding: 1rem;
-      border: 3px solid gray;
-      border-radius: 20px;
-      background-color: #eee;
-      font-family: 'Source Sans Pro', sans-serif;
+
+  .infotext{
+    opacity: 0;
+    position: absolute;
+    padding-right: 30px;
   }
-  .symptoms h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
-  }
-  .medicines{
-    width: auto;
-    margin: 2rem 2rem;
-    padding: 1rem;
-    border: 3px solid gray;
-    border-radius: 20px;
-    background-color: #eee;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  .medicines h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
+  .active{
+    opacity: 1;
+    transition: 0.5s ease;
   }
 
   
