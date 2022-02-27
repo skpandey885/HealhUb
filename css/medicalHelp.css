@@ -172,7 +172,7 @@
     margin-top: 100px;
     border: none;
     box-shadow: 12px 12px 11px rgb(202, 202, 202);
-    border-radius: 30px;
+    border-radius: 10px;
     overflow: hidden;
     text-align: center;
   }
@@ -237,13 +237,13 @@
     background-color: rgb(230, 230, 230);
     margin: auto;
     margin-bottom: 40px;
-    border-radius: 20px;
     font-family: 'Overpass', sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: left;
     padding: 20px;
     padding-top: 40px;
+    border-radius: 10px;
       
   }
   .info > ul > li{
