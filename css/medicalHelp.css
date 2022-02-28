@@ -5,6 +5,10 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+*::-webkit-scrollbar{
+  display: none;
+}
 /* Navbar CSS Start */
 .navbar {
     position: relative;
@@ -132,23 +136,28 @@
   /* Navbar CSS End */
 
   /* heading */
+
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 #medical_header {
   background: rgba(0, 0, 0, 0.2) url("../assets/mediclHelp.jpg");
-  height: 450px;
   width: 100%;
   background-position: center;
   background-size: cover;
 }
 
-#medical_heading {
+.medical_heading {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 100px;
-  padding-top: 140px;
-  text-shadow: 5px 3px #000000;
+  font-family: 'Overpass', sans-serif;
+  font-size: 700%;
+  font-weight: 100;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  letter-spacing: 15px;
 }
 
   .main-section {
@@ -160,80 +169,183 @@
 
   /* content starts here */
  
-  .Content{
-      font-size: 1.3rem;
-      display: flex;
-  }
-   .name{
-    margin-top: 1rem !important;
-    text-decoration: underline;
-    text-align: center;
+  .card {
+    width: 60%;
+    height: 48%;
     margin: auto;
-    font-size: 2.4rem;
-    font-family: 'Noto Serif', serif;
+    margin-top: 6%;
+    border: none;
+    box-shadow: 12px 12px 11px rgb(202, 202, 202);
+    border-radius: 0px;
+    overflow: hidden;
+    text-align: center;
+  }
 
-  } 
-  .disease{
-    display: grid;
-    grid-template-columns: auto auto;
-    flex-direction: column;
-    padding: 1rem;
+  .card-image{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
   }
-  .causes {
-      width: auto;
-      margin: 2rem 2rem;
-      padding: 1rem;
-      border: 3px solid gray;
-      border-radius: 20px;
-      background-color: #eee;
-      font-family: 'Source Sans Pro', sans-serif;
+  .card-image-main{
+    height: 100%;
   }
-  .causes h3{
+
+  .disease-title{
+    font-family: 'Overpass', sans-serif;
+    font-size: 600%;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5%;
+    position: absolute;
+    color: #fff;
+    margin-top: 10%;
+    top: -5%;
+  }
+
+  .selection-tab{
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;   
+  }
+  
+  .category{
+    width: 15%;
+    height: 10%;
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    color: #999;
+    text-align: center;
+  }
+
+  .indicator{
+    margin-top: 2%;
+    border-bottom: 4px solid #343148;
+    position: absolute;
+    width: 15%;
+    height: 2.8%;
+    left: 5%;
+    transition: 0.3s ease;
+  }
+  
+  .category-active{
+    color: #343148;
+    font-weight: 900;
+    transition: 0.3s ease-in-out;
+  }
+
+  .desc > .info{
+    width: 95%;
+    height: 80vh;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+    margin-bottom: 3%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    text-align: left;
+    padding: 3%;
+    padding-top: 3%;
+    border-radius: 0;
+    padding-right: 12%;
+      
+  }
+  .info > ul > li{
+    margin-bottom: 2%;
+    padding-right: 4%;
+    text-align: left;
+    list-style-image: url("../assets/bullet-icon.svg");
+  }
+
+  .infotext{
+    opacity: 0;
+    position: absolute;
+    padding-right: 4%;
+  }
+  .active{
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+
+
+  @media (max-width: 768px) {
+    .medical_heading{
+      font-size: 300%;
+      letter-spacing: 5px;
+    }
+
+    .card {
+      width: 85%;
+      height: 88%;
+      box-shadow: 6px 6px 4px rgb(202, 202, 202);
+    }
+  
+    .card-image{
+      width: 100%;
+      height: 15vh;
+    }
+    .card-image-main{
+      height: 15vh;
+      position: absolute;
+      left: -10vh;
+    }
+  
+    .disease-title{
+      font-family: 'Overpass', sans-serif;
+      font-size: 250%;
+      padding-left: 5%;
+      margin-top: 20%;
+      top: -5%;
+    }
+  
+    .selection-tab{
+      font-size: 80%;
+    }
+    
+    .category{
+      width: 25%;
+      height: 10%;
+      margin: 0%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      cursor: pointer;
+      color: #999;
       text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
-  }
-  .precautions{
-    width: auto;
-    margin: 2rem 2rem;
-    padding: 1rem;
-    border: 3px solid gray;
-    border-radius: 20px;
-    background-color: #eee;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  .precautions h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
-  }
-  .symptoms{
-      width: auto;  
-     margin: 2rem 2rem;
-      padding: 1rem;
-      border: 3px solid gray;
-      border-radius: 20px;
-      background-color: #eee;
-      font-family: 'Source Sans Pro', sans-serif;
-  }
-  .symptoms h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
-  }
-  .medicines{
-    width: auto;
-    margin: 2rem 2rem;
-    padding: 1rem;
-    border: 3px solid gray;
-    border-radius: 20px;
-    background-color: #eee;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  .medicines h3{
-      text-align: center;
-      font-size: 2rem;
-      color: #1f1275;
+    }
+  
+    .indicator{
+      margin-top: 2%;
+      width: 20%;
+      height: 2.8%;
+      left: 2.5%;
+    }
+    
+    .category-active{
+      color: #343148;
+      font-weight: 900;
+      transition: 0.3s ease-in-out;
+    }
+  
+    .desc > .info{
+      width: 95%;
+      height: 80vh;
+      background-color: rgb(230, 230, 230);
+      margin: auto;
+      margin-bottom: 3%;
+      font-family: 'Overpass', sans-serif;
+      font-size: 1.9vh;
+      font-weight: 400;
+      text-align: left;
+      padding: 3%;
+      padding-top: 3%;
+      border-radius: 0;
+      padding-right: 12%;
+        
+    }
   }
 
   
