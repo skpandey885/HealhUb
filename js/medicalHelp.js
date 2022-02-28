@@ -34,10 +34,10 @@ $(document).ready(function () {
           cards[i].getElementsByClassName("category")[j].classList.add("category-active");
           console.log(`added active category class to ${categories[j].innerHTML} of card ${i+1}`);
           if (screen.width >= 1000){
-            cards[i].getElementsByClassName("indicator")[0].style.left = `${60 + j * (220)}px`;
+            cards[i].getElementsByClassName("indicator")[0].style.left = `${5 + j * (25)}%`;
           }
           else{
-            cards[i].getElementsByClassName("indicator")[0].style.left = `${20 + j * (84)}px`
+            cards[i].getElementsByClassName("indicator")[0].style.left = `${2.5 + j * (25)}%`;
           }
           cards[i].getElementsByClassName("active")[0].classList.remove("active");
           cards[i].getElementsByClassName("infotext")[j].classList.add("active");
