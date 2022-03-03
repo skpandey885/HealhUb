@@ -133,11 +133,13 @@
     font-size: 35px;
   }
 }
-
+body {
+  overflow-x: hidden;
+}
 /* Navbar end */
 
-#back {
-  height: 130vh;
+#body-back {
+  height: 180vh;
   background: url(../assets/bodyFat.jpg);
   background-size: cover;
   display: flex;
@@ -148,7 +150,7 @@
 #back > * {
   width: 40%;
 }
-#input {
+#body-input {
   font-size: 2rem;
   display: flex;
   flex-direction: column;
@@ -160,15 +162,17 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 2rem;
+  width: 40%;
 }
-#input input[type="number"] {
+#body-input input[type="number"] {
   outline: none;
   border: none;
+  width: 15rem;
   padding-left: 1rem;
-  height: 3rem;
+  height: 2rem;
 }
 
-#input form {
+#body-input form {
   width: 100%;
   display: flex;
   align-items: center;
@@ -193,31 +197,14 @@ a:active {
 .ratecard {
   background-color: transparent;
   padding: 0.8rem;
-  width: 33rem;
-  border: none;
-}
 
-.rating-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: center;
-  align-items: center;
-  padding: 0.4rem 0.8rem;
-  width: 100%;
+  border: none;
 }
 
 .rating-text p {
   color: rgba(0, 0, 16, 0.8);
   font-size: 1.3rem;
   padding: 0.3rem;
-}
-
-.rating {
-  padding: 0.4rem 0.4rem 0.1rem 0.4rem;
-  border-radius: 2.2rem;
 }
 
 svg {
@@ -237,17 +224,18 @@ svg {
   position: relative;
 }
 
-input[type="radio"] {
+.male,
+.female {
   position: absolute;
   opacity: 0;
 }
 
-input[type="radio"] + svg {
+.male svg,
+.female svg {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-
-input + svg {
+.rating svg {
   cursor: pointer;
 }
 
@@ -276,16 +264,18 @@ input[class="female"]:focus + svg {
   background-color: #93d8e9;
   color: white;
 }
-#result {
-  height: 50%;
+#body-result {
+  height: 40%;
+  width: 45%;
   background: url(../assets/healthy.jpg);
   background-size: cover;
   border-radius: 10px;
   transform-style: preserve-3d;
   perspective: 1000px;
 }
-.blur {
+.body-blur {
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -298,140 +288,26 @@ input[class="female"]:focus + svg {
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
 }
-.blur h1 {
+.body-blur h1 {
+  font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 @media only screen and (max-width: 800px) {
-  #back {
+  #body-back {
     flex-direction: column;
     height: 200vh;
   }
-  #back > * {
+  #body-back > * {
     width: 80%;
   }
-  #result {
+  #body-result {
     height: 40%;
   }
 }
 @media only screen and (max-width: 650px) {
-  #back {
-    height: 130vh;
-  }
-}
-
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  text-align: right;
-  width: 34.6rem;
-  margin: auto;
-}
-
-footer p {
-  font-size: 1.3em;
-}
-
-@media screen and (max-width: 650px) and (max-height: 700px) {
-  body,
-  html {
-    font-size: 0.7rem;
-  }
-  header h1 {
-    font-size: 4em;
-  }
-  footer p {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  body,
-  html {
-    font-size: 0.7rem;
-  }
-  header h1 {
-    font-size: 4em;
-  }
-  footer p {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  body,
-  html {
-    font-size: 0.7rem;
-  }
-  header h1 {
-    font-size: 4em;
-  }
-  footer p {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 450px) and (max-height: 550px) {
-  body,
-  html {
-    font-size: 0.6rem;
-  }
-  header h1 {
-    font-size: 4.6em;
-  }
-  footer p {
-    font-size: 3em;
-  }
-}
-
-@media screen and (max-height: 550px) {
-  body,
-  html {
-    font-size: 0.6rem;
-  }
-  header h1 {
-    font-size: 4.6em;
-  }
-  footer p {
-    font-size: 3em;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  body,
-  html {
-    font-size: 0.6rem;
-  }
-  header h1 {
-    font-size: 4.6em;
-  }
-  footer p {
-    font-size: 3em;
-  }
-}
-
-@media screen and (max-width: 400px) and (max-height: 500px) {
-  body,
-  html {
-    height: 500px;
-    width: 400px;
-  }
-}
-
-@media screen and (max-height: 500px) {
-  body,
-  html {
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body,
-  html {
-    width: 400px;
+  #body-back {
+    height: 200vh;
   }
 }
 /*** Footer ***/
