@@ -79,6 +79,13 @@
   margin-top: -3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media (max-width:373px){
+  #logoname{
+    font-size: 28px;
+    margin-left: -110px;
+  }
+}
 /* Navbar CSS End */
 
 body {
@@ -131,8 +138,34 @@ body {
   transition: 1s;
   color: white;
 }
+.box button{
+  background-color: #232427;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 13px;
+  color: white;
+}
+.box1 button{
+  left: 13%;
+  transform: translate(-13%);
+}
+.box3 button{
+  right: 13%;
+  transform: translate(13%);
+}
 .box.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.box.active button{
+  display: none;
 }
 .box:hover {
   z-index: 2;
@@ -143,57 +176,42 @@ body {
   background-size: cover;
   clip-path: polygon(0 0, 33% 0, 33% 100%, 0 100%);
 }
-.box1::before {
-  background-color: #232427;
-  content: "Click me!";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 7.5rem;
-  width: 10%;
-  height: 10%;
-  opacity: 0.5;
-  z-index: -1;
-  border-radius: 13px;
-}
 .box2 {
   background-image: url(../assets/hand\ wash.png);
   background-size: cover;
   clip-path: polygon(33% 0, 67% 0, 67% 100%, 33% 100%);
-}
-.box2::before {
-  background-color: #232427;
-  content: "Click me!";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 10%;
-  height: 10%;
-  opacity: 0.5;
-  z-index: -1;
-  border-radius: 13px;
 }
 .box3 {
   background-image: url(../assets/hand\ senetizer.jpg);
   background-size: cover;
   clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
 }
-.box3::before {
-  background-color: #232427;
-  content: "Click me!";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 7.5rem;
-  width: 10%;
-  height: 10%;
-  opacity: 0.5;
-  z-index: -1;
-  border-radius: 13px;
+
+@media screen and (max-width: 900px){
+  .box1 {
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0% 33%);
+  }
+  .box2 {
+    clip-path: polygon(0% 33%, 100% 33%, 100% 67%, 0% 67%);
+  }
+  .box3 {
+    clip-path: polygon(0% 67%, 100% 67%, 100% 100%, 0% 100%);
+  }
+  .box button{
+    padding: 10px;
+  }
+  .box1 button{
+    left: 50%;
+    top: 13%;
+    transform: translate(-50% , -13%);
+  }
+  .box3 button{
+    right: 50%;
+    bottom: 13%;
+    transform: translate(50% , 13%);
+  }
 }
+
 .content {
   background-color: #232427;
   padding: 20px;
@@ -208,7 +226,10 @@ body {
 }
 .box.active .content {
   opacity: 1;
+  content: none;
 }
+
+.box.active 
 .content h2 {
   color: white;
 }
@@ -334,12 +355,10 @@ body {
 .country,
 .world {
   width: 100%;
-  height: 40%;
 }
 
 .world,
 .country {
-  height: 70%;
   padding: 0 1rem;
   color: white;
   display: flex;
@@ -347,7 +366,7 @@ body {
   justify-content: space-around;
 }
 .world {
-  height: 45%;
+  height: auto;
 }
 .country {
   border-radius: 0 15px 15px 0;
@@ -439,15 +458,15 @@ body {
 }
 @media only screen and (max-width: 800px) {
   #stats {
-    height: 250vh;
+    height: 260vh;
   }
-  .sts-box {
-    flex-direction: column;
+  .world {
+    height: auto;
+    margin-top: 20px;
   }
-  .sts-box > * {
-    width: 90%;
-    height: 40%;
-    margin: 0 1rem;
+  .country {
+    border-radius: 0 15px 15px 0;
+    margin-bottom: 20px;
   }
   .country {
     border-radius: 0;
@@ -651,6 +670,8 @@ footer p {
 
   footer .f-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   footer .f-container .sec {
@@ -662,6 +683,13 @@ footer p {
   .quickLinks,
   .contact {
     width: 100%;
+  }
+
+  footer .f-container .sec.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   footer .f-container .quickLinks,
