@@ -22,76 +22,34 @@ $(document).ready(function () {
   });
 });
 
-var map;
+var lat = 0;
+var lon = 0;
 
-function initMap() {
-  // Create the map.
-  var pyrmont = {
-    lat: 23.8701334,
-    lng: 90.2713944,
-  };
-  if (navigator.geolocation) {
-    try {
-      navigator.geolocation.getCurrentPosition(function (position) {
-        var pyrmont = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        };
+if ("geolocation" in navigator) {
+  navigator.geolocation.getCurrentPosition(function (position) {
+    lat = position.coords.latitude;
+    lon = position.coords.longitude;
+    console.log(lat, lon);
+    axios
+      .get(
+        "http://www.mapquestapi.com/search/v2/radius?key=jLSFuiva5A1AyFqzlknYnBT5OqKV83g5&origin=" +
+          lat +
+          "," +
+          lon +
+          "&radius=30&hostedData=mqap.ntpois%7Cgroup_sic_code=?%7C806202&maxMatches=25&r&ambiguities=ignore"
+      )
+      .then(function (response) {
+        console.log(response);
       });
-    } catch (err) {}
-  }
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: pyrmont,
-    zoom: 17,
+    L.mapquest.key = "jLSFuiva5A1AyFqzlknYnBT5OqKV83g5";
+
+    // 'map' refers to a <div> element with the ID map
+    L.mapquest.map("map", {
+      center: [lat, lon],
+      layers: L.mapquest.tileLayer("map"),
+      zoom: 12,
+    });
   });
-
-  // Create the places service.
-  var service = new google.maps.places.PlacesService(map);
-
-  // Perform a nearby search.
-  service.nearbySearch(
-    {
-      location: pyrmont,
-      radius: 4000,
-      type: ["hospital"],
-    },
-    function (results, status, pagination) {
-      if (status !== "OK") return;
-
-      createMarkers(results);
-      getNextPage =
-        pagination.hasNextPage &&
-        function () {
-          pagination.nextPage();
-        };
-    }
-  );
+} else {
+  console.log("Browser doesn't support geolocation!");
 }
-
-const mc = require("@google/maps").createClient({
-  key: "AIzaSyBxJSyDiNKrSjxXNAVX2UEk1cAWb9KB_tc",
-});
-
-const location = [-33.878101, 151.220386]; // Darlinghurst, AU
-const r = 1000;
-const request = {
-  location: location,
-  radius: r,
-  type: "hospital",
-  keyword: "hospital",
-};
-
-mc.placesNearby(request, function (err, res) {
-  if (err) {
-    console.log(err);
-    return;
-  }
-  console.log(JSON.stringify(res.json.results.length));
-  console.log(
-    JSON.stringify(
-      res.json.results.map(function (v) {
-        return v.name;
-      })
-    )
-  );
-});

@@ -139,9 +139,13 @@
   height: 500px;
   margin: 10px auto;
   width: 800px;
+  z-index: 0;
 }
 main {
   height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*** Footer ***/
