@@ -28,7 +28,7 @@ tl.from("#lead", 1, { opacity: 0 });
 const scene = new ScrollMagic.Scene({
   triggerElement: "#about",
   triggerHook: "onLeave",
-  duration: "100%",
+  duration: "50%",
 })
   .setPin("#about")
   .setTween(tl)
@@ -45,7 +45,7 @@ t2.fromTo("#inner", 1, { x: "0vw" }, { x: "-300vw", ease: Linear.ease });
 const scene1 = new ScrollMagic.Scene({
   triggerElement: "#intro",
   triggerHook: "onLeave",
-  duration: "400%",
+  duration: "200%",
 })
   .setPin("#intro")
   .setTween(t2)
@@ -64,7 +64,7 @@ t3.from("#privacy", 1, { y: 100, opacity: 0 });
 const scene2 = new ScrollMagic.Scene({
   triggerElement: "#policy",
   triggerHook: "onLeave",
-  duration: "100%",
+  duration: "50%",
 })
   .setPin("#policy")
   .setTween(t3)
@@ -84,7 +84,7 @@ t4.from(".more-details", 1, { y: 100, opacity: 0 });
 const scene3 = new ScrollMagic.Scene({
   triggerElement: "#team",
   triggerHook: "onLeave",
-  duration: "100%",
+  duration: "50%",
 })
   .setPin("#team")
   .setTween(t4)
