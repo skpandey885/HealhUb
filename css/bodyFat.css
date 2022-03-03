@@ -139,7 +139,7 @@ body {
 /* Navbar end */
 
 #body-back {
-  height: 180vh;
+  height: 200vh;
   background: url(../assets/bodyFat.jpg);
   background-size: cover;
   display: flex;
@@ -179,21 +179,6 @@ body {
   flex-direction: column;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: rgba(0, 0, 16, 0.8);
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
-  border-bottom: 0.1em solid rgba(0, 0, 16, 0.8);
-  color: rgba(0, 0, 16, 0.8);
-  text-decoration: none;
-}
-
 .ratecard {
   background-color: transparent;
   padding: 0.8rem;
@@ -207,7 +192,7 @@ a:active {
   padding: 0.3rem;
 }
 
-svg {
+.rating svg {
   fill: rgb(242, 242, 242);
   height: 3.6rem;
   width: 3.6rem;
@@ -312,6 +297,8 @@ input[class="female"]:focus + svg {
 }
 /*** Footer ***/
 
+/*** Footer ***/
+
 footer {
   position: relative;
   width: 100%;
@@ -371,6 +358,7 @@ footer p {
   width: 40px;
   height: 40px;
   background: #222;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,6 +366,9 @@ footer p {
   text-decoration: none;
   border: 2px solid #e9204f;
   border-radius: 10px 100px / 120px;
+}
+.sci li a svg {
+  color: #007bff !important;
 }
 .sci li a:hover {
   height: 45px;
