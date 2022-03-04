@@ -152,7 +152,9 @@ main {
   color: white;
   text-align: center;
 }
-
+main h1 {
+  margin: 0 2rem;
+}
 /*** Footer ***/
 
 footer {
