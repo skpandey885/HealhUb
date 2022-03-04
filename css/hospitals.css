@@ -136,14 +136,25 @@
 /* Navbar end */
 
 #map {
-  height: 500px;
-  margin: 10px auto;
-  width: 800px;
+  height: 30rem;
+  margin: 0 10rem;
+  width: 80%;
+  z-index: 0;
 }
 main {
-  height: 200vh;
+  padding-top: 10rem;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../assets/hospital.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
-
+main h1 {
+  margin: 0 2rem;
+}
 /*** Footer ***/
 
 footer {
