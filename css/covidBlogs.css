@@ -170,6 +170,7 @@ body {
 @media (max-width: 820px) {
   .blog-main {
     padding-top: 0px;
+    margin-bottom: 50px;
   }
   .card-container {
     margin-left: 0px;
