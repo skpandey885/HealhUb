@@ -72,6 +72,14 @@
   margin-top: -3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media (max-width:373px){
+  #logoname{
+    font-size: 28px;
+    margin-left: -110px;
+  }
+}
+
 /* Navbar CSS End */
 
 @media (min-width: 992px) {
@@ -278,6 +286,12 @@ body {
   }
   .container {
     padding: 5%;
+  }
+}
+@media screen and (max-width: 380px){
+  .meet{
+    font-size: 4.4rem;
+    margin-top: 0px;
   }
 }
 /* footer */
