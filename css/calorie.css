@@ -140,7 +140,7 @@ body {
 
 /* Calorie calculator starts*/
 #body-background {
-	height: 100vh;
+	height: 150vh;
 	background: url(../assets/calorie-bg.png) fixed no-repeat;
 	background-size: cover;
 	display: flex;
