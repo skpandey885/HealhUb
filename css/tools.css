@@ -475,6 +475,13 @@ footer p {
     margin-bottom: 20px;
   }
 
+  footer .f-container .sec.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .contact .info li {
     justify-content: center;
     margin-bottom: 10px;
