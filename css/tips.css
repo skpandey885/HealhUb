@@ -185,6 +185,17 @@
     height: 185px;
     width: 225px;
   }
+  .tip-list h3{
+    letter-spacing: 0.3rem;
+    font-size: 1.8em;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .tip-list p{
+    width: 65vw;
+  }
 }
 
 /*** Footer ***/
