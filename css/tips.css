@@ -145,12 +145,13 @@
 }
 
 .tip-list h3 {
-  font-weight: 700px;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.8em;
+  width: 60vw;
 }
 
 .tip-list p {
-  font-size: 20px;
+  width: 65vw;
 }
 
 .row {
