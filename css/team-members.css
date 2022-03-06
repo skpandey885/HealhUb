@@ -288,12 +288,6 @@ body {
     padding: 5%;
   }
 }
-@media screen and (max-width: 380px){
-  .meet{
-    font-size: 4.4rem;
-    margin-top: 0px;
-  }
-}
 /* footer */
 
 /*** Footer ***/
