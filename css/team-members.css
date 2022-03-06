@@ -72,6 +72,14 @@
   margin-top: -3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media (max-width:373px){
+  #logoname{
+    font-size: 28px;
+    margin-left: -110px;
+  }
+}
+
 /* Navbar CSS End */
 
 @media (min-width: 992px) {
