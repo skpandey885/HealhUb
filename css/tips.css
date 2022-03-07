@@ -151,11 +151,14 @@
 }
 
 .tip-list p {
-  width: 65vw;
+  width: 78vw;
 }
 
 .row {
-  margin: 50px 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 3vw;
+  margin-right: 20vw !important;
 }
 
 .tip-list img {
