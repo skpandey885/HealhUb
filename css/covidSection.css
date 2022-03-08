@@ -538,10 +538,10 @@ footer .f-container h2:before {
 footer p {
   color: #999;
   margin-top: 1em;
-  font-size: 19px !important;
+  font-size: 17px !important;
 }
 .aboutus h2{
-  font-size: 40px !important;
+  font-size: 35px !important;
 }
 .sci {
   margin-top: 20px;
@@ -587,7 +587,7 @@ footer p {
   width: 25%;
 }
 .quickLinks h2{
-  font-size: 40px;
+  font-size: 35px;
 }
 .quickLinks ul {
   padding: 0%;
@@ -603,7 +603,7 @@ footer p {
   text-decoration: none;
   margin-bottom: 10px;
   display: inline-block;
-  font-size: 19px !important;
+  font-size: 17px !important;
 }
 
 .quickLinks ul li a:hover {
@@ -615,7 +615,7 @@ footer p {
   margin-right: 0 !important;
 }
 .contact h2{
-  font-size: 40px;
+  font-size: 35px;
 }
 .contact ul {
   padding: 0%;
@@ -636,7 +636,7 @@ footer p {
 
 .contact .info li span {
   color: #999;
-  font-size: 19px !important;
+  font-size: 17px !important;
 }
 
 .contact .info li span a {
@@ -650,7 +650,7 @@ footer p {
 
 .copyrightText {
   position: relative;
-  font-size: 20px !important;
+  font-size: 18px !important;
   width: 100%;
   box-sizing: border-box;
   background-color: #181818;
