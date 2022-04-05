@@ -404,8 +404,7 @@ body {
 .w-cases {
   width: 80%;
   grid-area: cases;
-
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -418,8 +417,7 @@ body {
 .w-recovered {
   width: 80%;
   grid-area: rec;
-
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -432,8 +430,7 @@ body {
 .w-deaths {
   grid-area: dths;
   width: 80%;
-
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -446,7 +443,7 @@ body {
 .w-perc {
   width: 80%;
   grid-area: perc;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
