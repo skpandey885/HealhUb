@@ -375,6 +375,7 @@ body {
   appearance: none;
   outline: none;
   width: 100%;
+  margin:7px 0px 23px 0px;
   min-width: 15ch;
   max-width: 30ch;
   border: 1px solid var(--select-border);
