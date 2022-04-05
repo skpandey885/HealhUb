@@ -404,6 +404,7 @@ body {
 .w-cases {
   width: 80%;
   grid-area: cases;
+  /* here padding to 1rem */
   padding: 1rem;
   border-radius: 10px;
   display: flex;
@@ -417,6 +418,7 @@ body {
 .w-recovered {
   width: 80%;
   grid-area: rec;
+  /* here padding to 1rem */
   padding: 1rem;
   border-radius: 10px;
   display: flex;
@@ -430,6 +432,7 @@ body {
 .w-deaths {
   grid-area: dths;
   width: 80%;
+  /* Here padding to 1rem */
   padding: 1rem;
   border-radius: 10px;
   display: flex;
@@ -443,6 +446,7 @@ body {
 .w-perc {
   width: 80%;
   grid-area: perc;
+  /* Here padding to 1rem */
   padding: 1rem;
   border-radius: 10px;
   display: flex;
