@@ -97,7 +97,7 @@ Expore much from various blogs and articles provided timely.
 
 
 <!--To be added--!>
-Tech Stacks used
-Future Vision
-Meet the origin geeks
+-Tech Stacks used
+-Future Vision
+-Meet the origin geeks
 
