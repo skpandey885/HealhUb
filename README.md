@@ -48,7 +48,7 @@ Covid-19 Stats ![image](https://user-images.githubusercontent.com/85815858/16301
  
  <p align ="center">HealhUb provide real-time help support whenever it is required. We porivide various tools to manage your health and support your health related needs</p>
 
-<p class="Details">Our Tools Include:</p>
+<p class="Details">Our Tools Include: &#129520; </p>
   <ul>
     <li> <b>⬆️⬇️ BMI -</b> Body mass index, or BMI, is a measure of body size. It combines a person’s weight with their height. The results of a BMI measurement can give an idea about whether a person has the correct weight for their height. You can check your Body Mass Index and know about your health, using our BMI tool.</li><br>
     <li> <b>😷🩺 Medical Help -</b> It's our responsibility to help each other whenever we need. We provide any kind of medical help, checkup, medicine and emergency support, care for well-beings. Contact us for any medical help.</li><br>
@@ -57,7 +57,7 @@ Covid-19 Stats ![image](https://user-images.githubusercontent.com/85815858/16301
   </ul>
 <br/><br/>
 
-<h2 align = "center"> ◀️ Tips ▶️ </h2>
+<h2 align = "center"> Tips &#128161; </h2>
 
 <p class="Details">Good physical and mental health is necessary for all. We provide valuable tips about</p>
   <ul>
@@ -68,7 +68,7 @@ Covid-19 Stats ![image](https://user-images.githubusercontent.com/85815858/16301
   </ul>
 <br/><br/>
 
-<h2 align = "center"> ◀️ Blogs & Articles ▶️ </h2>
+<h2 align = "center"> Blogs & Articles &#128218; </h2>
 <p align ="center">Our blog page includes 20+ awesome and helpful health-related blogs, which is for taking care of your health and wellbeings. Know more about </p>
 <ul>
   <li>What is most poignant about our pandemic is the way people have demonstrated how dearly they wish to live.</li>
@@ -84,7 +84,7 @@ Covid-19 Stats ![image](https://user-images.githubusercontent.com/85815858/16301
 Expore much from various blogs and articles provided timely.
 <br><br>
 
-<h2 align = "center"> ◀️ Covid Section ▶️ </h2>
+<h2 align = "center"> Covid Section &#127973; </h2>
 <p class="Details">Together we fight against COVID-19. Be secure with services and information we provide you about Covid. Read Covid blogs, be safe and healthy. Covid section provides-</p>
   <ul>
     <li> <b>Covid symptoms-</b> Most common symptoms, Less common symptoms, Serious symptoms.</li><br>
@@ -95,9 +95,12 @@ Expore much from various blogs and articles provided timely.
   </ul>
 <br/><br/>
 
+<h2 align = "center"> Future Vision &#128301; </h2>
 
-<!--To be added--!>
--Tech Stacks used
--Future Vision
--Meet the origin geeks
+<h2 align = "center"> Built from &#128736;&#65039; </h2>
 
+<h2 align = "center"> Built By &#128104;&#8205;&#128187; </h2>
+- [Sachin Pandey](https://skpandey885.me/)
+- [Abhijeet Anand](https://abhijeet-anand.netlify.app/)
+- [Manish Sahu](https://www.linkedin.com/in/manish-sahu-284603206/)
+- [Ayush Pattnaik](https://www.linkedin.com/in/ayupattnaik19/)
