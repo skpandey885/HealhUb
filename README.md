@@ -8,7 +8,7 @@
 
 <h><strong>HealhUb is an online HealthCare website which help users Know About Health Tips, Plans with Our Tools, Blogs And Stats.</strong></p>
   <p class="Details">The Website Provides:</p>
-  <ul>
+  <ul  >
     <li>&#9201;&#65039;  Timely and credible Health content.</li>
     <li>&#128736;&#65039; Valuable tools for managing your health, and &#129309; support to those who seek information.</li>
     <li>World COVID-19 Stats.&#127757;&#128567;</li>
@@ -93,14 +93,71 @@ Expore much from various blogs and articles provided timely.
     <li> <b>Covid stats -</b> Get to know about current situation of Covid cases, in different countries.</li><br>
     <li> <b>Covid Blogs -</b> Blogs and articles about how to care during Covid pandemic. Know more about The rise and impact of Covid, How to communicate in the crisis, Stay optimistic during tough times, Tips for improving mental health etc.</li>
   </ul>
-<br/><br/>
+<br/></br>
 
 <h2 align = "center"> Future Vision &#128301; </h2>
 
+ <li> We are aiming to get an AI which will provide people medicine based on the symptoms selected by users and also provide option to buy them from our website.</li>
+ <li> Also tracking Steps and Distance walked along with calories burned. </li>
+ <li> All this will help people solve various problems at one place ! </li>
+ 
+ <br/></br>
+
 <h2 align = "center"> Built from &#128736;&#65039; </h2>
 
+  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+   ![BOOTSTRAP](https://img.shields.io/badge/bootstrap-CF9FFF?style=for-the-badge&logo=bootstrap&logoColor=white)
+   ![NODE](https://img.shields.io/badge/nodejs-79b362?style=for-the-badge&logo=node&logoColor=white)
+ ![MONGODB](https://img.shields.io/badge/mongodb-bdff7a?style=for-the-badge&logo=mongodb&logoColor=white)
+ 
+ 
 <h2 align = "center"> Built By &#128104;&#8205;&#128187; </h2>
-- [Sachin Pandey](https://skpandey885.me/)
-- [Abhijeet Anand](https://abhijeet-anand.netlify.app/)
-- [Manish Sahu](https://www.linkedin.com/in/manish-sahu-284603206/)
-- [Ayush Pattnaik](https://www.linkedin.com/in/ayupattnaik19/)
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/skpandey885"><img alt="" src="https://user-images.githubusercontent.com/85815858/164609744-dfe0a7ef-0f49-468c-be38-1f945159aabc.png" width="100px;"><br><sub><b> Sachin Pandey </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/iamsachin_47"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/skpandey885"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Abhijeet-Anand-01"><img alt="" src="https://avatars.githubusercontent.com/u/64329744?v=4" width="100px;"><br><sub><b> Abhijeet Anand </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://www.linkedin.com/in/abhijeet-anand-666123200/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Mr-man7352"><img alt="" src="https://avatars.githubusercontent.com/u/64074501?v=4" width="100px;"><br><sub><b> Manish Sahu </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/mr_man7352+-"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/mr-man7352/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Ayu10x"><img alt="" src="https://avatars.githubusercontent.com/u/76760708?v=4" width="100px;"><br><sub><b> Sachin Pandey </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/ayupattnaik19"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/ayupattnaik19/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
