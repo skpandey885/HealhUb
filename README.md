@@ -115,7 +115,7 @@ Expore much from various blogs and articles provided timely.
  
 <h2 align = "center"> Built By &#128104;&#8205;&#128187; </h2>
 
-<table align="center">
+<table align="left">
     <tbody>
         <tr>
             <td align="center"><a href="https://github.com/skpandey885"><img alt="" src="https://user-images.githubusercontent.com/85815858/164609744-dfe0a7ef-0f49-468c-be38-1f945159aabc.png" width="100px;"><br><sub><b> Sachin Pandey </b></sub></a></td>
@@ -138,7 +138,7 @@ Expore much from various blogs and articles provided timely.
     </tbody>
 </table>
 
-<table align="center">
+<table align="left">
     <tbody>
         <tr>
             <td align="center"><a href="https://github.com/Mr-man7352"><img alt="" src="https://avatars.githubusercontent.com/u/64074501?v=4" width="100px;"><br><sub><b> Manish Sahu </b></sub></a></td>
