@@ -153,7 +153,7 @@ Expore much from various blogs and articles provided timely.
 <table align="center">
     <tbody>
         <tr>
-            <td align="center"><a href="https://github.com/Ayu10x"><img alt="" src="https://avatars.githubusercontent.com/u/76760708?v=4" width="100px;"><br><sub><b> Sachin Pandey </b></sub></a></td>
+            <td align="center"><a href="https://github.com/Ayu10x"><img alt="" src="https://avatars.githubusercontent.com/u/76760708?v=4" width="100px;"><br><sub><b> Ayush Pattanaik </b></sub></a></td>
             <td align="right">
                 <p><a href="https://twitter.com/ayupattnaik19"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
                 <p><a href="https://www.linkedin.com/in/ayupattnaik19/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
