@@ -20,8 +20,10 @@
   ## <p align="center"> How it looks &#129321; 
   <p align='center'><video src='https://user-images.githubusercontent.com/85815858/163002773-1a39f32d-1d07-42fc-b5ef-6b11f6cd06f1.mp4' alt="Home" ></p>
     
-Tools Available  ![image](https://user-images.githubusercontent.com/85815858/163010973-90bbd237-03be-4697-b931-9bff17b920f8.png)
-Covid-19 Stats ![image](https://user-images.githubusercontent.com/85815858/163010999-f69b5ea8-2556-4405-b9e7-626954a6bdae.png)
+## <p align="center">Tools Available &#128736;&#65039; </p>
+ ![image](https://user-images.githubusercontent.com/85815858/163010973-90bbd237-03be-4697-b931-9bff17b920f8.png)
+## <p align="center"> Covid-19 Stats &#128202; </p>
+![image](https://user-images.githubusercontent.com/85815858/163010999-f69b5ea8-2556-4405-b9e7-626954a6bdae.png)
     
   ## <p align="center"> Why is HealhUb &#10067; </p>
 <p align="center">
