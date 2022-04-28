@@ -1,42 +1,41 @@
 <p align="center"><img src="https://i.postimg.cc/0jrF0hXM/2-1.png" alt="logo" width="100" height="100"></p> <h1 align="center"> HealhUb</h1>
 
 
-<h4 align="center">Website: https://skpandey885.github.io/HealhUb/ </h2>
-<h4 align="center">Intro: https://rb.gy/zlvh9r</h2>
-<h>HealhUb is an online HealthCare website which help users Know About Health Tips, Plans with Our Tools, Blogs And Stats.</p>
-  <p class="Details">Our Website Provides:</p>
-  <ul>
-    <li>⏱️  Timely and credible Health content.</li>
-    <li>🛠️ Valuable tools for managing your health, and 🤝 support to those who seek information.</li>
-    <li>World COVID-19 Stats.🌍😷</li>
-     <li>Articles Related To Healthcare Issues. 📄 </li>
-   <li>Tools Like BMI Calculator Which Helps User To Find The Body Mass Index. 💪🏻 </li>
+<h4 align="center">Website &#128421;&#65039;: https://bit.ly/HealhUb </h2>
+<h4 align="center">Video Showcase &#127916;: https://bit.ly/HealhUbVideo </h2>
+
+## <p align="center"> What is HealhUb &#10067;
+
+<h><strong>HealhUb is an online HealthCare website which help users Know About Health Tips, Plans with Our Tools, Blogs And Stats.</strong></p>
+  <p class="Details">The Website Provides:</p>
+  <ul  >
+    <li>&#9201;&#65039;  Timely and credible Health content.</li>
+    <li>&#128736;&#65039; Valuable tools for managing your health, and &#129309; support to those who seek information.</li>
+    <li>World COVID-19 Stats.&#127757;&#128567;</li>
+     <li>Articles Related To Healthcare Issues. &#128240; </li>
+   <li>Tools Like BMI Calculator Which Helps User To Find The Body Mass Index. &#128170;&#127995;
+ </li>
   </ul>
- 
+  
+  ## <p align="center"> How it looks &#129321; 
+  <p align='center'><video src='https://user-images.githubusercontent.com/85815858/163002773-1a39f32d-1d07-42fc-b5ef-6b11f6cd06f1.mp4' alt="Home" ></p>
+    
+## <p align="center">Tools Available &#128736;&#65039; </p>
+ ![image](https://user-images.githubusercontent.com/85815858/163010973-90bbd237-03be-4697-b931-9bff17b920f8.png)
+## <p align="center"> Covid-19 Stats &#128202; </p>
+![image](https://user-images.githubusercontent.com/85815858/163010999-f69b5ea8-2556-4405-b9e7-626954a6bdae.png)
+    
+  ## <p align="center"> Why is HealhUb &#10067; </p>
+<p align="center">
+  HealhUb is an Online HealthCare Website that helps you find perfect Health Plans with our Tools, Blogs & Stats, and provides valuable information about your health. We'll help you find your perfect diet to become stronger than ever before. Use our tools, articles & sections to renovate yourself and get a healthy mindset. We are serving across the Globe & we helped thousands of people to get their perfect body, and mindset with our tools, articles, and UIs. We take care of your body because it’s the only place you have to live. 
+ <br><br>
+  Seeking a challenging but fulfilling role allows us to share knowledge with patients on treatments and medical alternatives available to treat their hearing challenges and utilize our communication skills to reach out to patients.
+  </p>
+  
+  
+   ## <p align="center"> How will HealhUb benifit you &#10067; </p>
 
- 
-#### Tech-Stack used :
-
-<!--   <p align ="center"><code> -->
-  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-   ![BOOTSTRAP](https://img.shields.io/badge/bootstrap-CF9FFF?style=for-the-badge&logo=bootstrap&logoColor=white)
-   ![NODE](https://img.shields.io/badge/nodejs-79b362?style=for-the-badge&logo=node&logoColor=white)
- ![MONGODB](https://img.shields.io/badge/mongodb-bdff7a?style=for-the-badge&logo=mongodb&logoColor=white) 
-<!--   <img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code> -->
-<!--   <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> -->
-<!--   </p> -->
-
-<h2 align = "center"> ◀️ Introduction ▶️ </h2>
-
-<p align="center">HealhUb Is An Online HealthCare Website Which Help You To Find Perfect Health Plans With Our Tools, Blogs & Stats, Provides Valuable Information About Your Health. We'll Help You Find Your Perfect Diet To Become Stronger Than Ever Before. Use Our Tools, Articles & Sections To Renovate Yourself And Get A Healthy Mindset. We Are Serving Across The Globe & We Helped Thousands Of People To Get Their Perfect Body, Mindset with Our Tools, Articles and UIs. We Take care of your body,Because it’s the only place you have to live.<br><br>Seeking for a challenging but fulfilling role which allows us to share knowledge with patients on treatments and medical alternatives available to treat their hearing challenges and utilize our communication skills to reach out to patients.</p>
-<br/><br/>
-
-<h2 align = "center"> ◀️ Functioning ▶️ </h2>
-
-<p class="Details">Our aim is to serve all people through exemplary health care, education, research, and community outreach. Our Website Provides:</p>
+  <p align="centre">Our aim is to serve all people through exemplary health care, education, research, and community outreach. Our Website Provides:</p>
   <ul>
     <li><b>⏱️ Timely and credible Health content -</b> We provide health related contents, blogs, tips, that's are updated time to time.</li><br>
     <li><b>🛠️ Valuable tools for managing your health, and 🤝 support to those who seek information -</b> Our various tools help you to manage your health, get information about hospitals, or any other medical issues.</li><br>
@@ -45,12 +44,13 @@
    <li><b>Tools Like BMI Calculator Which Helps User To Find The Body Mass Index 💪🏻 -</b> Know about your Body Mass Index, take care of your ultimate health. </li>
   </ul>
 <br/><br/>
+</p>
 
-<h2 align = "center"> ◀️ Tools ▶️ </h2>
+ ## <p align="center"> What Tools do we have &#10067; </p>
+ 
+ <p align ="center">HealhUb provide real-time help support whenever it is required. We porivide various tools to manage your health and support your health related needs</p>
 
-<p align ="center">HealhUb provide real-time help support whenever it is required. We porivide various tools to manage your health and support your health related needs</p>
-
-<p class="Details">Our Tools Include:</p>
+<p class="Details">Our Tools Include: &#129520; </p>
   <ul>
     <li> <b>⬆️⬇️ BMI -</b> Body mass index, or BMI, is a measure of body size. It combines a person’s weight with their height. The results of a BMI measurement can give an idea about whether a person has the correct weight for their height. You can check your Body Mass Index and know about your health, using our BMI tool.</li><br>
     <li> <b>😷🩺 Medical Help -</b> It's our responsibility to help each other whenever we need. We provide any kind of medical help, checkup, medicine and emergency support, care for well-beings. Contact us for any medical help.</li><br>
@@ -59,7 +59,7 @@
   </ul>
 <br/><br/>
 
-<h2 align = "center"> ◀️ Tips ▶️ </h2>
+<h2 align = "center"> Tips &#128161; </h2>
 
 <p class="Details">Good physical and mental health is necessary for all. We provide valuable tips about</p>
   <ul>
@@ -70,7 +70,7 @@
   </ul>
 <br/><br/>
 
-<h2 align = "center"> ◀️ Blogs & Articles ▶️ </h2>
+<h2 align = "center"> Blogs & Articles &#128218; </h2>
 <p align ="center">Our blog page includes 20+ awesome and helpful health-related blogs, which is for taking care of your health and wellbeings. Know more about </p>
 <ul>
   <li>What is most poignant about our pandemic is the way people have demonstrated how dearly they wish to live.</li>
@@ -86,7 +86,7 @@
 Expore much from various blogs and articles provided timely.
 <br><br>
 
-<h2 align = "center"> ◀️ Covid Section ▶️ </h2>
+<h2 align = "center"> Covid Section &#127973; </h2>
 <p class="Details">Together we fight against COVID-19. Be secure with services and information we provide you about Covid. Read Covid blogs, be safe and healthy. Covid section provides-</p>
   <ul>
     <li> <b>Covid symptoms-</b> Most common symptoms, Less common symptoms, Serious symptoms.</li><br>
@@ -95,10 +95,71 @@ Expore much from various blogs and articles provided timely.
     <li> <b>Covid stats -</b> Get to know about current situation of Covid cases, in different countries.</li><br>
     <li> <b>Covid Blogs -</b> Blogs and articles about how to care during Covid pandemic. Know more about The rise and impact of Covid, How to communicate in the crisis, Stay optimistic during tough times, Tips for improving mental health etc.</li>
   </ul>
-<br/><br/>
+<br/></br>
 
-<h2 align = "center"> 🙏 Thank You 🙏 </h2>
-<p align = "center">Thank you for being a part of us. Wish you a happy and healthy life.</p>
+<h2 align = "center"> Future Vision &#128301; </h2>
 
+ <li> We are aiming to get an AI which will provide people medicine based on the symptoms selected by users and also provide option to buy them from our website.</li>
+ <li> Also tracking Steps and Distance walked along with calories burned. </li>
+ <li> All this will help people solve various problems at one place ! </li>
+ 
+ <br/></br>
 
+<h2 align = "center"> Built from &#128736;&#65039; </h2>
 
+  ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+   ![BOOTSTRAP](https://img.shields.io/badge/bootstrap-CF9FFF?style=for-the-badge&logo=bootstrap&logoColor=white)
+   ![NODE](https://img.shields.io/badge/nodejs-79b362?style=for-the-badge&logo=node&logoColor=white)
+ ![MONGODB](https://img.shields.io/badge/mongodb-bdff7a?style=for-the-badge&logo=mongodb&logoColor=white)
+ 
+ 
+<h2 align = "center"> Built By &#128104;&#8205;&#128187; </h2>
+
+<table align="left">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/skpandey885"><img alt="" src="https://user-images.githubusercontent.com/85815858/164609744-dfe0a7ef-0f49-468c-be38-1f945159aabc.png" width="100px;"><br><sub><b> Sachin Pandey </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/iamsachin_47"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/skpandey885"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Abhijeet-Anand-01"><img alt="" src="https://avatars.githubusercontent.com/u/64329744?v=4" width="100px;"><br><sub><b> Abhijeet Anand </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://www.linkedin.com/in/abhijeet-anand-666123200/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table align="left">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Mr-man7352"><img alt="" src="https://avatars.githubusercontent.com/u/64074501?v=4" width="100px;"><br><sub><b> Manish Sahu </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/mr_man7352+-"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/mr-man7352/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table align="center">
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/Ayu10x"><img alt="" src="https://avatars.githubusercontent.com/u/76760708?v=4" width="100px;"><br><sub><b> Ayush Pattanaik </b></sub></a></td>
+            <td align="right">
+                <p><a href="https://twitter.com/ayupattnaik19"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"></a></p>
+                <p><a href="https://www.linkedin.com/in/ayupattnaik19/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
