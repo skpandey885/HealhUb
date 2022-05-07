@@ -33,7 +33,7 @@
   </p>
   
   
-   ## <p align="center"> How will HealhUb benifit you &#10067; </p>
+   ## <p align="center"> How will HealhUb benefit you &#10067; </p>
 
   <p align="centre">Our aim is to serve all people through exemplary health care, education, research, and community outreach. Our Website Provides:</p>
   <ul>
@@ -48,7 +48,7 @@
 
  ## <p align="center"> What Tools do we have &#10067; </p>
  
- <p align ="center">HealhUb provide real-time help support whenever it is required. We porivide various tools to manage your health and support your health related needs</p>
+ <p align ="center">HealhUb provide real-time help support whenever it is required. We provide various tools to manage your health and support your health related needs</p>
 
 <p class="Details">Our Tools Include: &#129520; </p>
   <ul>
