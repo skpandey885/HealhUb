@@ -60,11 +60,11 @@
             <input type="radio" id="genderF" name="gender" value="Female">
             <label for="genderM">Female</label>
             <p>Age</p>
-            <input type="text" id="age">
+            <input type="number" id="age" placeholder="2 to 120" min="2" max="120" oninput="this.value=Math.abs(this.value)">
     <p>Height (in cm)</p>
-    <input type="text" id="height">
+    <input type="number" id="height" oninput="this.value=Math.abs(this.value)">
     <p>Weight (in kg)</p>
-    <input type="text" id="weight">
+    <input type="number" id="weight" oninput="this.value=Math.abs(this.value)">
     <br>
     <button id="btn" class="mt-2 px-5">Calculate</button>
     <div id="result">
