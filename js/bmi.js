@@ -29,7 +29,7 @@ $(window).scroll(function () {
 
     /* Getting input  from user into age variable.
     Input is string so typecasting is necessary. */
-    let age=parseInt(document
+    let age=(document
         .querySelector("#age").value);
   
     let result = document.querySelector("#result");
