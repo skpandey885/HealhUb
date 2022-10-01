@@ -118,14 +118,13 @@
   background-size: cover;  
 }
 
-.text1{
-padding-top: 13%;
-font-family: 'Cairo', sans-serif;
-color: #f8ffff;   
-font-size: 25px; 
-
-
+.text1 {
+  padding-top: 13%;
+  font-family: 'Cairo', sans-serif;
+  color: #f8ffff;
+  font-size: 25px;
 }
+
  #getstarted{
      text-decoration: none;
      color:#222222;
