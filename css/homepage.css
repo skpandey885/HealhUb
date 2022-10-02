@@ -8,6 +8,7 @@
   /* Loader */
 
 #preloader{
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -137,7 +138,7 @@
   
   .navbar-dark .navbar-nav .nav-link:hover,
   .navbar-dark .navbar-nav .nav-link.active {
-    background: rgba(256, 256, 256, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     transition: none;
   }
   
@@ -156,8 +157,14 @@
 /* Navbar CSS End */
 
 /* Page 1 CSS Start */
+
 #page1{
-  background:rgba(0, 0, 0, 0.2) url(../assets/bghome.jpg);
+ background-image: url(../assets/bghome.jpg);
+  
+  opacity:1;
+  background-color: rgba(0, 0, 0);
+  font-weight: bold;
+  
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -169,18 +176,31 @@
 .text1{
 padding-top: 13%;
 font-family: 'Cairo', sans-serif;
-color: #f8ffff;   
+color:azure;   
 font-size: 25px; 
-
+opacity: 1;
 
 }
  #getstarted{
+     
      text-decoration: none;
-     color:#222222;
+     color:whitesmoke;
      padding: 50px;
    } 
+   #getstarted:hover{
+    color: black;
+   }
+
 #getstartedbutton{
+  font-weight: bolder;
+
+     background-color: black;
+     opacity: 0.6;
     box-shadow: 0 0 3px #dfdddd;
+}
+#getstartedbutton:hover{
+  background-color: #fcc316;
+  opacity: 1;
 }
 .text1 h1{
   font-family: 'Kanit', sans-serif;
@@ -203,7 +223,10 @@ height: 85vh;
 margin-top: 20px;
 margin-left: 35px;
 margin-right: 35px;
- background-image: url(../assets/card-walk.jpg);
+font-family: 'Cairo', sans-serif;
+opacity: 0.7 ;
+background-color: #000000;
+  background-image:  url(../assets/card-walk.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -215,35 +238,42 @@ margin-right: 35px;
   transform: translateY(2px);
 }
 .container2 h2{
+  font-weight: bold;
    padding: 2px 16px;
-   font-family: 'Baloo 2', cursive;
-color: #f8ffff;
+color: #ffffff;
   margin-top: 100px;
   word-spacing: 5px;
-     text-shadow: 0 0 3px #000000;
-
+     text-shadow: 3px 3px 3px #000000;
+     opacity:1;
 }
 
 #explorebutton button{
   
 margin-left: 40vw;
   display: inline-block;
-font-size: 17px;
+font-size: 20px;
+color: black;
+font-weight: bold;
 padding: 2vh 2vw;
-border-radius: 5px;
-background-color:rgba(0, 225, 255, 0.616);
+border-radius: 8px;
+opacity: 0.7;
+background-color: rgba(0, 225, 255, 0.616) ;
 transition: 0.2s ease-in-out ;
 transition-property: all;
 }
 #explorebutton button:hover{
-
-background-color: rgba(113, 171, 247, 0.452);
+color: white;
+opacity: 1;
+background-color: rgba(1, 9, 21, 0.452);
 transform: translateY(2px);
 }
 #explorelink{
 text-decoration: none;
-color: rgb(255, 255, 255);
+color:white;
+font-weight: bold;
+
 }
+
 /* Page 2 CSS End */
 
 /* Page 3 CSS Start */
@@ -253,14 +283,15 @@ color: rgb(255, 255, 255);
   width: 100vw;
   background-position: center;
   background-size: cover;
- 
+  font-size: 1.2rem;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #learnmore{
 position: relative;
 
 }
 .jumbotron{
-opacity: 0.5;
+opacity:0.8;
 }
 #learnmore{
 position: relative;
