@@ -54,10 +54,17 @@
     <div class="container">
         <div class="text1"> 
     <h1><strong> BMI CALCULATOR</strong></h1>
+            <p>Gender</p>
+            <input type="radio" id="genderM" name="gender" value="Male" checked>
+            <label for="genderM">Male</label>
+            <input type="radio" id="genderF" name="gender" value="Female">
+            <label for="genderM">Female</label>
+            <p>Age</p>
+            <input type="number" id="age" oninput="this.value=Math.abs(this.value)">
     <p>Height (in cm)</p>
-    <input type="text" id="height">
+    <input type="number" id="height" oninput="this.value=Math.abs(this.value)">
     <p>Weight (in kg)</p>
-    <input type="text" id="weight">
+    <input type="number" id="weight" oninput="this.value=Math.abs(this.value)">
     <br>
     <button id="btn" class="mt-2 px-5">Calculate</button>
     <div id="result">
@@ -65,7 +72,7 @@
    </div>
 </div>
  </div>
- <div class="card float-right" style="width: 18rem;">
+ <div class="card float-right" style="width: 20rem;margin-top: -35rem">
     <img class="card-img-top" src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Body Mass Index (BMI) is a person’s weight in kilograms divided by the square of height in meters.</h5>

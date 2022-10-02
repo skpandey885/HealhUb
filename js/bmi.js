@@ -26,6 +26,11 @@ $(window).scroll(function () {
     Input is string so typecasting is necessary.*/
     let weight = parseInt(document
         .querySelector("#weight").value);
+
+    /* Getting input  from user into age variable.
+    Input is string so typecasting is necessary. */
+    let age=(document
+        .querySelector("#age").value);
   
     let result = document.querySelector("#result");
   
@@ -36,6 +41,9 @@ $(window).scroll(function () {
   
     else if (weight === "" || isNaN(weight))
       result.innerHTML = "Provide a valid Weight!";
+
+    else if(age==="" || isNaN(age))
+      result.innerHTML = "Provide a valid Age!";
   
     // If both input is valid, calculate the bmi
     else {
@@ -46,14 +54,31 @@ $(window).scroll(function () {
   
       // Dividing as per the bmi conditions
       if (bmi < 18.6) result.innerHTML =
-        `Under Weight : <span>${bmi}</span>`;
+        `Under Weight : <span>${bmi}</span>
+        <p>
+                <bold>Time to grab a bite!</bold>
+                <br>
+                By maintaining a healthy body weight, you lower your risk of developing serious health problems.
+        </p>
+`;
   
       else if (bmi >= 18.6 && bmi < 24.9)
         result.innerHTML =
-          `Normal : <span>${bmi}</span>`;
+          `Normal : <span>${bmi}</span>
+           <p>
+                <bold>Great Shape!</bold>
+                <br>
+                By maintaining a healthy body weight, you lower your risk of developing serious health problems.
+           </p>
+`;
   
       else result.innerHTML =
-        `Over Weight : <span>${bmi}</span>`;
+            `Over Weight : <span>${bmi}</span>
+             <p>
+                <bold>Time to run!</bold>
+                <br>
+                By maintaining a healthy body weight, you lower your risk of developing serious health problems.
+            </p>`;
     }
   }
 

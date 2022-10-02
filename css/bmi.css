@@ -118,14 +118,13 @@
   background-size: cover;  
 }
 
-.text1{
-padding-top: 13%;
-font-family: 'Cairo', sans-serif;
-color: #f8ffff;   
-font-size: 25px; 
-
-
+.text1 {
+  padding-top: 13%;
+  font-family: 'Cairo', sans-serif;
+  color: #f8ffff;
+  font-size: 25px;
 }
+
  #getstarted{
      text-decoration: none;
      color:#222222;
@@ -137,6 +136,15 @@ font-size: 25px;
 .text1 h1{
   font-family: 'Kanit', sans-serif;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.623);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
 }
 
 .card{
