@@ -158,12 +158,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 30vh;
+  height: 25vh;
   background-color: #343148;
 }
 .meet {
-  font-size: 5rem;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: bolder;
   color: white;
   text-align: center;
 }
@@ -184,8 +184,8 @@ body {
 }
 
 .pic {
-  height: 30rem;
-  width: 35vw;
+  height: 25rem;
+  width: 30vw;
   border-radius: 10px;
   background-color: rgb(0, 0, 0);
   background-size: cover;
