@@ -115,7 +115,12 @@ body {
   }
 
   .navbar a.nav-link {
+    text-align: center;
     padding: 5px;
+  }
+
+  .navbar a.home {
+    margin-top: 7px;
   }
 
   .navbar .dropdown-menu {
