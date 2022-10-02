@@ -137,6 +137,15 @@
   font-family: 'Kanit', sans-serif;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.623);
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+}
 
 .card{
   background-color: rgba(245, 245, 245, 0.199);
