@@ -128,8 +128,14 @@ span {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
+  border-radius: 6px;
   background: rgba(256, 256, 256, 0.3);
-  transition: none;
+  transition: all 0.3s ease-in;
+  transform: scale(105%);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover i {
+  transform: rotate(10deg);
 }
 
 .navbar .dropdown-menu {
@@ -196,6 +202,11 @@ footer .f-container h2:before {
   width: 50px;
   height: 2px;
   background-color: #f00;
+  transition: all 0.3s ease-out;
+}
+
+footer .f-container:hover h2:hover:before {
+  width: 130px;
 }
 
 footer p {
