@@ -115,7 +115,7 @@ Expore much from various blogs and articles provided timely.
  ![MONGODB](https://img.shields.io/badge/mongodb-bdff7a?style=for-the-badge&logo=mongodb&logoColor=white)
  
  
-<h2 align = "center"> Built By &#128104;&#8205;&#128187; </h2>
+<h2 align = "center">Made with ❤️ by </h2>
 
 <table align="left">
     <tbody>
