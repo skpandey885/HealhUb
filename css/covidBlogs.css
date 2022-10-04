@@ -19,9 +19,11 @@ body {
   transition: 0.5s;
   z-index: 999;
 }
+
 .navbar-nav {
   margin-left: auto;
 }
+
 .navbar.nav-sticky {
   position: fixed;
   top: 0;
@@ -74,11 +76,13 @@ body {
   border-radius: 0;
   background: #f8f9fa;
 }
+
 #logoname {
   margin-left: -110px;
   margin-top: -3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* Navbar CSS End */
 
 /* CARD CSS */
@@ -149,7 +153,7 @@ body {
   text-align: center;
 }
 
-.tag + .tag {
+.tag+.tag {
   margin-left: 0.5em;
 }
 
@@ -172,14 +176,17 @@ body {
     padding-top: 0px;
     margin-bottom: 50px;
   }
+
   .card-container {
     margin-left: 0px;
   }
+
   .card {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
+
 /*** Footer ***/
 
 footer {
@@ -249,6 +256,7 @@ footer p {
   border: 2px solid #e9204f;
   border-radius: 10px 100px / 120px;
 }
+
 .sci li a:hover {
   height: 45px;
   width: 45px;
@@ -269,11 +277,13 @@ footer p {
   position: relative;
   width: 25%;
 }
+
 .quickLinks ul {
   padding: 0%;
   margin-bottom: 0;
   margin-top: 1rem;
 }
+
 .quickLinks ul li {
   list-style: none;
 }
@@ -341,6 +351,7 @@ footer p {
     margin: 13px 0 0 13px;
   }
 }
+
 @media (min-width: 280px) and (max-width: 333px) {
   .images {
     margin-left: -5px;
@@ -377,6 +388,7 @@ footer p {
   footer .f-container h2:before {
     position: relative;
   }
+
   footer .f-container h2 {
     text-align: center;
     display: inline;
@@ -394,17 +406,18 @@ footer p {
     margin-bottom: 20px;
   }
 
-  footer .f-container .sec.aboutus{
+  footer .f-container .sec.aboutus {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  
+
   .contact .info li {
     justify-content: center;
     margin-bottom: 10px;
   }
+
   .copyrightText {
     padding: 8px 40px;
   }
@@ -434,6 +447,11 @@ footer p {
 
   .alert {
     padding-top: 0px;
+  }
+
+  .card:hover {
+    transition: .89s;
+    transform: rotate(360deg);
   }
 }
 
@@ -476,6 +494,7 @@ footer p {
   z-index: 20;
   box-shadow: 0px 0px 13px rgb(0 0 0 / 63%);
 }
+
 #scroll span {
   position: absolute;
   top: 50%;
@@ -487,6 +506,7 @@ footer p {
   border: 8px solid transparent;
   border-bottom-color: #000000;
 }
+
 #scroll:hover {
   background-color: #e74c3c;
   opacity: 1;
