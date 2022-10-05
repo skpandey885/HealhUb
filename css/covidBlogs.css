@@ -1,7 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+:root{
+  --bg-color:white;
+  --p-color:black;
+  --shad-color:black;
+  --grad-color:#ece9e6;
+  --bg-gradf:#7ad7f0;
+  --bg-grads:#dbf3fa;
+  /*--bg-color:black;*/
+  /*--p-color:white;*/
+}
+.dark-theme{
+  --bg-color:black;
+  --p-color:white;
+  --shad-color: white;
+  --grad-color:#C0C0C0;
+  --bg-gradf:black;
+  --bg-grads:#808080;
+}
 
 body {
-  background: linear-gradient(#7ad7f0, #dbf3fa);
+  background: linear-gradient(var(--bg-gradf), var(--bg-grads));
+  /*background: linear-gradient(black,#C0C0C0);*/
 }
 
 * {
@@ -12,7 +31,12 @@ body {
   list-style-type: none;
   box-sizing: border-box;
 }
-
+#icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top:13px;
+}
 /* Navbar CSS Start */
 .navbar {
   position: relative;
@@ -96,6 +120,7 @@ body {
   text-align: center;
   margin-bottom: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--p-color);
 }
 
 .card-container {
@@ -113,12 +138,16 @@ body {
   display: flex;
   flex-direction: column;
 } */
-
+.card-text {
+  color: var(--p-color);
+}
 .card-container {
   margin-left: 12.5%;
   text-align: center;
 }
-
+h5{
+  color:var(--p-color);
+}
 .card {
   display: flex;
   width: 18rem;
@@ -130,7 +159,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #ffffff, #ece9e6);
+  background: linear-gradient(to right, var(--bg-color), var(--grad-color));
 }
 
 .card img {
