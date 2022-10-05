@@ -60,7 +60,7 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  background: rgba(256, 256, 256, 0.3);
+  background:rgba(256, 256, 256, 0.3);
   transition: none;
 }
 
@@ -68,7 +68,7 @@
   margin-top: 0;
   border: 0;
   border-radius: 0;
-  background: #f8f9fa;
+  background: #f8fafd;
 }
 #logoname {
   margin-left: -110px;
