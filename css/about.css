@@ -5,11 +5,28 @@
   padding: 0%;
   box-sizing: border-box;
 }
+:root{
+  --bg-color:white;
+  --p-color:black;
+  --shad-color:black;
+  /*--bg-color:black;*/
+  /*--p-color:white;*/
+}
+.dark-theme{
+  --bg-color:black;
+  --p-color:white;
+  --shad-color: white;
+}
 body {
   width: 100vw;
   overflow-x: hidden;
 }
-
+#icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top:11px;
+}
 /* Navbar CSS Start */
 .navbar {
   position: relative;
@@ -414,6 +431,7 @@ article {
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
 }
 #about-us {
   font-size: 8rem;
@@ -461,6 +479,7 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--bg-color);
 }
 
 #inner > *:nth-of-type(even) {
@@ -482,6 +501,7 @@ article {
 }
 #inner p {
   width: 40%;
+  color:var(--p-color);
 }
 
 #policy {
@@ -505,9 +525,14 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem;
+  margin: 0rem;
   height: auto;
   font-size: 1.25rem;
+  background-color: var(--bg-color);
+  color: var(--p-color);
+}
+#faqw{
+  margin-left: 5rem;
 }
 #faq h1 {
   font-weight: bold;
@@ -529,6 +554,7 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--bg-color);
 }
 #c-title {
   font-weight: bold;
@@ -536,6 +562,7 @@ article {
 }
 #contact p {
   font-size: 1.25rem;
+  color: var(--p-color);
 }
 #team {
   padding: 3rem 0;
