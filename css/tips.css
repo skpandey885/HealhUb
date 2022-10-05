@@ -1,5 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
+:root{
+  --bg-color:white;
+  --p-color:black;
+  --shad-color:black;
+  /*--bg-color:black;*/
+  /*--p-color:white;*/
+}
+.dark-theme{
+  --bg-color:black;
+  --p-color:white;
+  --shad-color: white;
+}
+/* Loader */
+#icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top:10px;
+}
+.tip-list{
+  background-color: var(--bg-color);
+}
+.para{
+  color: var(--p-color);
+}
+h3{
+  color:var(--p-color);
+}
 /* Navbar CSS Start */
 .navbar {
   position: relative;
