@@ -8,6 +8,28 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+:root{
+  --bg-color:white;
+  --p-color:black;
+  --shad-color:black;
+  /*--bg-color:black;*/
+  /*--p-color:white;*/
+}
+.dark-theme{
+  --bg-color:#232427;
+  --p-color:white;
+  --shad-color: white;
+}
+/* Loader */
+#icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top:10px;
+}
+.h1t{
+  color:var(--p-color);
+}
 *,
 *::before,
 *::after {
@@ -123,6 +145,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: var(--bg-color);
 }
 #tips {
   width: 100%;
@@ -130,6 +153,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--bg-color);
 }
 
 #tips .box {
@@ -299,6 +323,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--bg-color);
 }
 #dos > * {
   width: 40%;
@@ -493,6 +518,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--bg-color);
 }
 #blog button {
   background-color: #232427;
