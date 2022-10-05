@@ -54,29 +54,29 @@ $(window).scroll(function () {
   
       // Dividing as per the bmi conditions
       if (bmi < 18.6) result.innerHTML =
-        `Under Weight : <span>${bmi}</span>
+        `<h4>Under Weight : <span>${bmi} <i class="fa-solid fa-arrow-down"></i></span></h4>
         <p>
                 <bold>Time to grab a bite!</bold>
-                <br>
+                <br><br>
                 By maintaining a healthy body weight, you lower your risk of developing serious health problems.
         </p>
 `;
   
       else if (bmi >= 18.6 && bmi < 24.9)
         result.innerHTML =
-          `Normal : <span>${bmi}</span>
+          `<h4>Normal : <span>${bmi} <i class="fa-solid fa-check"></i></span></h4>
            <p>
                 <bold>Great Shape!</bold>
-                <br>
-                By maintaining a healthy body weight, you lower your risk of developing serious health problems.
+                <br><br>
+                By maintaining a healthy body weight, you lower your risk of developing serious health problems. 
            </p>
 `;
   
       else result.innerHTML =
-            `Over Weight : <span>${bmi}</span>
+            `<h4>Over Weight : <span>${bmi} <i class="fa-solid fa-arrow-up"></i></span></h4>
              <p>
-                <bold>Time to run!</bold>
-                <br>
+                <bold>Time to run!</i></bold>
+                <br><br>
                 By maintaining a healthy body weight, you lower your risk of developing serious health problems.
             </p>`;
     }

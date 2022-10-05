@@ -1,7 +1,7 @@
 <p align="center"><img src="https://i.postimg.cc/0jrF0hXM/2-1.png" alt="logo" width="100" height="100"></p> <h1 align="center"> HealhUb</h1>
 
 
-<h4 align="center">Website &#128421;&#65039;: https://bit.ly/HealhUb </h2>
+<h4 align="center">Website &#128421;&#65039;: https://healhub.vercel.app/ </h2>
 <h4 align="center">Video Showcase &#127916;: https://bit.ly/HealhUbVideo </h2>
 
 ## <p align="center"> What is HealhUb &#10067;

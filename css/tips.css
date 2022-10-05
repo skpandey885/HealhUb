@@ -51,8 +51,14 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
+  border-radius: 6px;
   background: rgba(256, 256, 256, 0.3);
-  transition: none;
+  transition: all 0.3s ease-in;
+  transform: scale(105%);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover i {
+  transform: rotate(10deg);
 }
 
 .navbar .dropdown-menu {
@@ -130,13 +136,24 @@
     /* border-radius: 20px; */
   }
 }
-.carouselCss {
-  margin-left: 25%;
-  border-radius: 20px;
+
+#tips_header {
+  background: rgba(0, 0, 0, 0.2) url("../assets/tips_bg.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-.carouselCss img {
-  border-radius: 20px;
+#tips_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 100px;
+  padding-top: 140px;
+  text-shadow: 5px 3px #000000;
 }
 
 .tips {
@@ -144,10 +161,13 @@
   background-image: linear-gradient(45deg,#f1f2f0);
 }
 
+.tip-list .info p {
+  text-align: justify;
+}
+
 .tip-list h3 {
-  font-weight: 700px;
-  letter-spacing: 0.4rem;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .tip-list p {
@@ -160,18 +180,46 @@
   display: flex;
   flex-direction: row;
   padding: 30px;
+  box-shadow: 10px 10px 15px #ccc;
 }
 
-.info{
+.info {
   width: 70%;
 }
 
-.picture{
-  width: 30%;
+.round {
+  border-radius: 15px;
 }
 
-.picture img{
-  width: 100%;
+.common {
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+}
+
+.common:hover {
+  transform: scale(1.05);
+}
+
+.picture1 img {
+  width: 90%;
+}
+
+.picture2 img {
+  width: 90%;
+  height: 70%;
+}
+
+.picture8 img {
+  width: 90%;
+  height: 80%;
+}
+
+.text-center button {
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1200px){
@@ -199,9 +247,6 @@
 }
 
 @media all and (min-width: 780px) {
-  .carouselCss {
-    padding-top: 50px;
-  }
   .odds {
     display: flex;
     flex-direction: row-reverse;
@@ -279,6 +324,11 @@ footer .f-container h2:before {
   width: 50px;
   height: 2px;
   background-color: #f00;
+  transition: all 0.3s ease-out;
+}
+
+footer .f-container:hover h2:hover:before {
+  width: 130px;
 }
 
 footer p {
