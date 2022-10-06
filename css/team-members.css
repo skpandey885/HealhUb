@@ -143,23 +143,27 @@
 body {
   height: 100%;
   position: relative;
+  
 }
 
 /* Header */
-
-/* Article > aboutMe */
-.bgimg {
-  position: absolute;
-  z-index: -1;
-  width: 100vw;
-  min-height: 100%;
-  background-image: url(../assets/nature.jpg);
-  background-size: cover;
-  background-color: #222;
-
-  overflow: hidden;
-  filter: blur(10px);
+#container_header {
+  background: rgba(0, 0, 0, 0.2) url("../assets/teamb.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-size:auto;
 }
+.teamtext{
+  display: flex;
+  position: relative;
+  top:5em;
+  left:36em;
+  filter: saturate(1);
+  filter: contrast(1.2);
+  filter: drop-shadow(1);
+}
+
 .intro {
   display: flex;
   justify-content: center;
@@ -182,17 +186,21 @@ body {
 }
 .container {
   height: auto;
-  padding: 7vh 0;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 6vh 7vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 10px 10px 15px #ccc;
 }
 
 .pic {
-  height: 30rem;
-  width: 35vw;
-  border-radius: 10px;
+  height: 23rem;
+  width: 24.4vw;
+  border-radius: 50%;
+  /* border-color: #000000; */
   background-color: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,9 +208,20 @@ body {
   justify-content: center;
   align-items: flex-end;
   overflow: hidden;
+  border-style:groove;
+  border-width: 4px;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  
+}
+.pic:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
 }
 .content {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
   border-radius: 5px;
   height: 15%;
@@ -210,14 +229,14 @@ body {
   transition: all 1s;
 }
 .content h1 {
-  color: white;
+  color: rgb(37, 35, 35);
   font-size: 3.5rem;
   font-weight: bold;
 }
 .content h4 {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #93d8e9;
+  color: #14292e;
 }
 .content p {
   font-size: 1rem;
@@ -248,16 +267,16 @@ body {
 }
 .icons i {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .icons i:hover {
-  color: #93d8e9;
+  color: #14292e;
 }
 .content:hover {
-  padding: 5%;
+  padding: 4%;
   height: 50%;
   margin-bottom: 0;
-  background-color: #343148;
+  background-color: #6b696e;
   color: white;
 }
 .content:hover .hidden {
@@ -280,6 +299,10 @@ body {
   .pic {
     margin-bottom: 5%;
   }
+  .teamtext{
+    left:10em;
+  }
+  
 }
 @media only screen and (max-width: 900px) {
   .pic {
@@ -292,6 +315,10 @@ body {
   }
   .container {
     padding: 5%;
+  }
+  .teamtext{
+    left:0em;
+    width: 300px;
   }
 }
 /* footer */
