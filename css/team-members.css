@@ -9,6 +9,7 @@
   --bg-color:white;
   --p-color:black;
   --shad-color:black;
+  --bor-color: rgb(0,0,0);
   /*--bg-color:black;*/
   /*--p-color:white;*/
 }
@@ -16,6 +17,7 @@
   --bg-color:black;
   --p-color:white;
   --shad-color: white;
+  --bor-color: rgb(255,255,255);
 }
 /*toggle button*/
 #icon{
@@ -254,8 +256,8 @@ body {
   height: 23rem;
   width: 24.4vw;
   border-radius: 50%;
-  /* border-color: #000000; */
-  background-color: rgb(0, 0, 0);
+   /*border-color: var(--p-color);*/
+  background-color: var(--bor-color);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
