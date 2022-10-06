@@ -61,14 +61,14 @@ t3.from("#p-title", 1, { y: 100, opacity: 0 });
 t3.from("#update", 1, { y: 100, opacity: 0 });
 t3.from("#privacy", 1, { y: 100, opacity: 0 });
 
-const scene2 = new ScrollMagic.Scene({
-  triggerElement: "#policy",
-  triggerHook: "onLeave",
-  duration: "50%",
-})
-  .setPin("#policy")
-  .setTween(t3)
-  .addTo(controller);
+// const scene2 = new ScrollMagic.Scene({
+//   triggerElement: "#policy",
+//   triggerHook: "onLeave",
+//   duration: "98%",
+// })
+//   .setPin("#policy")
+//   .setTween(t3)
+//   .addTo(controller);
 
 function updatePercentage3() {
   t3.progress();
@@ -81,14 +81,14 @@ t4.from("#t-tag", 1, { y: 100, opacity: 0 });
 t4.from(".names", 1, { y: 100, opacity: 0 });
 t4.from(".more-details", 1, { y: 100, opacity: 0 });
 
-const scene3 = new ScrollMagic.Scene({
-  triggerElement: "#team",
-  triggerHook: "onLeave",
-  duration: "50%",
-})
-  .setPin("#team")
-  .setTween(t4)
-  .addTo(controller);
+// const scene3 = new ScrollMagic.Scene({
+//   triggerElement: "#team",
+//   triggerHook: "onLeave",
+//   duration: "98%",
+// })
+//   .setPin("#team")
+//   .setTween(t4)
+//   .addTo(controller);
 
 function updatePercentage3() {
   t4.progress();
