@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  -webkit-box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Navbar CSS Start */
+.navbar {
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar.nav-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .navbar-brand {
+  margin: 0;
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 0px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.navbar .navbar-brand span {
+  color: #343148;
+  text-transform: lowercase;
+  transition: 0.5s;
+}
+
+.navbar.nav-sticky .navbar-brand span {
+  color: #ffffff;
+}
+
+.navbar .navbar-brand img {
+  max-width: 32%;
+  max-height: 30%;
+  margin: -10px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  padding: 10px 10px 8px 10px;
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  border-radius: 6px;
+  background: rgba(256, 256, 256, 0.3);
+  transition: all 0.3s ease-in;
+  transform: scale(105%);
+}
+.navbar-dark .navbar-nav .nav-link:hover i {
+  transform: rotate(10deg);
+}
+
+.navbar .dropdown-menu {
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  background: #f8f9fa;
+}
+#logoname {
+  margin-left: -110px;
+  margin-top: -3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Navbar CSS End */
+
+@media (min-width: 992px) {
+  .navbar {
+    position: absolute;
+    width: 100%;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.1) !important;
+    z-index: 9;
+  }
+
+  .navbar.nav-sticky {
+    padding: 10px 60px;
+    background: #343148 !important;
+  }
+
+  .navbar a.nav-link {
+    padding: 8px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 15px;
+    background: #343148 !important;
+  }
+
+  .navbar.nav-sticky {
+    position: sticky;
+  }
+
+  .navbar .navbar-brand span {
+    color: #ffffff;
+  }
+
+  .navbar a.nav-link {
+    padding: 5px;
+  }
+
+  .navbar .dropdown-menu {
+    box-shadow: none;
+  }
+}
+
+
+#notfound {
+  position: relative;
+  height: 100vh
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%)
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 240px
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat' ,sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 252px;
+  font-weight: 900;
+  margin: 0;
+  color: #262626;
+  text-transform: uppercase;
+  letter-spacing: -40px;
+  margin-left: -20px
+}
+
+.notfound .notfound-404 h1>span {
+  text-shadow: -8px 0 0 #fff
+}
+
+.notfound .notfound-404 h3 {
+  font-family: 'Open Sans',sans-serif;
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #262626;
+  margin: 0;
+  letter-spacing: 3px;
+  padding-left: 6px
+}
+
+.notfound h2 {
+  font-family: 'Open Sans' ,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 25px
+}
+
+/* .notfound a {
+  font-family: 'Open Sans' ,sans-serif;
+  font-size: 1rem;
+  color: #000;
+} */
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+      height:200px
+  }
+
+  .notfound .notfound-404 h1 {
+      font-size: 200px
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+      height:162px
+  }
+
+  .notfound .notfound-404 h1 {
+      font-size: 162px;
+      height: 150px;
+      line-height: 162px
+  }
+
+  .notfound h2 {
+      font-size: 16px
+  }
+}
