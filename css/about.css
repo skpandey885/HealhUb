@@ -13,7 +13,7 @@ body {
 /* Navbar CSS Start */
 .navbar {
   position: relative;
-  transition: 0.5s;
+  /* transition: 0.5s; */
   z-index: 999;
 }
 .navbar-nav {
@@ -32,13 +32,13 @@ body {
   font-size: 45px;
   line-height: 0px;
   letter-spacing: 2px;
-  transition: 0.5s;
+  /* transition: 0.2s; */
 }
 
 .navbar .navbar-brand span {
   color: #343148;
   text-transform: lowercase;
-  transition: 0.5s;
+  /* transition: 0.2s; */
 }
 
 .navbar.nav-sticky .navbar-brand span {
@@ -63,7 +63,7 @@ body {
 .navbar-dark .navbar-nav .nav-link.active {
   border-radius: 6px;
   background: rgba(256, 256, 256, 0.3);
-  transition: all 0.3s ease-in;
+  /* transition: all 0.3s ease-in; */
   transform: scale(105%);
 }
 .navbar-dark .navbar-nav .nav-link:hover i {
@@ -456,7 +456,7 @@ article {
 #inner > * {
   height: 100%;
   width: 100vw;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0 3rem;
   display: flex;
   justify-content: space-between;
@@ -507,7 +507,7 @@ article {
   justify-content: center;
   margin: 3rem;
   height: auto;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 #faq h1 {
   font-weight: bold;
