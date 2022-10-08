@@ -18,6 +18,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/93c73bfd5a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
 
     <!-- My Stylesheet -->
     <!-- <link rel="stylesheet" href="../css/about.css" type="text/css"> -->
@@ -75,75 +76,145 @@
                 </div>
 
             </article>
-            <article id="intro">
-                <div id="carousel">
-                    <div id="inner">
-                        <div class="intro1">
-                            <p>HealHub is an online platform that provides valuable information about your health,
-                                provide tools & servicers for the management of your healthy lifestyle. </p>
-                            <img src="../assets/health.jpg" alt="">
-                        </div>
-                        <div class="intro2">
-                            <p>HealhUb provide real-time help support whenever it is required. </p>
-                            <img src="../assets/support.jpg" alt="">
-                        </div>
-                        <div class="intro3">
-                            <p>The services and information provided by the platform are accurate, timely and credible.
-                            </p>
-                            <img src="../assets/service.jpg" alt="">
-                        </div>
-                        <div class="intro4">
-                            <p>Healhub provides various tools which are as follows: </p>
-                            <ul>
-                                <li>BMI(Body Mass Index) Calculator. </li>
-                                <li>Information regarding Covid19 precautions, symptoms, current status nearby, more
-                                    variants, etc. </li>
-                                <li>Provides Information about nearby hopitals around with realtime status(availability,
-                                    open/close, etc). </li>
-                                <li> Guilding information about various symptoms and predicted disease, cure to that
-                                    disease, etc.</li>
-                            </ul>
-                        </div>
+            
+            <div class="carousal">
+                <div class="blog-slider">
+                  <div class="blog-slider__wrp swiper-wrapper">
+                    <div class="blog-slider__item swiper-slide">
+                      <div class="blog-slider__img">        
+                        <img src="../assets/health.jpg" alt="">
+                      </div>
+                      <div class="blog-slider__content">
+                        <div class="blog-slider__title">HealHub is an online platform that provides valuable information about your health,
+                          provide tools & servicers for the management of your healthy lifestyle.</div>
+                      </div>
                     </div>
-                </div>
-            </article>
+                
+                    <div class="blog-slider__item swiper-slide">
+                      <div class="blog-slider__img">
+                        <img src="../assets/support.jpg" alt="">
+                      </div>
+                      <div class="blog-slider__content">
+                        <div class="blog-slider__title">HealhUb provide real-time help support whenever it is required.</div>
+                      </div>
+                    </div>
+                    
+                    <div class="blog-slider__item swiper-slide">
+                      <div class="blog-slider__img">
+                        <img src="../assets/service.jpg" alt="">
+                      </div>
+                      <div class="blog-slider__content">
+                        <div class="blog-slider__title">The services and information provided by the platform are accurate, timely and credible.</div>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="blog-slider__item swiper-slide">
+                      <div class="blog-slider__img">
+                        <img src="../assets/med.jpg" alt="">
+                      </div>
+                      <div class="blog-slider__content">
+                        <div class="blog-slider__title">Healhub provides various tools which are as follows:</div>
+                        <div class="blog-slider__text">
+                          <ul>
+                            <li>BMI(Body Mass Index) Calculator. </li>
+                            <li>Information regarding Covid19 precautions, symptoms, current status nearby, more
+                                variants, etc. </li>
+                            <li>Provides Information about nearby hopitals around with realtime status(availability,
+                                open/close, etc). </li>
+                            <li> Guilding information about various symptoms and predicted disease, cure to that
+                                disease, etc.</li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                  <div class="blog-slider__pagination"></div>
+                </div></div>   
 
-            <article id="faq">
-                <h1 class="display-4">FAQ</h1>
-                <p>1. Do HealhUb save your Personal info ?</p>
-
-                <p class="margin-10">No, HealhUb does not save your Personal info, it does not have access to your data
-                    and does not sell or share your data with any third party.
-                    <br> HealhUb follows stringent policies so that data isn’t compromised at any step.
-                </p>
-                <hr>
-                <p>2. Do HealhUb have advertisement on our website?</p>
-
-                <p class="margin-10">No, HealhUb don't advertise any product or any Brand!</p>
-                <hr>
-                <p>3. What type of tools does HealhUb provide</p>
-
-                <p class="margin-10"> There are variety of tools and services provided by Healhub, which are as follow:
-                    <li class="margin-10">BMI(Body Mass Index) Calculator. </li>
-                    <li class="margin-10">Provides Information about nearby hopitals around with realtime
-                        status(availability, open/close, etc). </li>
-                    <li class="margin-10"> Guilding information about various symptoms and predicted disease e.g Covid
-                        19, cure to that disease, etc.</li>
-                </p>
-                <hr>
-                <p>4. What are the Services available regarding Covid 19? </p>
-
-                <p class="margin-10"> HealhUb provides information regarding Covid 19 precautions, symptoms, current
-                    status nearby, more variants, etc. </p>
-                <hr>
-                <p>5. What are services other than disease recognition, covid awarenss, BMI calculator provided by
-                    HealhUb? </p>
-
-                <p class="margin-10">Healhub also provides information about nearby hopitals around with realtime
-                    status(availability, open/close, etc).</p>
-
-
-            </article>
+            <div class="faqq">
+                <!-- partial:index.partial.html -->
+                <h1>Frequently Asked Questions</h1>
+                <div class="faq-container">
+                    <div class="faq ">
+                        <h3 class="faq-title">
+                            1. Do HealhUb save your Personal info ?
+                        </h3>
+            
+                        <p class="faq-text">
+                            No, HealhUb does not save your Personal info, it does not have access to your data and does not sell or
+                            share your data with any third party.
+                            HealhUb follows stringent policies so that data isn’t compromised at any step.
+                        </p>
+            
+                        <button class="faq-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+            
+                    <div class="faq">
+                        <h3 class="faq-title">
+                           2. Do HealhUb have advertisement on our website?
+                        </h3>
+                        <p class="faq-text">
+                            No, HealhUb don't advertise any product or any Brand!
+                        </p>
+                        <button class="faq-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+            
+                    <div class="faq">
+                        <h3 class="faq-title">
+                           3. What type of tools does HealhUb provide?
+                        </h3>
+                        <p class="faq-text">
+                            There are variety of tools and services provided by Healhub, which are as follow:
+            
+                            BMI(Body Mass Index) Calculator.
+                            Provides Information about nearby hopitals around with realtime status(availability, open/close, etc).
+                            Guilding information about various symptoms and predicted disease e.g Covid 19, cure to that disease,
+                            etc.
+                        </p>
+                        <button class="faq-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+            
+                    <div class="faq">
+                        <h3 class="faq-title">
+                           4. What are the Services available regarding Covid 19?
+                        </h3>
+                        <p class="faq-text">
+                            HealhUb provides information regarding Covid 19 precautions, symptoms, current status nearby, more
+                            variants, etc.
+            
+            
+                        </p>
+                        <button class="faq-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+            
+                    <div class="faq">
+                        <h3 class="faq-title">
+                           5. What are services other than disease recognition, covid awarenss, BMI calculator provided by HealhUb?
+                        </h3>
+                        <p class="faq-text">
+                            Healhub also provides information about nearby hopitals around with realtime status(availability,
+                            open/close, etc).
+                        </p>
+                        <button class="faq-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div> </div>
 
             <article id="policy">
                 <h1 id="p-title" class="display-4">Privacy Policy</h1>
@@ -289,6 +360,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
 
 
 <!-- Template Javascript -->

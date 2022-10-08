@@ -93,3 +93,26 @@ t4.from(".more-details", 1, { y: 100, opacity: 0 });
 function updatePercentage3() {
   t4.progress();
 }
+
+// faq
+const toggles = document.querySelectorAll('.faq-toggle');
+
+toggles.forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    toggle.parentNode.classList.toggle('active');
+  });
+});
+
+// slider
+var swiper = new Swiper('.blog-slider', {
+  spaceBetween: 30,
+  effect: 'fade',
+  loop: true,
+  mousewheel: {
+    invert: false,
+  },
+  pagination: {
+    el: '.blog-slider__pagination',
+    clickable: true,
+  }
+});        
