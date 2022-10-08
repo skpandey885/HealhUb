@@ -817,73 +817,62 @@ article {
   .blog-slider__pagination .swiper-pagination-bullet-active {
     height: 11px;
     width: 30px;
+  }}
+
+  #policy {
+    color: white;
+    background-color: #4ca8af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    text-align: justify;
   }
-
-#inner p {
-  width: 40%;
-  color:var(--p-color);
-
-}
-#policy {
-  color: white;
-  background-color: #4ca8af;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 3rem;
-  text-align: justify;
-}
-#p-title {
-  font-weight: bold;
-}
-#privacy {
-  font-size: 1.25rem;
-}
-.margin-10 {
-  font-weight: 100;
-
-  margin-left: 1.5%;
-}
-#contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--bg-color);
-}
-#c-title {
-  font-weight: bold;
-  color: #4ca8af;
-}
-#contact p {
-  font-size: 1.25rem;
-  color: var(--p-color);
-}
-#team {
-  padding: 3rem 0;
-  background-color: #4ca8af;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-}
-#team div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#t-title {
-  font-weight: bold;
-  font-size: 3rem;
-}
-#team li {
-  font-size: 1.5rem;
-  text-align: center;
-  list-style-type: none;
-}
-.more-details {
-  text-align: center;
-}
-}
+  #p-title {
+    font-weight: bold;
+  }
+  #privacy {
+    font-size: 1.25rem;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+  }
+  #c-title {
+    font-weight: bold;
+    color: #4ca8af;
+  }
+  #contact p {
+    font-size: 1.25rem;
+    color: var(--p-color);
+  }
+  #team {
+    padding: 3rem 0;
+    background-color: #4ca8af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  #team div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #t-title {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  #team li {
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-type: none;
+  }
+  .more-details {
+    text-align: center;
+  }
