@@ -94,7 +94,7 @@ function updatePercentage3() {
   t4.progress();
 }
 
-<<<<<<< HEAD
+
 // faq
 const toggles = document.querySelectorAll('.faq-toggle');
 
@@ -117,7 +117,7 @@ var swiper = new Swiper('.blog-slider', {
     clickable: true,
   }
 });        
-=======
+
 // Darkmode js
 const body=document.querySelector("body");
 var darkswitch=document.getElementById("icon");
@@ -156,4 +156,4 @@ darkswitch.onclick=function ()
     localStorage.setItem("theme","light");
   }
 }
->>>>>>> caf973fdc302773bd8b5f8380e7414d3f4d0aab3
+
