@@ -94,6 +94,7 @@ function updatePercentage3() {
   t4.progress();
 }
 
+<<<<<<< HEAD
 // faq
 const toggles = document.querySelectorAll('.faq-toggle');
 
@@ -116,3 +117,43 @@ var swiper = new Swiper('.blog-slider', {
     clickable: true,
   }
 });        
+=======
+// Darkmode js
+const body=document.querySelector("body");
+var darkswitch=document.getElementById("icon");
+
+if(localStorage.getItem("theme")==null)
+{
+  localStorage.setItem("theme","light");
+}
+
+let localData=localStorage.getItem("theme");
+if(localData=="light")
+{
+  // darkswitch.src="assets/darkmoon.png";
+  document.body.classList.remove("dark-theme");
+}
+else if(localData=="dark")
+{
+  // darkswitch.src="../assets/sun.png";
+  darkswitch.classList.toggle("active");
+  document.body.classList.add("dark-theme");
+
+}
+
+darkswitch.onclick=function ()
+{
+  darkswitch.classList.toggle("active");
+  document.body.classList.toggle("dark-theme");
+  if(document.body.classList.contains("dark-theme"))
+  {
+    // darkswitch.src="../assets/sun.png";
+    localStorage.setItem("theme","dark");
+  }
+  else
+  {
+    // darkswitch.src="../assets/darkmoon.png";
+    localStorage.setItem("theme","light");
+  }
+}
+>>>>>>> caf973fdc302773bd8b5f8380e7414d3f4d0aab3

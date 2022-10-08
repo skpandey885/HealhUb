@@ -3,7 +3,59 @@
   margin: 0%;
   padding: 0%;
 }
-
+:root{
+  --bg-color:white;
+  --p-color:black;
+  --shad-color:black;
+  /*--bg-color:black;*/
+  /*--p-color:white;*/
+}
+.dark-theme{
+  --bg-color:black;
+  --p-color:white;
+  --shad-color: white;
+}
+/*toggle button*/
+#icon{
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  margin-top:7px;
+  position: relative;
+  background: black;
+  border-radius: 30px;
+  transition: 0.5s;
+  box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
+  inset 0 8px 8px rgba(0,0,0,0.1),
+  inset 0 -4px 4px rgba(0,0,0,0.1);
+}
+#icon .indicator{
+  position: absolute;
+  top:0;
+  left: 0;
+  width:30px;
+  height: 30px;
+  background: linear-gradient(#FAEBD7,#FFFAFA);
+  border-radius: 50%;
+  transform: scale(0.8);
+  box-shadow: 0 8px 40px rgba(248,248,255,0.5),
+              inset 0 4px 4px rgba(0,0,0,0.1),
+              inset 0 -4px 4px rgba(0,0,0,0.1);
+  transition: 0.5s;
+}
+#icon.active .indicator{
+  left:20px;
+  background: linear-gradient(black,#696969);
+  box-shadow: 0 8px 20px rgba(248,248,255,0.1),
+              inset 0 4px 4px rgba(0,0,0,0.1),
+              inset 0 -4px 4px rgba(0,0,0,0.1);
+}
+#icon.active{
+  background: white;
+  box-shadow: inset 0 2px 60px rgba(0,0,0,0.1),
+              inset 0 2px 8px rgba(0,0,0,0.1),
+              inset 0 -4px 8px rgba(0,0,0,0.05);
+}
 /* Loader */
 
 #preloader {
@@ -180,8 +232,9 @@
 .text1 {
   padding-top: 13%;
   font-family: "Cairo", sans-serif;
-  color: #f8ffff;
+  color: var(--bg-color);
   font-size: 25px;
+  text-shadow: 0 0 3px var(--shad-color);
 }
 #getstarted {
   text-decoration: none;
@@ -213,6 +266,7 @@
 #page2 {
   height: 100vh;
   width: 100vw;
+  background-color: var(--bg-color);
 }
 #watermessage {
   text-align: center;
@@ -237,10 +291,10 @@
 .container2 h2 {
   padding: 2px 16px;
   font-family: "Baloo 2", cursive;
-  color: #f8ffff;
+  color: var(--bg-color);
   margin-top: 100px;
   word-spacing: 5px;
-  text-shadow: 0 0 3px #000000;
+  text-shadow: 0 0 3px var(--shad-color);
 }
 
 #explorebutton button {
@@ -276,7 +330,8 @@
   background-size: cover;
 }
 .jumbotron {
-  opacity: 0.5;
+  opacity: 0.6;
+  background-color: var(--bg-color);
 }
 #learnmore {
   position: relative;
@@ -297,6 +352,12 @@
 }
 #learnmore:hover i {
   transform:scale(1.2);
+}
+h1.display-4{
+  color:var(--p-color);;
+}
+p.lead,p.more{
+  color:var(--p-color);
 }
 /* Page 3 CSS End */
 

@@ -615,6 +615,7 @@ article {
 .blog-slider__item {
   display: flex;
   align-items: center;
+  background-color: var(--bg-color);
 }
 @media screen and (max-width: 768px) {
   .blog-slider__item {
@@ -767,6 +768,7 @@ article {
   left: 0;
   width: 100%;
 }
+<<<<<<< HEAD
 .blog-slider__pagination {
   position: absolute;
   z-index: 21;
@@ -817,6 +819,11 @@ article {
     height: 11px;
     width: 30px;
   }
+=======
+#inner p {
+  width: 40%;
+  color:var(--p-color);
+>>>>>>> caf973fdc302773bd8b5f8380e7414d3f4d0aab3
 }
 
 #policy {
@@ -835,6 +842,33 @@ article {
 #privacy {
   font-size: 1.25rem;
 }
+<<<<<<< HEAD
+=======
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem;
+  height: auto;
+  font-size: 1.25rem;
+  background-color: var(--bg-color);
+  color: var(--p-color);
+}
+#faqw{
+  margin-left: 5rem;
+}
+#faq h1 {
+  font-weight: bold;
+  color: #4ca8af;
+}
+#faq > * {
+  padding-bottom: 1%;
+}
+#faq li {
+  list-style-type: circle;
+}
+>>>>>>> caf973fdc302773bd8b5f8380e7414d3f4d0aab3
 .margin-10 {
   font-weight: 100;
 
