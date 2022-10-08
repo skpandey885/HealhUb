@@ -9,6 +9,8 @@
   --bg-color:white;
   --p-color:black;
   --shad-color:black;
+  /*--bg-color:black;*/
+  /*--p-color:white;*/
 }
 .dark-theme{
   --bg-color:black;
