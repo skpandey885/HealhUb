@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
-
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 :root{
   --bg-color:white;
@@ -130,7 +129,7 @@ body {
 #logoname {
   margin-left: -110px;
   margin-top: -3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 /* Navbar CSS End */
 
@@ -464,7 +463,7 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
   background-color: var(--bg-color);
 }
 #about-us {

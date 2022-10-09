@@ -2,6 +2,7 @@
   scroll-behavior: smooth;
   margin: 0%;
   padding: 0%;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 :root{
   --bg-color:white;
@@ -213,7 +214,7 @@
 #logoname {
   margin-left: -110px;
   margin-top: -3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 /* Navbar CSS End */
@@ -231,7 +232,7 @@
 
 .text1 {
   padding-top: 13%;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
   color: var(--bg-color);
   font-size: 25px;
   text-shadow: 0 0 3px var(--shad-color);
@@ -257,7 +258,7 @@
   background: transparent;
 }
 .text1 h1 {
-  font-family: "Kanit", sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.623);
 }
 /* Page 1 CSS End */
@@ -290,7 +291,7 @@
 }
 .container2 h2 {
   padding: 2px 16px;
-  font-family: "Baloo 2", cursive;
+  font-family: 'Baloo Bhaijaan 2', cursive;
   color: var(--bg-color);
   margin-top: 100px;
   word-spacing: 5px;

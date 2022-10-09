@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+*{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
 
 :root{
   --bg-color:white;
@@ -134,7 +136,6 @@ h3{
 #logoname {
   margin-left: -110px;
   margin-top: -3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Navbar CSS End */
 
@@ -218,10 +219,6 @@ h3{
   font-size: 100px;
   padding-top: 140px;
   text-shadow: 5px 3px #000000;
-}
-
-.tips {
-  font-family: verdana, serif;
 }
 
 .tip-list .info p {

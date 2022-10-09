@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 :root{
   --bg-color:white;
@@ -131,7 +130,6 @@
 #logoname {
   margin-left: -110px;
   margin-top: -3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (max-width:373px){
@@ -342,7 +340,6 @@ body {
 }
 .content:hover .name {
   font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .reverse {
   flex-direction: row-reverse;

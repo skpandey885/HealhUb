@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-
 * {
   /* scroll-behavior: smooth; */
   margin: 0%;
@@ -7,6 +5,7 @@
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 :root{
   --bg-color:white;
@@ -136,7 +135,6 @@ body{
 #logoname {
   margin-left: -110px;
   margin-top: -3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Navbar CSS End */
 
