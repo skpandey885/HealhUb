@@ -27,6 +27,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="../assets/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -82,7 +83,9 @@
                 <div id="container_header">
                     <img src="../assets/text.png" class="teamtext" height="150px" width="400px"></img>
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                    
                     <div class="pic one"></div>
                     <div class="content">
@@ -114,7 +117,9 @@
                     </div>
 
                 </div>
-                <div class="container reverse">
+                <div class="container reverse" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <div class="pic two"></div>
                     <div class="content">
                         <h1 class="name">Manish Sahu</h1>
@@ -141,7 +146,9 @@
                     </div>
 
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" >
                     <div class="pic three"> </div>
                     <div class="content">
                         <h1 class="name">Abhijeet Anand</h1>
@@ -169,7 +176,9 @@
 
                 </div>
 
-                <div class="container reverse">
+                <div class="container reverse" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <div class="pic four"> </div>
                     <div class="content">
                         <h1 class="name">Ayush Pattnaik</h1>
@@ -286,6 +295,10 @@
         <a href="#" id="scroll"><span></span></a>
 
         <!-- footer end -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 
 </body>
 <!-- JavaScript Libraries -->
